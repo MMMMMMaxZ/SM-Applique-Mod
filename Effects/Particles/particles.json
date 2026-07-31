@@ -1,0 +1,33 @@
+{
+   "particleSystemList" : [
+      "ParticleEffects/lazer.json",
+      "ParticleEffects/flame.json",
+      "ParticleEffects/shield.json",
+      "ParticleEffects/shine.json",
+      "ParticleEffects/HUD1_1x.json",
+      "ParticleEffects/HUD2_1x.json",
+      "ParticleEffects/HUD1_6x.json",
+      "ParticleEffects/HUD2_6x.json",
+      "ParticleEffects/testEffect.json",
+      "ParticleEffects/MAG/A.json",
+      "ParticleEffects/MAG/G.json",
+      "ParticleEffects/MAG/S.json",
+      "ParticleEffects/MAG/W.json",
+      "ParticleEffects/MAG/ManualRelease.json",
+      "ParticleEffects/MAG/Warning1.json",
+      "ParticleEffects/MAG/Caution0.json",
+      "ParticleEffects/MAG/Caution1.json",
+      "ParticleEffects/MAG/Caution2.json",
+      "ParticleEffects/MAG/Caution3.json",
+      "ParticleEffects/MAG/Caution4.json",
+      "ParticleEffects/MAG/Caution5.json",
+      "ParticleEffects/MAG/Caution6.json",
+      "ParticleEffects/MAG/Danger0.json",
+      "ParticleEffects/MAG/Danger3.json",
+      "ParticleEffects/MAG/ArmorLock.json",
+      "ParticleEffects/MAG/Warning0.json",
+      "ParticleEffects/MAG/Shape1.json",
+      "ParticleEffects/paint_smoke_M.json",
+      "ParticleEffects/point.json"
+   ]
+}

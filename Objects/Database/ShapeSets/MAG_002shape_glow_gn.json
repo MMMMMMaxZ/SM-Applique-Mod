@@ -1,0 +1,310 @@
+
+{
+	"partList" : 
+	[
+		
+		{
+			"box" : 
+			{
+				"x" : 1.0,
+				"y" : 1.0,
+				"z" : 1.0
+			},
+			"color" : "FFFFFF",
+			"name" : "Shape1",
+			"physicsMaterial" : "Default",
+			"renderable" : "$MOD_DATA/Objects/Renderable/MAG/002shape_glow/Shape1_gn.rend",
+			"rotationSet" : "Default",
+			"showInInventory" : false,
+			"uuid" : "0032359b-1068-4de7-b7a0-a41682e47001"
+		},
+		
+		{
+			"box" : 
+			{
+				"x" : 1.0,
+				"y" : 1.0,
+				"z" : 1.0
+			},
+			"color" : "FFFFFF",
+			"name" : "Rectangle",
+			"physicsMaterial" : "Default",
+			"renderable" : "$MOD_DATA/Objects/Renderable/MAG/002shape_glow/Rectangle_gn.rend",
+			"rotationSet" : "Default",
+			"showInInventory" : false,
+			"uuid" : "0032359b-1068-4de7-b7a0-a41682e47002"
+		},
+		
+		{
+			"box" : 
+			{
+				"x" : 1.0,
+				"y" : 1.0,
+				"z" : 1.0
+			},
+			"color" : "FFFFFF",
+			"name" : "isoscelesTriangle",
+			"physicsMaterial" : "Default",
+			"renderable" : "$MOD_DATA/Objects/Renderable/MAG/002shape_glow/isoscelesTriangle_gn.rend",
+			"rotationSet" : "Default",
+			"showInInventory" : false,
+			"uuid" : "0032359b-1068-4de7-b7a0-a41682e47003"
+		},
+		
+		{
+			"box" : 
+			{
+				"x" : 1.0,
+				"y" : 1.0,
+				"z" : 1.0
+			},
+			"color" : "FFFFFF",
+			"name" : "rightTriangle",
+			"physicsMaterial" : "Default",
+			"renderable" : "$MOD_DATA/Objects/Renderable/MAG/002shape_glow/rightTriangle_gn.rend",
+			"rotationSet" : "Default",
+			"showInInventory" : false,
+			"uuid" : "0032359b-1068-4de7-b7a0-a41682e47004"
+		},
+		
+		{
+			"box" : 
+			{
+				"x" : 1.0,
+				"y" : 1.0,
+				"z" : 1.0
+			},
+			"color" : "FFFFFF",
+			"name" : "circle",
+			"physicsMaterial" : "Default",
+			"renderable" : "$MOD_DATA/Objects/Renderable/MAG/002shape_glow/circle_gn.rend",
+			"rotationSet" : "Default",
+			"showInInventory" : false,
+			"uuid" : "0032359b-1068-4de7-b7a0-a41682e47005"
+		},
+		
+		{
+			"box" : 
+			{
+				"x" : 1.0,
+				"y" : 1.0,
+				"z" : 1.0
+			},
+			"color" : "FFFFFF",
+			"name" : "Pentagon",
+			"physicsMaterial" : "Default",
+			"renderable" : "$MOD_DATA/Objects/Renderable/MAG/002shape_glow/Pentagon_gn.rend",
+			"rotationSet" : "Default",
+			"showInInventory" : false,
+			"uuid" : "0032359b-1068-4de7-b7a0-a41682e47006"
+		},
+		
+		{
+			"box" : 
+			{
+				"x" : 1.0,
+				"y" : 1.0,
+				"z" : 1.0
+			},
+			"color" : "FFFFFF",
+			"name" : "Hexagon",
+			"physicsMaterial" : "Default",
+			"renderable" : "$MOD_DATA/Objects/Renderable/MAG/002shape_glow/Hexagon_gn.rend",
+			"rotationSet" : "Default",
+			"showInInventory" : false,
+			"uuid" : "0032359b-1068-4de7-b7a0-a41682e47007"
+		},
+		
+		{
+			"box" : 
+			{
+				"x" : 1.0,
+				"y" : 1.0,
+				"z" : 1.0
+			},
+			"color" : "FFFFFF",
+			"name" : "Octagon",
+			"physicsMaterial" : "Default",
+			"renderable" : "$MOD_DATA/Objects/Renderable/MAG/002shape_glow/Octagon_gn.rend",
+			"rotationSet" : "Default",
+			"showInInventory" : false,
+			"uuid" : "0032359b-1068-4de7-b7a0-a41682e47008"
+		},
+		
+		{
+			"box" : 
+			{
+				"x" : 1.0,
+				"y" : 1.0,
+				"z" : 1.0
+			},
+			"color" : "FFFFFF",
+			"name" : "ShapeIDK",
+			"physicsMaterial" : "Default",
+			"renderable" : "$MOD_DATA/Objects/Renderable/MAG/002shape_glow/ShapeIDK_gn.rend",
+			"rotationSet" : "Default",
+			"showInInventory" : false,
+			"uuid" : "0032359b-1068-4de7-b7a0-a41682e47009"
+		},
+		
+		{
+			"box" : 
+			{
+				"x" : 1.0,
+				"y" : 1.0,
+				"z" : 1.0
+			},
+			"color" : "FFFFFF",
+			"name" : "4star",
+			"physicsMaterial" : "Default",
+			"renderable" : "$MOD_DATA/Objects/Renderable/MAG/002shape_glow/4star_gn.rend",
+			"rotationSet" : "Default",
+			"showInInventory" : false,
+			"uuid" : "0032359b-1068-4de7-b7a0-a41682e47010"
+		},
+		
+		{
+			"box" : 
+			{
+				"x" : 1.0,
+				"y" : 1.0,
+				"z" : 1.0
+			},
+			"color" : "FFFFFF",
+			"name" : "5star",
+			"physicsMaterial" : "Default",
+			"renderable" : "$MOD_DATA/Objects/Renderable/MAG/002shape_glow/5star_gn.rend",
+			"rotationSet" : "Default",
+			"showInInventory" : false,
+			"uuid" : "0032359b-1068-4de7-b7a0-a41682e47011"
+		},
+		
+		{
+			"box" : 
+			{
+				"x" : 1.0,
+				"y" : 1.0,
+				"z" : 1.0
+			},
+			"color" : "FFFFFF",
+			"name" : "6star",
+			"physicsMaterial" : "Default",
+			"renderable" : "$MOD_DATA/Objects/Renderable/MAG/002shape_glow/6star_gn.rend",
+			"rotationSet" : "Default",
+			"showInInventory" : false,
+			"uuid" : "0032359b-1068-4de7-b7a0-a41682e47012"
+		},
+		
+		{
+			"box" : 
+			{
+				"x" : 1.0,
+				"y" : 1.0,
+				"z" : 1.0
+			},
+			"color" : "FFFFFF",
+			"name" : "10star",
+			"physicsMaterial" : "Default",
+			"renderable" : "$MOD_DATA/Objects/Renderable/MAG/002shape_glow/10star_gn.rend",
+			"rotationSet" : "Default",
+			"showInInventory" : false,
+			"uuid" : "0032359b-1068-4de7-b7a0-a41682e47013"
+		},
+		
+		{
+			"box" : 
+			{
+				"x" : 1.0,
+				"y" : 1.0,
+				"z" : 1.0
+			},
+			"color" : "FFFFFF",
+			"name" : "Cross",
+			"physicsMaterial" : "Default",
+			"renderable" : "$MOD_DATA/Objects/Renderable/MAG/002shape_glow/Cross_gn.rend",
+			"rotationSet" : "Default",
+			"showInInventory" : false,
+			"uuid" : "0032359b-1068-4de7-b7a0-a41682e47014"
+		},
+		
+		{
+			"box" : 
+			{
+				"x" : 1.0,
+				"y" : 1.0,
+				"z" : 1.0
+			},
+			"color" : "FFFFFF",
+			"name" : "Drop",
+			"physicsMaterial" : "Default",
+			"renderable" : "$MOD_DATA/Objects/Renderable/MAG/002shape_glow/Drop_gn.rend",
+			"rotationSet" : "Default",
+			"showInInventory" : false,
+			"uuid" : "0032359b-1068-4de7-b7a0-a41682e47015"
+		},
+		
+		{
+			"box" : 
+			{
+				"x" : 1.0,
+				"y" : 1.0,
+				"z" : 1.0
+			},
+			"color" : "FFFFFF",
+			"name" : "Explode",
+			"physicsMaterial" : "Default",
+			"renderable" : "$MOD_DATA/Objects/Renderable/MAG/002shape_glow/Explode_gn.rend",
+			"rotationSet" : "Default",
+			"showInInventory" : false,
+			"uuid" : "0032359b-1068-4de7-b7a0-a41682e47016"
+		},
+		
+		{
+			"box" : 
+			{
+				"x" : 1.0,
+				"y" : 1.0,
+				"z" : 1.0
+			},
+			"color" : "FFFFFF",
+			"name" : "HalfCircle",
+			"physicsMaterial" : "Default",
+			"renderable" : "$MOD_DATA/Objects/Renderable/MAG/002shape_glow/HalfCircle_gn.rend",
+			"rotationSet" : "Default",
+			"showInInventory" : false,
+			"uuid" : "0032359b-1068-4de7-b7a0-a41682e47017"
+		},
+		
+		{
+			"box" : 
+			{
+				"x" : 1.0,
+				"y" : 1.0,
+				"z" : 1.0
+			},
+			"color" : "FFFFFF",
+			"name" : "Moon",
+			"physicsMaterial" : "Default",
+			"renderable" : "$MOD_DATA/Objects/Renderable/MAG/002shape_glow/Moon_gn.rend",
+			"rotationSet" : "Default",
+			"showInInventory" : false,
+			"uuid" : "0032359b-1068-4de7-b7a0-a41682e47018"
+		},
+		
+		{
+			"box" : 
+			{
+				"x" : 1.0,
+				"y" : 1.0,
+				"z" : 1.0
+			},
+			"color" : "FFFFFF",
+			"name" : "Sun",
+			"physicsMaterial" : "Default",
+			"renderable" : "$MOD_DATA/Objects/Renderable/MAG/002shape_glow/Sun_gn.rend",
+			"rotationSet" : "Default",
+			"showInInventory" : false,
+			"uuid" : "0032359b-1068-4de7-b7a0-a41682e47019"
+		}
+	]
+}

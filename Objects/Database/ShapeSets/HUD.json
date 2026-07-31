@@ -1,0 +1,46 @@
+{
+   "partList" : [
+      {
+         "box" : {
+            "x" : 1,
+            "y" : 1,
+            "z" : 1
+         },
+         "color" : "FFFFFF",
+         "name" : "HUD1",
+         "physicsMaterial" : "Default",
+         "renderable" : "$CONTENT_DATA/Objects/Renderable/HUD1.json",
+         "rotationSet" : "Default",
+         "showInInventory" : false,
+         "uuid" : "2407b2be-5d2c-4e52-984a-64cf482fe4b0"
+      },
+      {
+         "box" : {
+            "x" : 1,
+            "y" : 1,
+            "z" : 1
+         },
+         "color" : "FFFFFF",
+         "name" : "HUD2",
+         "physicsMaterial" : "Default",
+         "renderable" : "$CONTENT_DATA/Objects/Renderable/HUD2.json",
+         "rotationSet" : "Default",
+         "showInInventory" : false,
+         "uuid" : "2407b2be-5d2c-4e52-984a-64cf482fe4b1"
+      },
+      {
+         "box" : {
+            "x" : 1,
+            "y" : 1,
+            "z" : 1
+         },
+         "color" : "FFFFFF",
+         "name" : "HUD2_2",
+         "physicsMaterial" : "Default",
+         "renderable" : "$CONTENT_DATA/Objects/Renderable/HUD2_2.json",
+         "rotationSet" : "Default",
+         "showInInventory" : false,
+         "uuid" : "2407b2be-5d2c-4e52-984a-64cf482fe4b2"
+      }
+   ]
+}

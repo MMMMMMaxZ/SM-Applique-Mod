@@ -1,0 +1,32 @@
+{
+   "lodList" : [
+      {
+         "mesh" : "$CONTENT_DATA/Objects/Mesh/crystalTech/MAGpainter.obj",
+         "subMeshList" : [
+            {
+               "material" : "Leaves",
+               "textureList" : [
+                  "$CONTENT_DATA/Objects/Textures/crystalTech/mover.tga",
+                  "$CONTENT_DATA/Objects/Textures/crystalTech/mover_asg-export.tga",
+                  "$CONTENT_DATA/Objects/Textures/MAG/_empty-nor.tga"
+               ]
+            },
+            {
+               "material" : "Glass",
+               "textureList" : [
+                  "$CONTENT_DATA/Objects/Textures/crystalTech/eye.png",
+                  "$CONTENT_DATA/Objects/Textures/shine_asg.png"
+               ]
+            },
+            {
+               "material" : "Glass",
+               "textureList" : [ "$CONTENT_DATA/Objects/Textures/crystalTech/frame.png" ]
+            },
+            {
+               "material" : "Glass",
+               "textureList" : [ "$CONTENT_DATA/Objects/Textures/crystalTech/grey.png" ]
+            }
+         ]
+      }
+   ]
+}

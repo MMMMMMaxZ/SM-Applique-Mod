@@ -1,0 +1,235 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MyGUI type="Layout" version="3.2.0">
+    <Widget type="Widget" skin="" position_real="0 0.15740740740740741 0.5 0.68518518518518523" align="Left VCenter" name="BackPanel">
+        <Property key="NeedKey" value="false"/>
+        <Property key="NeedMouse" value="true"/>
+        <Property key="InheritsAlpha" value="false"/>
+        <Widget type="Widget" skin="BackgroundInteractableNarrow" position_real="0.71354166666666663 0.20270270270270271 0.24479166666666666 0.57432432432432434" name="RightPanel"/>
+        <Widget type="Widget" skin="BackgroundPopup" position_real="0.20833333333333334 0.79054054054054057 0.5625 0.19594594594594594" name="DownPanel">
+            <Widget type="TextBox" skin="TextBox" position_real="0.88888888888888884 0.20689655172413793 0.083333333333333329 0.31034482758620691" name="xText">
+                <Property key="FontName" value="SM_GameName"/>
+                <Property key="Caption" value="x"/>
+                <Property key="TextAlign" value="Left VCenter"/>
+            </Widget>
+            <Widget type="TextBox" skin="TextBox" position_real="0.88888888888888884 0.57931034482758625 0.083333333333333329 0.31034482758620691" name="rText">
+                <Property key="FontName" value="SM_GameName"/>
+                <Property key="Caption" value="r"/>
+                <Property key="TextAlign" value="Left VCenter"/>
+            </Widget>
+        </Widget>
+        <Widget type="Widget" skin="BackgroundPopup" position_real="0.020833333333333332 0.19594594594594594 0.18229166666666666 0.64864864864864868" name="LeftPanel">
+            <Widget type="TextBox" skin="TextBox" position_real="0.085714285714285715 0.0625 0.25142857142857145 0.09375" name="yText">
+                <Property key="FontName" value="SM_GameName"/>
+                <Property key="Caption" value="y"/>
+                <Property key="TextAlign" value="Left VCenter"/>
+            </Widget>
+            <Widget type="TextBox" skin="TextBox" position_real="0.45714285714285713 0.0625 0.25142857142857145 0.09375" name="zText">
+                <Property key="FontName" value="SM_GameName"/>
+                <Property key="Caption" value="z"/>
+                <Property key="TextAlign" value="Left VCenter"/>
+            </Widget>
+        </Widget>
+        <Widget type="TextBox" skin="TextBox" position_real="0 0.064864864864864868 1 0.064864864864864868" name="Name">
+            <Property key="FontName" value="SM_HeaderLarge_Wide"/>
+            <Property key="TextAlign" value="Center"/>
+            <Property key="NeedKey" value="false"/>
+            <Property key="NeedMouse" value="false"/>
+            <Property key="Caption" value="title"/>
+        </Widget>
+        <Widget type="TextBox" skin="TextBox" position_real="0 0.13108108108108107 1 0.064864864864864868" name="SubTitle">
+            <Property key="TextAlign" value="Center"/>
+            <Property key="TextColour" value="1 0.803922 0.247059"/>
+            <Property key="FontName" value="SM_SubHeader"/>
+            <Property key="Caption" value="subtitle"/>
+        </Widget>
+        <Widget type="ImageBox" skin="ImageBox" position_real="0 0.12837837837837837 1 0.064864864864864868" name="Tutorial">
+            <Property key="ImageTexture" value="black.png"/>
+            <Property key="NeedToolTip" value="true"/>
+            <UserString key="Clickable" value="Yes"/>
+        </Widget>
+        <Widget type="Window" skin="PanelEmpty" position_real="0.22916666666666666 0.8716216216216216 0.421875 0.095945945945945951" name="slider1">
+            <Property key="Range" value="20"/>
+            <Property key="NeedKey" value="false"/>
+        </Widget>
+        <Widget type="Window" skin="PanelEmpty" position_real="0.22916666666666666 0.80405405405405406 0.421875 0.10135135135135136" name="slider2">
+            <Property key="Range" value="20"/>
+            <Property key="NeedKey" value="false"/>
+        </Widget>
+        <Widget type="Window" skin="PanelEmpty" position_real="0.036458333333333336 0.3716216216216216 0.078125 0.3783783783783784" name="slider3">
+            <Property key="Range" value="20"/>
+            <Property key="NeedKey" value="false"/>
+        </Widget>
+        <Widget type="Window" skin="PanelEmpty" position_real="0.098958333333333329 0.3716216216216216 0.083333333333333329 0.3783783783783784" name="slider4">
+            <Property key="Range" value="20"/>
+            <Property key="NeedKey" value="false"/>
+        </Widget>
+        <Widget type="TextBox" skin="TextBox" position_real="0.72395833333333337 0.20945945945945946 0.21875 0.10135135135135136" name="colorText">
+            <Property key="Caption" value="recent color"/>
+            <Property key="FontName" value="SM_SubHeader"/>
+            <Property key="TextAlign" value="Center"/>
+            <Property key="TextColour" value="1 0.803922 0.247059"/>
+        </Widget>
+        <Widget type="Button" skin="ButtonImage" position_real="0.75 0.32432432432432434 0.041666666666666664 0.054054054054054057" name="colorB1">
+            <Widget type="Widget" skin="BeaconIconColor" position_real="0 0 1 1">
+                <Property key="Colour" value="#ffffff"/>
+                <Property key="NeedMouse" value="false"/>
+                <Property key="NeedKey" value="false"/>
+                <Widget type="ImageBox" skin="ImageBox" position_real="0 0 1 1" name="emptyColorA1">
+                    <Property key="ImageResource" value="BeaconIconMap"/>
+                    <Property key="ImageGroup" value="BeaconIconMap"/>
+                    <Property key="ImageName" value="17"/>
+                    <Property key="NeedMouse" value="false"/>
+                    <Property key="NeedKey" value="false"/>
+                </Widget>
+            </Widget>
+        </Widget>
+        <Widget type="Button" skin="ButtonImage" position_real="0.8125 0.32432432432432434 0.041666666666666664 0.054054054054054057" name="colorB2">
+            <Widget type="Widget" skin="BeaconIconColor" position_real="0 0 1 1">
+                <Property key="Colour" value="#ffffff"/>
+                <Property key="NeedMouse" value="false"/>
+                <Property key="NeedKey" value="false"/>
+                <Widget type="ImageBox" skin="ImageBox" position_real="0 0 1 1" name="emptyColorA2">
+                    <Property key="ImageResource" value="BeaconIconMap"/>
+                    <Property key="ImageGroup" value="BeaconIconMap"/>
+                    <Property key="ImageName" value="17"/>
+                    <Property key="NeedMouse" value="false"/>
+                    <Property key="NeedKey" value="false"/>
+                </Widget>
+            </Widget>
+        </Widget>
+        <Widget type="Button" skin="ButtonImage" position_real="0.875 0.32432432432432434 0.041666666666666664 0.054054054054054057" name="colorB3">
+            <Widget type="Widget" skin="BeaconIconColor" position_real="0 0 1 1">
+                <Property key="Colour" value="#ffffff"/>
+                <Property key="NeedMouse" value="false"/>
+                <Property key="NeedKey" value="false"/>
+                <Widget type="ImageBox" skin="ImageBox" position_real="0 0 1 1" name="emptyColorA3">
+                    <Property key="ImageResource" value="BeaconIconMap"/>
+                    <Property key="ImageGroup" value="BeaconIconMap"/>
+                    <Property key="ImageName" value="17"/>
+                    <Property key="NeedMouse" value="false"/>
+                    <Property key="NeedKey" value="false"/>
+                </Widget>
+            </Widget>
+        </Widget>
+        <Widget type="Button" skin="ButtonImage" position_real="0.75 0.40540540540540543 0.041666666666666664 0.054054054054054057" name="colorB4">
+            <Widget type="Widget" skin="BeaconIconColor" position_real="0 0 1 1">
+                <Property key="Colour" value="#ffffff"/>
+                <Property key="NeedMouse" value="false"/>
+                <Property key="NeedKey" value="false"/>
+                <Widget type="ImageBox" skin="ImageBox" position_real="0 0 1 1" name="emptyColorA4">
+                    <Property key="ImageResource" value="BeaconIconMap"/>
+                    <Property key="ImageGroup" value="BeaconIconMap"/>
+                    <Property key="ImageName" value="17"/>
+                    <Property key="NeedMouse" value="false"/>
+                    <Property key="NeedKey" value="false"/>
+                </Widget>
+            </Widget>
+        </Widget>
+        <Widget type="Button" skin="ButtonImage" position_real="0.8125 0.40540540540540543 0.041666666666666664 0.054054054054054057" name="colorB5">
+            <Widget type="Widget" skin="BeaconIconColor" position_real="0 0 1 1">
+                <Property key="Colour" value="#ffffff"/>
+                <Property key="NeedMouse" value="false"/>
+                <Property key="NeedKey" value="false"/>
+                <Widget type="ImageBox" skin="ImageBox" position_real="0 0 1 1" name="emptyColorA5">
+                    <Property key="ImageResource" value="BeaconIconMap"/>
+                    <Property key="ImageGroup" value="BeaconIconMap"/>
+                    <Property key="ImageName" value="17"/>
+                    <Property key="NeedMouse" value="false"/>
+                    <Property key="NeedKey" value="false"/>
+                </Widget>
+            </Widget>
+        </Widget>
+        <Widget type="Button" skin="ButtonImage" position_real="0.875 0.40540540540540543 0.041666666666666664 0.054054054054054057" name="colorB6">
+            <Widget type="Widget" skin="BeaconIconColor" position_real="0 0 1 1">
+                <Property key="Colour" value="#ffffff"/>
+                <Property key="NeedMouse" value="false"/>
+                <Property key="NeedKey" value="false"/>
+                <Widget type="ImageBox" skin="ImageBox" position_real="0 0 1 1" name="emptyColorA6">
+                    <Property key="ImageResource" value="BeaconIconMap"/>
+                    <Property key="ImageGroup" value="BeaconIconMap"/>
+                    <Property key="ImageName" value="17"/>
+                    <Property key="NeedMouse" value="false"/>
+                    <Property key="NeedKey" value="false"/>
+                </Widget>
+            </Widget>
+        </Widget>
+        <Widget type="Button" skin="ButtonImage" position_real="0.75 0.48648648648648651 0.041666666666666664 0.054054054054054057" name="colorB7">
+            <Widget type="Widget" skin="BeaconIconColor" position_real="0 0 1 1">
+                <Property key="Colour" value="#ffffff"/>
+                <Property key="NeedMouse" value="false"/>
+                <Property key="NeedKey" value="false"/>
+                <Widget type="ImageBox" skin="ImageBox" position_real="0 0 1 1" name="emptyColorA7">
+                    <Property key="ImageResource" value="BeaconIconMap"/>
+                    <Property key="ImageGroup" value="BeaconIconMap"/>
+                    <Property key="ImageName" value="17"/>
+                    <Property key="NeedMouse" value="false"/>
+                    <Property key="NeedKey" value="false"/>
+                </Widget>
+            </Widget>
+        </Widget>
+        <Widget type="Button" skin="ButtonImage" position_real="0.8125 0.48648648648648651 0.041666666666666664 0.054054054054054057" name="colorB8">
+            <Widget type="Widget" skin="BeaconIconColor" position_real="0 0 1 1">
+                <Property key="Colour" value="#ffffff"/>
+                <Property key="NeedMouse" value="false"/>
+                <Property key="NeedKey" value="false"/>
+                <Widget type="ImageBox" skin="ImageBox" position_real="0 0 1 1" name="emptyColorA8">
+                    <Property key="ImageResource" value="BeaconIconMap"/>
+                    <Property key="ImageGroup" value="BeaconIconMap"/>
+                    <Property key="ImageName" value="17"/>
+                    <Property key="NeedMouse" value="false"/>
+                    <Property key="NeedKey" value="false"/>
+                </Widget>
+            </Widget>
+        </Widget>
+        <Widget type="Button" skin="ButtonImage" position_real="0.875 0.48648648648648651 0.041666666666666664 0.054054054054054057" name="colorB9">
+            <Widget type="Widget" skin="BeaconIconColor" position_real="0 0 1 1">
+                <Property key="Colour" value="#ffffff"/>
+                <Property key="NeedMouse" value="false"/>
+                <Property key="NeedKey" value="false"/>
+                <Widget type="ImageBox" skin="ImageBox" position_real="0 0 1 1" name="emptyColorA9">
+                    <Property key="ImageResource" value="BeaconIconMap"/>
+                    <Property key="ImageGroup" value="BeaconIconMap"/>
+                    <Property key="ImageName" value="17"/>
+                    <Property key="NeedMouse" value="false"/>
+                    <Property key="NeedKey" value="false"/>
+                </Widget>
+            </Widget>
+        </Widget>
+        <Widget type="Button" skin="MenuButton" position_real="0.75 0.56756756756756754 0.16666666666666666 0.060810810810810814" name="ResetButton">
+            <Property key="Caption" value="Reset"/>
+            <Property key="TextAlign" value="Center"/>
+            <Property key="FontName" value="SM_Button"/>
+        </Widget>
+        <Widget type="Button" skin="MenuButton" position_real="0.75 0.63378378378378375 0.16666666666666666 0.060810810810810814" name="MirrorButton">
+            <Property key="TextAlign" value="Center"/>
+            <Property key="FontName" value="SM_Button"/>
+            <Property key="Caption" value="Mirror"/>
+        </Widget>
+        <Widget type="Button" skin="MenuButton" position_real="0.75 0.70270270270270274 0.16666666666666666 0.060810810810810814" name="GlowButton">
+            <Property key="TextAlign" value="Center"/>
+            <Property key="FontName" value="SM_Button"/>
+            <Property key="Caption" value="Glow"/>
+        </Widget>
+        <Widget type="ImageBox" skin="ImageBox" position_real="0.65104166666666663 0.90540540540540537 0.046875 0.060810810810810814" name="RotationImg"/>
+        <Widget type="ImageBox" skin="ImageBox" position_real="0.65104166666666663 0.83108108108108103 0.046875 0.060810810810810814" name="HorizonImg"/>
+        <Widget type="ImageBox" skin="ImageBox" position_real="0.10416666666666667 0.3108108108108108 0.046875 0.060810810810810814" name="VerticalImg"/>
+        <Widget type="ImageBox" skin="ImageBox" position_real="0.036458333333333336 0.3108108108108108 0.046875 0.060810810810810814" name="LayerImg"/>
+        <Widget type="Widget" skin="BackgroundPopup" position_real="0.77604166666666663 0.79729729729729726 0.18229166666666666 0.18243243243243243">
+            <Widget type="Button" skin="CheckBox" position_real="0.14285714285714285 0.77777777777777779 0.11428571428571428 0.14814814814814814" name="fixNormal"/>
+            <Widget type="TextBox" skin="TextBox" position_real="0.31428571428571428 0.77777777777777779 0.59999999999999998 0.14814814814814814" name="fixNormalText"/>
+            <Widget type="ImageBox" skin="ImageBox" position_real="0.25142857142857145 0.1111111111111111 0.45714285714285713 0.59259259259259256" name="fixNormalImage"/>
+        </Widget>
+        <Widget type="Widget" skin="BackgroundPopup" position_real="0.21354166666666666 0.20945945945945946 0.48958333333333331 0.0472972972972973">
+            <Widget type="ScrollBar" skin="ScrollBarH" position_real="0.021276595744680851 0 0.68085106382978722 1" name="alignSlider"/>
+            <Widget type="TextBox" skin="TextBox" position_real="0.73404255319148937 0 0.23404255319148937 1" name="AlignText">
+                <Property key="TextAlign" value="Center"/>
+            </Widget>
+        </Widget>
+    </Widget>
+    <CodeGeneratorSettings>
+        <Property key="IncludeDirectory" value=""/>
+        <Property key="PanelName" value=""/>
+        <Property key="PanelNamespace" value=""/>
+        <Property key="SourceDirectory" value=""/>
+    </CodeGeneratorSettings>
+</MyGUI>

@@ -1,0 +1,78 @@
+{
+	"partList": [
+		{
+			"uuid": "a6d16258-887c-44aa-8e8c-5609b83e29f0",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$MOD_DATA/Objects/Textures/stickers/A.png",
+									"$MOD_DATA/Objects/Textures/wall1_asg.png"
+								],
+								"material": "DifAsg"
+							},
+							{
+								"textureList": [
+									"$MOD_DATA/Objects/Textures/stickers/G.png",
+									"$MOD_DATA/Objects/Textures/wall1_asg.png"
+								],
+								"material": "DifAsg"
+							},
+							{
+								"textureList": [
+									"$MOD_DATA/Objects/Textures/stickers/S.png",
+									"$MOD_DATA/Objects/Textures/wall1_asg.png"
+								],
+								"material": "DifAsg"
+							},
+							{
+								"textureList": [
+									"$MOD_DATA/Objects/Textures/stickers/W.png",
+									"$MOD_DATA/Objects/Textures/wall1_asg.png"
+								],
+								"material": "DifAsg"
+							}
+						],
+						"mesh": "$MOD_DATA/Objects/Mesh/fig_1_1_fbx.fbx",
+						"pose0": "$MOD_DATA/Objects/Mesh/fig_1_1_fbx.fbx",
+						"pose1": "$MOD_DATA/Objects/Mesh/fig_1_1_fbx.fbx",
+						"pose2": "$MOD_DATA/Objects/Mesh/fig_1_1_fbx.fbx"
+					}
+				]
+			},
+			"rotationSet": "oneFace",
+			"color": "df7f00",
+			"hull": { 
+				"x": 1, "y": 1, "z": 1,
+				"margin": 0.02,
+				"pointList": [
+					{ "x": 1.0, "y": -1.0, "z": 1.0 },
+					{ "x": 1.0, "y": -1.0, "z": -1.0 },
+					{ "x": -1.0, "y": -1.0, "z": 1.0 },
+					{ "x": -1.0, "y": -1.0, "z": -1.0 }
+				]
+			},
+			"sticky": "+X+Z-X-Y-Z",
+			"ratings": {
+					"density": 1,
+					"durability": 10,
+					"friction": 1,
+					"buoyancy": 1
+				},
+			"physicsMaterial": "Plastic",
+			"flammable": true,
+			"scripted": {
+				"filename": "$MOD_DATA/Scripts/ChangeColor.lua",
+				"classname": "ChangeColor"
+			},
+			"restrictions": {
+				"erasable": true,
+				"paintable": true,
+				"usable": true
+			}
+			
+		}
+	]
+}

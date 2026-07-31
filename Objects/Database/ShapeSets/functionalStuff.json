@@ -1,0 +1,888 @@
+{
+   "partList" : [
+      {
+         "color" : "2ce6e6",
+         "name" : "MAG",
+         "physicsMaterial" : "Metal",
+         "ratings" : {
+            "buoyancy" : 1,
+            "density" : 1,
+            "durability" : 2,
+            "friction" : 1
+         },
+         "renderable" : "$CONTENT_DATA/Objects/Renderable/MAG.rend",
+         "restrictions" : {
+            "erasable" : true,
+            "paintable" : true,
+            "usable" : true
+         },
+         "rotationSet" : "locked",
+         "scripted" : {
+            "classname" : "MAC",
+            "filename" : "$MOD_DATA/Scripts/crystalTech/appliqueCreator.lua"
+         },
+         "sphere" : {
+            "diameter" : 1
+         },
+         "sticky" : "All",
+         "uuid" : "51da94d6-a215-4f69-b569-c45bc1557d0c"
+      },
+      {
+         "color" : "2ce6e6",
+         "name" : "MAG_inv",
+         "physicsMaterial" : "Metal",
+         "ratings" : {
+            "buoyancy" : 1,
+            "density" : 1,
+            "durability" : 2,
+            "friction" : 1
+         },
+         "renderable" : "$CONTENT_DATA/Objects/Renderable/MAG_inv.rend",
+         "restrictions" : {
+            "erasable" : true,
+            "paintable" : true,
+            "usable" : true
+         },
+         "rotationSet" : "locked",
+         "scripted" : {
+            "classname" : "MAC",
+            "filename" : "$MOD_DATA/Scripts/crystalTech/appliqueCreator.lua"
+         },
+         "sphere" : {
+            "diameter" : 1
+         },
+         "sticky" : "All",
+         "uuid" : "51da94d6-a215-4f69-b569-d45bc1557d0c"
+      },
+      {
+         "box" : {
+            "x" : 1,
+            "y" : 1,
+            "z" : 1
+         },
+         "color" : "2ce6e6",
+         "flammable" : true,
+         "name" : "MAG_tutorial",
+         "physicsMaterial" : "Plastic",
+         "ratings" : {
+            "buoyancy" : 5,
+            "density" : 5,
+            "durability" : 5,
+            "friction" : 5
+         },
+         "renderable" : "$CONTENT_DATA/Objects/Renderable/MACT.rend",
+         "restrictions" : {
+            "erasable" : true,
+            "paintable" : true,
+            "usable" : true
+         },
+         "rotationSet" : "oneFace",
+         "scripted" : {
+            "classname" : "MACT",
+            "filename" : "$MOD_DATA/Scripts/crystalTech/appliqueCreatorTutorial.lua"
+         },
+         "sticky" : "+X+Y+Z-X-Y-Z",
+         "uuid" : "51da94d6-a215-4f69-b569-c45bc1557d0e"
+      },
+      {
+         "box" : {
+            "x" : 1,
+            "y" : 1,
+            "z" : 1
+         },
+         "color" : "2ce6e6",
+         "flammable" : true,
+         "name" : "Meye",
+         "physicsMaterial" : "Metal",
+         "ratings" : {
+            "buoyancy" : 1,
+            "density" : 1,
+            "durability" : 2,
+            "friction" : 1
+         },
+         "renderable" : {
+            "lodList" : [
+               {
+                  "mesh" : "$MOD_DATA/Objects/Mesh/crystalTech/eye.obj",
+                  "subMeshList" : [
+                     {
+                        "material" : "Dif",
+                        "textureList" : [ "$MOD_DATA/Objects/Textures/crystalTech/frame.png" ]
+                     },
+                     {
+                        "material" : "DifAsg",
+                        "textureList" : [
+                           "$MOD_DATA/Objects/Textures/crystalTech/eye.png",
+                           "$MOD_DATA/Objects/Textures/shine_asg.png"
+                        ]
+                     },
+                     {
+                        "material" : "Dif",
+                        "textureList" : [ "$MOD_DATA/Objects/Textures/crystalTech/grey.png" ]
+                     }
+                  ]
+               }
+            ]
+         },
+         "restrictions" : {
+            "erasable" : true,
+            "paintable" : true,
+            "usable" : true
+         },
+         "rotationSet" : "oneFace",
+         "scripted" : {
+            "classname" : "Meye",
+            "filename" : "$MOD_DATA/Scripts/crystalTech/Meye.lua"
+         },
+         "sticky" : "+X+Y+Z-X-Y-Z",
+         "uuid" : "51da94d6-a215-4f69-b569-c45bc1557d00"
+      },
+      {
+         "box" : {
+            "x" : 1,
+            "y" : 1,
+            "z" : 1
+         },
+         "color" : "2ce6e6",
+         "flammable" : true,
+         "name" : "MmissileChip",
+         "physicsMaterial" : "Metal",
+         "ratings" : {
+            "buoyancy" : 1,
+            "density" : 1,
+            "durability" : 2,
+            "friction" : 1
+         },
+         "renderable" : {
+            "lodList" : [
+               {
+                  "mesh" : "$MOD_DATA/Objects/Mesh/crystalTech/Mchip.obj",
+                  "subMeshList" : [
+                     {
+                        "material" : "Dif",
+                        "textureList" : [ "$MOD_DATA/Objects/Textures/crystalTech/frame.png" ]
+                     },
+                     {
+                        "material" : "DifAsg",
+                        "textureList" : [
+                           "$MOD_DATA/Objects/Textures/crystalTech/eye.png",
+                           "$MOD_DATA/Objects/Textures/shine_asg.png"
+                        ]
+                     },
+                     {
+                        "material" : "Glass",
+                        "textureList" : [ "$MOD_DATA/Objects/Textures/crystalTech/grey.png" ]
+                     },
+                     {
+                        "material" : "Dif",
+                        "textureList" : [ "$MOD_DATA/Objects/Textures/crystalTech/grey.png" ]
+                     }
+                  ]
+               }
+            ]
+         },
+         "restrictions" : {
+            "erasable" : true,
+            "paintable" : true,
+            "usable" : true
+         },
+         "rotationSet" : "oneFace",
+         "scripted" : {
+            "classname" : "MC",
+            "filename" : "$MOD_DATA/Scripts/crystalTech/missileChip.lua"
+         },
+         "sticky" : "+X+Y+Z-X-Y-Z",
+         "uuid" : "51da94d6-a215-4f69-b569-c45bc1557d01"
+      },
+      {
+         "box" : {
+            "x" : 1,
+            "y" : 1,
+            "z" : 1
+         },
+         "color" : "2ce6e6",
+         "flammable" : true,
+         "name" : "MmissileLauncher",
+         "physicsMaterial" : "Metal",
+         "ratings" : {
+            "buoyancy" : 1,
+            "density" : 1,
+            "durability" : 2,
+            "friction" : 1
+         },
+         "renderable" : {
+            "lodList" : [
+               {
+                  "mesh" : "$MOD_DATA/Objects/Mesh/crystalTech/ML.obj",
+                  "subMeshList" : [
+                     {
+                        "material" : "Dif",
+                        "textureList" : [ "$MOD_DATA/Objects/Textures/crystalTech/frame.png" ]
+                     },
+                     {
+                        "material" : "Dif",
+                        "textureList" : [ "$MOD_DATA/Objects/Textures/crystalTech/frame.png" ]
+                     },
+                     {
+                        "material" : "Dif",
+                        "textureList" : [ "$MOD_DATA/Objects/Textures/crystalTech/frame.png" ]
+                     },
+                     {
+                        "material" : "Dif",
+                        "textureList" : [ "$MOD_DATA/Objects/Textures/crystalTech/frame.png" ]
+                     },
+                     {
+                        "material" : "Dif",
+                        "textureList" : [ "$MOD_DATA/Objects/Textures/crystalTech/frame.png" ]
+                     },
+                     {
+                        "material" : "Dif",
+                        "textureList" : [ "$MOD_DATA/Objects/Textures/crystalTech/grey.png" ]
+                     },
+                     {
+                        "material" : "Dif",
+                        "textureList" : [ "$MOD_DATA/Objects/Textures/crystalTech/frame.png" ]
+                     },
+                     {
+                        "material" : "Dif",
+                        "textureList" : [ "$MOD_DATA/Objects/Textures/crystalTech/frame.png" ]
+                     },
+                     {
+                        "material" : "Dif",
+                        "textureList" : [ "$MOD_DATA/Objects/Textures/crystalTech/frame.png" ]
+                     },
+                     {
+                        "material" : "Dif",
+                        "textureList" : [ "$MOD_DATA/Objects/Textures/crystalTech/grey.png" ]
+                     },
+                     {
+                        "material" : "Dif",
+                        "textureList" : [ "$MOD_DATA/Objects/Textures/crystalTech/grey.png" ]
+                     },
+                     {
+                        "material" : "Dif",
+                        "textureList" : [ "$MOD_DATA/Objects/Textures/crystalTech/grey.png" ]
+                     },
+                     {
+                        "material" : "DifAsg",
+                        "textureList" : [
+                           "$MOD_DATA/Objects/Textures/crystalTech/eye.png",
+                           "$MOD_DATA/Objects/Textures/shine_asg.png"
+                        ]
+                     },
+                     {
+                        "material" : "Dif",
+                        "textureList" : [ "$MOD_DATA/Objects/Textures/crystalTech/grey.png" ]
+                     },
+                     {
+                        "material" : "DifAsg",
+                        "textureList" : [
+                           "$MOD_DATA/Objects/Textures/crystalTech/eye.png",
+                           "$MOD_DATA/Objects/Textures/shine_asg.png"
+                        ]
+                     },
+                     {
+                        "material" : "Dif",
+                        "textureList" : [ "$MOD_DATA/Objects/Textures/crystalTech/frame.png" ]
+                     },
+                     {
+                        "material" : "Dif",
+                        "textureList" : [ "$MOD_DATA/Objects/Textures/crystalTech/frame.png" ]
+                     },
+                     {
+                        "material" : "Dif",
+                        "textureList" : [ "$MOD_DATA/Objects/Textures/crystalTech/grey.png" ]
+                     }
+                  ]
+               }
+            ]
+         },
+         "restrictions" : {
+            "erasable" : true,
+            "paintable" : true,
+            "usable" : true
+         },
+         "rotationSet" : "oneFace",
+         "scripted" : {
+            "classname" : "ML",
+            "filename" : "$MOD_DATA/Scripts/crystalTech/missileLauncher.lua"
+         },
+         "sticky" : "+X+Y+Z-X-Y-Z",
+         "uuid" : "51da94d6-a215-4f69-b569-c45bc1557d02"
+      },
+      {
+         "box" : {
+            "x" : 1,
+            "y" : 1,
+            "z" : 1
+         },
+         "color" : "2ce6e6",
+         "density" : 25.0,
+         "flammable" : true,
+         "name" : "MlogicGate 1",
+         "physicsMaterial" : "Metal",
+         "ratings" : {
+            "buoyancy" : 7,
+            "durability" : 5,
+            "friction" : 5
+         },
+         "renderable" : {
+            "lodList" : [
+               {
+                  "mesh" : "$MOD_DATA/Objects/Mesh/crystalTech/MlogicGate.obj",
+                  "subMeshList" : [
+                     {
+                        "material" : "Dif",
+                        "textureList" : [ "$MOD_DATA/Objects/Textures/crystalTech/frame.png" ]
+                     },
+                     {
+                        "material" : "Dif",
+                        "textureList" : [ "$MOD_DATA/Objects/Textures/crystalTech/grey.png" ]
+                     },
+                     {
+                        "material" : "Dif",
+                        "textureList" : [ "$MOD_DATA/Objects/Textures/crystalTech/frame.png" ]
+                     },
+                     {
+                        "material" : "DifAsg",
+                        "textureList" : [
+                           "$MOD_DATA/Objects/Textures/crystalTech/eye.png",
+                           "$MOD_DATA/Objects/Textures/shine_asg.png"
+                        ]
+                     },
+                     {
+                        "material" : "DifAsg",
+                        "textureList" : [
+                           "$MOD_DATA/Objects/Textures/crystalTech/eye.png",
+                           "$MOD_DATA/Objects/Textures/shine_asg.png"
+                        ]
+                     }
+                  ]
+               }
+            ]
+         },
+         "restrictions" : {
+            "erasable" : true,
+            "paintable" : true,
+            "usable" : true
+         },
+         "rotationSet" : "oneFace",
+         "scripted" : {
+            "classname" : "MLG",
+            "filename" : "$MOD_DATA/Scripts/crystalTech/MlogicGate.lua"
+         },
+         "sticky" : "+X+Y+Z-X-Y-Z",
+         "uuid" : "51da94d6-a215-4f69-b569-c45bc1557d03"
+      },
+      {
+         "box" : {
+            "x" : 1,
+            "y" : 1,
+            "z" : 1
+         },
+         "color" : "2ce6e6",
+         "flammable" : true,
+         "name" : "MlogicGate 2",
+         "physicsMaterial" : "Metal",
+         "ratings" : {
+            "buoyancy" : 2,
+            "density" : 2,
+            "durability" : 3,
+            "friction" : 5
+         },
+         "renderable" : {
+            "lodList" : [
+               {
+                  "mesh" : "$MOD_DATA/Objects/Mesh/crystalTech/MlogicGate.obj",
+                  "subMeshList" : [
+                     {
+                        "material" : "Dif",
+                        "textureList" : [ "$MOD_DATA/Objects/Textures/crystalTech/frame.png" ]
+                     },
+                     {
+                        "material" : "Dif",
+                        "textureList" : [ "$MOD_DATA/Objects/Textures/crystalTech/grey.png" ]
+                     },
+                     {
+                        "material" : "Dif",
+                        "textureList" : [ "$MOD_DATA/Objects/Textures/crystalTech/frame.png" ]
+                     },
+                     {
+                        "material" : "DifAsg",
+                        "textureList" : [
+                           "$MOD_DATA/Objects/Textures/crystalTech/eye.png",
+                           "$MOD_DATA/Objects/Textures/shine_asg.png"
+                        ]
+                     },
+                     {
+                        "material" : "DifAsg",
+                        "textureList" : [
+                           "$MOD_DATA/Objects/Textures/crystalTech/eye.png",
+                           "$MOD_DATA/Objects/Textures/shine_asg.png"
+                        ]
+                     }
+                  ]
+               }
+            ]
+         },
+         "restrictions" : {
+            "erasable" : true,
+            "paintable" : true,
+            "usable" : true
+         },
+         "rotationSet" : "oneFace",
+         "scripted" : {
+            "classname" : "MLG",
+            "filename" : "$MOD_DATA/Scripts/crystalTech/MlogicGate.lua"
+         },
+         "sticky" : "+X+Y+Z-X-Y-Z",
+         "uuid" : "51da94d6-a215-4f69-b569-c45bc1557d04"
+      },
+      {
+         "box" : {
+            "x" : 1,
+            "y" : 1,
+            "z" : 1
+         },
+         "color" : "2ce6e6",
+         "flammable" : true,
+         "name" : "Mthurster",
+         "physicsMaterial" : "Metal",
+         "ratings" : {
+            "buoyancy" : 1,
+            "density" : 1,
+            "durability" : 2,
+            "friction" : 1
+         },
+         "renderable" : {
+            "lodList" : [
+               {
+                  "mesh" : "$MOD_DATA/Objects/Mesh/crystalTech/Mthruster.obj",
+                  "subMeshList" : [
+                     {
+                        "material" : "Dif",
+                        "textureList" : [ "$MOD_DATA/Objects/Textures/crystalTech/frame.png" ]
+                     },
+                     {
+                        "material" : "Dif",
+                        "textureList" : [ "$MOD_DATA/Objects/Textures/crystalTech/grey.png" ]
+                     },
+                     {
+                        "material" : "DifAsg",
+                        "textureList" : [
+                           "$MOD_DATA/Objects/Textures/crystalTech/eye.png",
+                           "$MOD_DATA/Objects/Textures/shine_asg.png"
+                        ]
+                     },
+                     {
+                        "material" : "DifAsg",
+                        "textureList" : [
+                           "$MOD_DATA/Objects/Textures/crystalTech/eye.png",
+                           "$MOD_DATA/Objects/Textures/shine_asg.png"
+                        ]
+                     }
+                  ]
+               }
+            ]
+         },
+         "restrictions" : {
+            "erasable" : true,
+            "paintable" : true,
+            "usable" : true
+         },
+         "rotationSet" : "oneFace",
+         "scripted" : {
+            "classname" : "Mthruster",
+            "filename" : "$MOD_DATA/Scripts/crystalTech/Mthruster.lua"
+         },
+         "sticky" : "+X+Y+Z-X-Y-Z",
+         "uuid" : "51da94d6-a215-4f69-b569-c45bc1557d05"
+      },
+      {
+         "box" : {
+            "x" : 1,
+            "y" : 1,
+            "z" : 1
+         },
+         "color" : "2ce6e6",
+         "flammable" : true,
+         "name" : "Mtimer",
+         "physicsMaterial" : "Metal",
+         "ratings" : {
+            "buoyancy" : 1,
+            "density" : 1,
+            "durability" : 2,
+            "friction" : 1
+         },
+         "renderable" : {
+            "lodList" : [
+               {
+                  "mesh" : "$MOD_DATA/Objects/Mesh/crystalTech/timer.obj",
+                  "subMeshList" : [
+                     {
+                        "material" : "Dif",
+                        "textureList" : [ "$MOD_DATA/Objects/Textures/crystalTech/frame.png" ]
+                     },
+                     {
+                        "material" : "Glass",
+                        "textureList" : [ "$MOD_DATA/Objects/Textures/crystalTech/glass.png" ]
+                     },
+                     {
+                        "material" : "DifAsg",
+                        "textureList" : [
+                           "$MOD_DATA/Objects/Textures/crystalTech/eye.png",
+                           "$MOD_DATA/Objects/Textures/shine_asg.png"
+                        ]
+                     },
+                     {
+                        "material" : "Dif",
+                        "textureList" : [ "$MOD_DATA/Objects/Textures/crystalTech/grey.png" ]
+                     }
+                  ]
+               }
+            ]
+         },
+         "restrictions" : {
+            "erasable" : true,
+            "paintable" : true,
+            "usable" : true
+         },
+         "rotationSet" : "oneFace",
+         "scripted" : {
+            "classname" : "Mtimer",
+            "filename" : "$MOD_DATA/Scripts/crystalTech/Mtimer.lua"
+         },
+         "sticky" : "+X+Y+Z-X-Y-Z",
+         "uuid" : "51da94d6-a215-4f69-b569-c45bc1557d06"
+      },
+      {
+         "box" : {
+            "x" : 1,
+            "y" : 1,
+            "z" : 1
+         },
+         "color" : "2ce6e6",
+         "flammable" : true,
+         "name" : "MPistonController",
+         "physicsMaterial" : "Metal",
+         "ratings" : {
+            "buoyancy" : 1,
+            "density" : 1,
+            "durability" : 2,
+            "friction" : 1
+         },
+         "renderable" : {
+            "lodList" : [
+               {
+                  "mesh" : "$MOD_DATA/Objects/Mesh/crystalTech/MPC.obj",
+                  "subMeshList" : [
+                     {
+                        "material" : "Dif",
+                        "textureList" : [ "$MOD_DATA/Objects/Textures/crystalTech/frame.png" ]
+                     },
+                     {
+                        "material" : "Dif",
+                        "textureList" : [ "$MOD_DATA/Objects/Textures/crystalTech/grey.png" ]
+                     },
+                     {
+                        "material" : "Dif",
+                        "textureList" : [ "$MOD_DATA/Objects/Textures/crystalTech/frame.png" ]
+                     },
+                     {
+                        "material" : "DifAsg",
+                        "textureList" : [
+                           "$MOD_DATA/Objects/Textures/crystalTech/eye.png",
+                           "$MOD_DATA/Objects/Textures/shine_asg.png"
+                        ]
+                     }
+                  ]
+               }
+            ]
+         },
+         "restrictions" : {
+            "erasable" : true,
+            "paintable" : true,
+            "usable" : true
+         },
+         "rotationSet" : "oneFace",
+         "scripted" : {
+            "classname" : "MPC",
+            "filename" : "$MOD_DATA/Scripts/crystalTech/MPC.lua"
+         },
+         "sticky" : "+X+Y+Z-X-Y-Z",
+         "uuid" : "51da94d6-a215-4f69-b569-c45bc1557d07"
+      },
+      {
+         "color" : "2ce6e6",
+         "flammable" : true,
+         "hull" : {
+            "col" : "$CONTENT_DATA/Objects/Collision/crystalTech/HUDmodel_col.obj",
+            "x" : 1,
+            "y" : 1,
+            "z" : 1
+         },
+         "name" : "HUD",
+         "physicsMaterial" : "Metal",
+         "ratings" : {
+            "buoyancy" : 1,
+            "density" : 1,
+            "durability" : 2,
+            "friction" : 1
+         },
+         "renderable" : "$CONTENT_DATA/Objects/Renderable/MHUD.rend",
+         "restrictions" : {
+            "erasable" : true,
+            "paintable" : true,
+            "usable" : true
+         },
+         "rotationSet" : "HUD",
+         "scripted" : {
+            "classname" : "MHUD",
+            "data" : {
+               "scale" : 1
+            },
+            "filename" : "$MOD_DATA/Scripts/crystalTech/HUD.lua"
+         },
+         "sticky" : "+X+Y+Z-X-Y-Z",
+         "uuid" : "51da94d6-a215-4f69-b569-c45bc1557d08"
+      },
+      {
+         "box" : {
+            "x" : 1,
+            "y" : 1,
+            "z" : 1
+         },
+         "color" : "2ce6e6",
+         "flammable" : true,
+         "name" : "Mshifter",
+         "physicsMaterial" : "Metal",
+         "ratings" : {
+            "buoyancy" : 1,
+            "density" : 1,
+            "durability" : 2,
+            "friction" : 1
+         },
+         "renderable" : {
+            "lodList" : [
+               {
+                  "mesh" : "$MOD_DATA/Objects/Mesh/crystalTech/Mshifter.obj",
+                  "subMeshList" : [
+                     {
+                        "material" : "DifAsg",
+                        "textureList" : [
+                           "$MOD_DATA/Objects/Textures/crystalTech/eye.png",
+                           "$MOD_DATA/Objects/Textures/shine_asg.png"
+                        ]
+                     },
+                     {
+                        "material" : "Dif",
+                        "textureList" : [ "$MOD_DATA/Objects/Textures/crystalTech/grey.png" ]
+                     },
+                     {
+                        "material" : "Dif",
+                        "textureList" : [ "$MOD_DATA/Objects/Textures/crystalTech/frame.png" ]
+                     },
+                     {
+                        "material" : "Dif",
+                        "textureList" : [ "$MOD_DATA/Objects/Textures/crystalTech/grey.png" ]
+                     },
+                     {
+                        "material" : "Glass",
+                        "textureList" : [ "$MOD_DATA/Objects/Textures/crystalTech/glass.png" ]
+                     },
+                     {
+                        "material" : "DifAsg",
+                        "textureList" : [
+                           "$MOD_DATA/Objects/Textures/crystalTech/eye.png",
+                           "$MOD_DATA/Objects/Textures/shine_asg.png"
+                        ]
+                     }
+                  ]
+               }
+            ]
+         },
+         "restrictions" : {
+            "erasable" : true,
+            "paintable" : true,
+            "usable" : true
+         },
+         "rotationSet" : "oneFace",
+         "scripted" : {
+            "classname" : "Mstr",
+            "filename" : "$MOD_DATA/Scripts/crystalTech/Mshifter.lua"
+         },
+         "sticky" : "+X+Y+Z-X-Y-Z",
+         "uuid" : "51da94d6-a215-4f69-b569-c45bc1557d0a"
+      },
+      {
+         "box" : {
+            "x" : 1,
+            "y" : 1,
+            "z" : 1
+         },
+         "color" : "FFFFFF",
+         "name" : "Mcannon",
+         "physicsMaterial" : "Metal",
+         "ratings" : {
+            "buoyancy" : 1,
+            "density" : 1,
+            "durability" : 2,
+            "friction" : 1
+         },
+         "renderable" : "$CONTENT_DATA/Objects/Renderable/Mcannon.rend",
+         "restrictions" : {
+            "erasable" : true,
+            "paintable" : true,
+            "usable" : true
+         },
+         "rotationSet" : "1c626c90-466c-47ec-8927-baf0fa1e7600oneFace",
+         "sticky" : "All",
+         "uuid" : "51da94d6-a215-4f69-b569-c45bc1557d0b"
+      },
+      {
+         "box" : {
+            "x" : 1,
+            "y" : 1,
+            "z" : 1
+         },
+         "color" : "d02525",
+         "flammable" : true,
+         "name" : "MPistonController_Fixed",
+         "physicsMaterial" : "Metal",
+         "ratings" : {
+            "buoyancy" : 1,
+            "density" : 1,
+            "durability" : 2,
+            "friction" : 1
+         },
+         "renderable" : {
+            "lodList" : [
+               {
+                  "mesh" : "$MOD_DATA/Objects/Mesh/crystalTech/MPC.obj",
+                  "subMeshList" : [
+                     {
+                        "material" : "Dif",
+                        "textureList" : [ "$MOD_DATA/Objects/Textures/crystalTech/frame.png" ]
+                     },
+                     {
+                        "material" : "Dif",
+                        "textureList" : [ "$MOD_DATA/Objects/Textures/crystalTech/grey.png" ]
+                     },
+                     {
+                        "material" : "Dif",
+                        "textureList" : [ "$MOD_DATA/Objects/Textures/crystalTech/frame.png" ]
+                     },
+                     {
+                        "material" : "DifAsg",
+                        "textureList" : [
+                           "$MOD_DATA/Objects/Textures/crystalTech/eye.png",
+                           "$MOD_DATA/Objects/Textures/shine_asg.png"
+                        ]
+                     }
+                  ]
+               }
+            ]
+         },
+         "restrictions" : {
+            "erasable" : true,
+            "paintable" : true,
+            "usable" : true
+         },
+         "rotationSet" : "oneFace",
+         "scripted" : {
+            "classname" : "MPC",
+            "filename" : "$MOD_DATA/Scripts/crystalTech/MPC_Fixed.lua"
+         },
+         "sticky" : "+X+Y+Z-X-Y-Z",
+         "uuid" : "51da94d6-a215-4f69-b569-c45bc1557d0d"
+      },
+      {
+         "box" : {
+            "x" : 3,
+            "y" : 3,
+            "z" : 3
+         },
+         "color" : "2ce6e6",
+         "flammable" : true,
+         "name" : "MCusBackUp",
+         "physicsMaterial" : "Metal",
+         "ratings" : {
+            "buoyancy" : 1,
+            "density" : 5,
+            "durability" : 5,
+            "friction" : 5
+         },
+         "renderable" : "$CONTENT_DATA/Objects/Renderable/MCBK.rend",
+         "restrictions" : {
+            "erasable" : true,
+            "paintable" : true,
+            "usable" : true
+         },
+         "rotationSet" : "oneFace",
+         "scripted" : {
+            "classname" : "CBK",
+            "filename" : "$MOD_DATA/Scripts/crystalTech/CustomizedBackUp.lua"
+         },
+         "sticky" : "+X+Y+Z-X-Y-Z",
+         "uuid" : "51da94d6-a215-4f69-b569-c45bc1557d0f"
+      },
+      {
+         "box" : {
+            "x" : 1.0,
+            "y" : 1.0,
+            "z" : 1.0
+         },
+         "color" : "FFFFFF",
+         "name" : "rotateSign",
+         "physicsMaterial" : "Default",
+         "renderable" : "$CONTENT_DATA/Objects/Renderable/MAGsign/MAGrotateSign.rend",
+         "rotationSet" : "Default",
+         "showInInventory" : false,
+         "uuid" : "51da94d6-a215-4f69-b569-c45bc1557d10"
+      },
+      {
+         "box" : {
+            "x" : 1,
+            "y" : 1,
+            "z" : 1
+         },
+         "color" : "d02525",
+         "flammable" : true,
+         "name" : "advancedCamera",
+         "physicsMaterial" : "Metal",
+         "ratings" : {
+            "buoyancy" : 1,
+            "density" : 1,
+            "durability" : 3,
+            "friction" : 1
+         },
+         "renderable" : "$CONTENT_DATA/Objects/Renderable/MACT.rend",
+         "restrictions" : {
+            "erasable" : true,
+            "paintable" : true,
+            "usable" : true
+         },
+         "rotationSet" : "oneFace",
+         "scripted" : {
+            "classname" : "AC",
+            "filename" : "$CONTENT_DATA/Scripts/crystalTech/advancedCamera.lua"
+         },
+         "sticky" : "+X+Y+Z-X-Y-Z",
+         "uuid" : "51da94d6-a215-4f69-b569-c45bc1557d11"
+      },
+      {
+         "box" : {
+            "x" : 1.0,
+            "y" : 1.0,
+            "z" : 1.0
+         },
+         "color" : "FFFFFF",
+         "name" : "AxisSign",
+         "physicsMaterial" : "Default",
+         "renderable" : "$CONTENT_DATA/Objects/Renderable/MAGsign/MAGarrow.rend",
+         "rotationSet" : "Default",
+         "showInInventory" : false,
+         "uuid" : "51da94d6-a215-4f69-b569-c45bc1557d12"
+      }
+   ]
+}

@@ -1,0 +1,68 @@
+{
+    "system": {
+      "emitters": [
+        {
+          "ASG_map": "$CONTENT_DATA/Effects/Texture/nums-B1_asg.tga",
+          "category": "HUD",
+          "color_fraction": 1,
+          "direction_type": "shape",
+          "duration": 1,
+          "editorColor": [
+            1,
+            0.58591,
+            0,
+            1
+          ],
+          "emission_mode": "loop",
+          "emission_rate": 2,
+          "guid": 0,
+          "keep_local": true,
+          "material_name": "Leaves",
+          "max_particles": 5,
+          "mesh": "$CONTENT_DATA/Effects/Mesh/MHUD1.obj",
+          "mesh_diffuse": "$CONTENT_DATA/Effects/Texture/nums-B1.tga",
+          "mesh_size": [
+            1.6,
+            1.6,
+            1.6
+          ],
+          "name": "HUD1",
+          "params": 6,
+          "particle": "mesh",
+          "time_to_live": 1,
+          "velocity": 0
+        },
+        {
+          "ASG_map": "$CONTENT_DATA/Effects/Texture/MHUD_T-export_asg.tga",
+          "category": "HUD",
+          "color_fraction": 1,
+          "direction_type": "shape",
+          "duration": 1,
+          "editorColor": [
+            1,
+            0.58591,
+            0,
+            1
+          ],
+          "emission_mode": "loop",
+          "emission_rate": 2,
+          "guid": 1,
+          "keep_local": true,
+          "material_name": "Leaves",
+          "max_particles": 5,
+          "mesh": "$CONTENT_DATA/Effects/Mesh/HUD1_2_2.obj",
+          "mesh_diffuse": "$CONTENT_DATA/Effects/Texture/MHUD_T-export.tga",
+          "mesh_size": [
+            1.6,
+            1.6,
+            1.6
+          ],
+          "name": "HUD1",
+          "params": 6,
+          "particle": "mesh",
+          "time_to_live": 1,
+          "velocity": 0
+        }
+      ]
+    }
+  }

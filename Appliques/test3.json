@@ -1,0 +1,36 @@
+
+{
+	"effectTableData" : 
+	[
+		
+		{
+			"cleanFlag" : false,
+			"color" : "bfdfedff",
+			"id" : -11.0,
+			"offsetPosition" : 
+			{
+				"x" : 0.0,
+				"y" : 0.0,
+				"z" : 0.0
+			},
+			"offsetRotation" : 
+			{
+				"w" : 0.7071067690849304,
+				"x" : 0.0,
+				"y" : 0.7071067690849304,
+				"z" : 0.0
+			},
+			"scale" : 
+			{
+				"x" : 0.9803921580314636,
+				"y" : 0.9803921580314636,
+				"z" : 0.9803921580314636
+			},
+			"state" : "origin"
+		}
+	],
+	"partUUIDList" : 
+	{
+		"t-11" : "8ca49bff-eeef-4b43-abd0-b527a567f1b7"
+	}
+}

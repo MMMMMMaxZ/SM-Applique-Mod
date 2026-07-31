@@ -1,0 +1,422 @@
+
+{
+	"partList" : 
+	[
+		
+		{
+			"box" : 
+			{
+				"x" : 1.0,
+				"y" : 1.0,
+				"z" : 1.0
+			},
+			"color" : "FFFFFF",
+			"name" : "a",
+			"physicsMaterial" : "Default",
+			"renderable" : "$MOD_DATA/Objects/Renderable/MAG/009fonts_l/a_gn.rend",
+			"rotationSet" : "Default",
+			"showInInventory" : false,
+			"uuid" : "0102359a-1068-4de7-b7a0-a41682e47001"
+		},
+		
+		{
+			"box" : 
+			{
+				"x" : 1.0,
+				"y" : 1.0,
+				"z" : 1.0
+			},
+			"color" : "FFFFFF",
+			"name" : "b",
+			"physicsMaterial" : "Default",
+			"renderable" : "$MOD_DATA/Objects/Renderable/MAG/009fonts_l/b_gn.rend",
+			"rotationSet" : "Default",
+			"showInInventory" : false,
+			"uuid" : "0102359a-1068-4de7-b7a0-a41682e47002"
+		},
+		
+		{
+			"box" : 
+			{
+				"x" : 1.0,
+				"y" : 1.0,
+				"z" : 1.0
+			},
+			"color" : "FFFFFF",
+			"name" : "c",
+			"physicsMaterial" : "Default",
+			"renderable" : "$MOD_DATA/Objects/Renderable/MAG/009fonts_l/c_gn.rend",
+			"rotationSet" : "Default",
+			"showInInventory" : false,
+			"uuid" : "0102359a-1068-4de7-b7a0-a41682e47003"
+		},
+		
+		{
+			"box" : 
+			{
+				"x" : 1.0,
+				"y" : 1.0,
+				"z" : 1.0
+			},
+			"color" : "FFFFFF",
+			"name" : "d",
+			"physicsMaterial" : "Default",
+			"renderable" : "$MOD_DATA/Objects/Renderable/MAG/009fonts_l/d_gn.rend",
+			"rotationSet" : "Default",
+			"showInInventory" : false,
+			"uuid" : "0102359a-1068-4de7-b7a0-a41682e47004"
+		},
+		
+		{
+			"box" : 
+			{
+				"x" : 1.0,
+				"y" : 1.0,
+				"z" : 1.0
+			},
+			"color" : "FFFFFF",
+			"name" : "e",
+			"physicsMaterial" : "Default",
+			"renderable" : "$MOD_DATA/Objects/Renderable/MAG/009fonts_l/e_gn.rend",
+			"rotationSet" : "Default",
+			"showInInventory" : false,
+			"uuid" : "0102359a-1068-4de7-b7a0-a41682e47005"
+		},
+		
+		{
+			"box" : 
+			{
+				"x" : 1.0,
+				"y" : 1.0,
+				"z" : 1.0
+			},
+			"color" : "FFFFFF",
+			"name" : "f",
+			"physicsMaterial" : "Default",
+			"renderable" : "$MOD_DATA/Objects/Renderable/MAG/009fonts_l/f_gn.rend",
+			"rotationSet" : "Default",
+			"showInInventory" : false,
+			"uuid" : "0102359a-1068-4de7-b7a0-a41682e47006"
+		},
+		
+		{
+			"box" : 
+			{
+				"x" : 1.0,
+				"y" : 1.0,
+				"z" : 1.0
+			},
+			"color" : "FFFFFF",
+			"name" : "g",
+			"physicsMaterial" : "Default",
+			"renderable" : "$MOD_DATA/Objects/Renderable/MAG/009fonts_l/g_gn.rend",
+			"rotationSet" : "Default",
+			"showInInventory" : false,
+			"uuid" : "0102359a-1068-4de7-b7a0-a41682e47007"
+		},
+		
+		{
+			"box" : 
+			{
+				"x" : 1.0,
+				"y" : 1.0,
+				"z" : 1.0
+			},
+			"color" : "FFFFFF",
+			"name" : "h",
+			"physicsMaterial" : "Default",
+			"renderable" : "$MOD_DATA/Objects/Renderable/MAG/009fonts_l/h_gn.rend",
+			"rotationSet" : "Default",
+			"showInInventory" : false,
+			"uuid" : "0102359a-1068-4de7-b7a0-a41682e47008"
+		},
+		
+		{
+			"box" : 
+			{
+				"x" : 1.0,
+				"y" : 1.0,
+				"z" : 1.0
+			},
+			"color" : "FFFFFF",
+			"name" : "i",
+			"physicsMaterial" : "Default",
+			"renderable" : "$MOD_DATA/Objects/Renderable/MAG/009fonts_l/i_gn.rend",
+			"rotationSet" : "Default",
+			"showInInventory" : false,
+			"uuid" : "0102359a-1068-4de7-b7a0-a41682e47009"
+		},
+		
+		{
+			"box" : 
+			{
+				"x" : 1.0,
+				"y" : 1.0,
+				"z" : 1.0
+			},
+			"color" : "FFFFFF",
+			"name" : "j",
+			"physicsMaterial" : "Default",
+			"renderable" : "$MOD_DATA/Objects/Renderable/MAG/009fonts_l/j_gn.rend",
+			"rotationSet" : "Default",
+			"showInInventory" : false,
+			"uuid" : "0102359a-1068-4de7-b7a0-a41682e47010"
+		},
+		
+		{
+			"box" : 
+			{
+				"x" : 1.0,
+				"y" : 1.0,
+				"z" : 1.0
+			},
+			"color" : "FFFFFF",
+			"name" : "k",
+			"physicsMaterial" : "Default",
+			"renderable" : "$MOD_DATA/Objects/Renderable/MAG/009fonts_l/k_gn.rend",
+			"rotationSet" : "Default",
+			"showInInventory" : false,
+			"uuid" : "0102359a-1068-4de7-b7a0-a41682e47011"
+		},
+		
+		{
+			"box" : 
+			{
+				"x" : 1.0,
+				"y" : 1.0,
+				"z" : 1.0
+			},
+			"color" : "FFFFFF",
+			"name" : "l",
+			"physicsMaterial" : "Default",
+			"renderable" : "$MOD_DATA/Objects/Renderable/MAG/009fonts_l/l_gn.rend",
+			"rotationSet" : "Default",
+			"showInInventory" : false,
+			"uuid" : "0102359a-1068-4de7-b7a0-a41682e47012"
+		},
+		
+		{
+			"box" : 
+			{
+				"x" : 1.0,
+				"y" : 1.0,
+				"z" : 1.0
+			},
+			"color" : "FFFFFF",
+			"name" : "m",
+			"physicsMaterial" : "Default",
+			"renderable" : "$MOD_DATA/Objects/Renderable/MAG/009fonts_l/m_gn.rend",
+			"rotationSet" : "Default",
+			"showInInventory" : false,
+			"uuid" : "0102359a-1068-4de7-b7a0-a41682e47013"
+		},
+		
+		{
+			"box" : 
+			{
+				"x" : 1.0,
+				"y" : 1.0,
+				"z" : 1.0
+			},
+			"color" : "FFFFFF",
+			"name" : "n",
+			"physicsMaterial" : "Default",
+			"renderable" : "$MOD_DATA/Objects/Renderable/MAG/009fonts_l/n_gn.rend",
+			"rotationSet" : "Default",
+			"showInInventory" : false,
+			"uuid" : "0102359a-1068-4de7-b7a0-a41682e47014"
+		},
+		
+		{
+			"box" : 
+			{
+				"x" : 1.0,
+				"y" : 1.0,
+				"z" : 1.0
+			},
+			"color" : "FFFFFF",
+			"name" : "o",
+			"physicsMaterial" : "Default",
+			"renderable" : "$MOD_DATA/Objects/Renderable/MAG/009fonts_l/o_gn.rend",
+			"rotationSet" : "Default",
+			"showInInventory" : false,
+			"uuid" : "0102359a-1068-4de7-b7a0-a41682e47015"
+		},
+		
+		{
+			"box" : 
+			{
+				"x" : 1.0,
+				"y" : 1.0,
+				"z" : 1.0
+			},
+			"color" : "FFFFFF",
+			"name" : "p",
+			"physicsMaterial" : "Default",
+			"renderable" : "$MOD_DATA/Objects/Renderable/MAG/009fonts_l/p_gn.rend",
+			"rotationSet" : "Default",
+			"showInInventory" : false,
+			"uuid" : "0102359a-1068-4de7-b7a0-a41682e47016"
+		},
+		
+		{
+			"box" : 
+			{
+				"x" : 1.0,
+				"y" : 1.0,
+				"z" : 1.0
+			},
+			"color" : "FFFFFF",
+			"name" : "q",
+			"physicsMaterial" : "Default",
+			"renderable" : "$MOD_DATA/Objects/Renderable/MAG/009fonts_l/q_gn.rend",
+			"rotationSet" : "Default",
+			"showInInventory" : false,
+			"uuid" : "0102359a-1068-4de7-b7a0-a41682e47017"
+		},
+		
+		{
+			"box" : 
+			{
+				"x" : 1.0,
+				"y" : 1.0,
+				"z" : 1.0
+			},
+			"color" : "FFFFFF",
+			"name" : "r",
+			"physicsMaterial" : "Default",
+			"renderable" : "$MOD_DATA/Objects/Renderable/MAG/009fonts_l/r_gn.rend",
+			"rotationSet" : "Default",
+			"showInInventory" : false,
+			"uuid" : "0102359a-1068-4de7-b7a0-a41682e47018"
+		},
+		
+		{
+			"box" : 
+			{
+				"x" : 1.0,
+				"y" : 1.0,
+				"z" : 1.0
+			},
+			"color" : "FFFFFF",
+			"name" : "s",
+			"physicsMaterial" : "Default",
+			"renderable" : "$MOD_DATA/Objects/Renderable/MAG/009fonts_l/s_gn.rend",
+			"rotationSet" : "Default",
+			"showInInventory" : false,
+			"uuid" : "0102359a-1068-4de7-b7a0-a41682e47019"
+		},
+		
+		{
+			"box" : 
+			{
+				"x" : 1.0,
+				"y" : 1.0,
+				"z" : 1.0
+			},
+			"color" : "FFFFFF",
+			"name" : "t",
+			"physicsMaterial" : "Default",
+			"renderable" : "$MOD_DATA/Objects/Renderable/MAG/009fonts_l/t_gn.rend",
+			"rotationSet" : "Default",
+			"showInInventory" : false,
+			"uuid" : "0102359a-1068-4de7-b7a0-a41682e47020"
+		},
+		
+		{
+			"box" : 
+			{
+				"x" : 1.0,
+				"y" : 1.0,
+				"z" : 1.0
+			},
+			"color" : "FFFFFF",
+			"name" : "u",
+			"physicsMaterial" : "Default",
+			"renderable" : "$MOD_DATA/Objects/Renderable/MAG/009fonts_l/u_gn.rend",
+			"rotationSet" : "Default",
+			"showInInventory" : false,
+			"uuid" : "0102359a-1068-4de7-b7a0-a41682e47021"
+		},
+		
+		{
+			"box" : 
+			{
+				"x" : 1.0,
+				"y" : 1.0,
+				"z" : 1.0
+			},
+			"color" : "FFFFFF",
+			"name" : "v",
+			"physicsMaterial" : "Default",
+			"renderable" : "$MOD_DATA/Objects/Renderable/MAG/009fonts_l/v_gn.rend",
+			"rotationSet" : "Default",
+			"showInInventory" : false,
+			"uuid" : "0102359a-1068-4de7-b7a0-a41682e47022"
+		},
+		
+		{
+			"box" : 
+			{
+				"x" : 1.0,
+				"y" : 1.0,
+				"z" : 1.0
+			},
+			"color" : "FFFFFF",
+			"name" : "w",
+			"physicsMaterial" : "Default",
+			"renderable" : "$MOD_DATA/Objects/Renderable/MAG/009fonts_l/w_gn.rend",
+			"rotationSet" : "Default",
+			"showInInventory" : false,
+			"uuid" : "0102359a-1068-4de7-b7a0-a41682e47023"
+		},
+		
+		{
+			"box" : 
+			{
+				"x" : 1.0,
+				"y" : 1.0,
+				"z" : 1.0
+			},
+			"color" : "FFFFFF",
+			"name" : "x",
+			"physicsMaterial" : "Default",
+			"renderable" : "$MOD_DATA/Objects/Renderable/MAG/009fonts_l/x_gn.rend",
+			"rotationSet" : "Default",
+			"showInInventory" : false,
+			"uuid" : "0102359a-1068-4de7-b7a0-a41682e47024"
+		},
+		
+		{
+			"box" : 
+			{
+				"x" : 1.0,
+				"y" : 1.0,
+				"z" : 1.0
+			},
+			"color" : "FFFFFF",
+			"name" : "y",
+			"physicsMaterial" : "Default",
+			"renderable" : "$MOD_DATA/Objects/Renderable/MAG/009fonts_l/y_gn.rend",
+			"rotationSet" : "Default",
+			"showInInventory" : false,
+			"uuid" : "0102359a-1068-4de7-b7a0-a41682e47025"
+		},
+		
+		{
+			"box" : 
+			{
+				"x" : 1.0,
+				"y" : 1.0,
+				"z" : 1.0
+			},
+			"color" : "FFFFFF",
+			"name" : "z",
+			"physicsMaterial" : "Default",
+			"renderable" : "$MOD_DATA/Objects/Renderable/MAG/009fonts_l/z_gn.rend",
+			"rotationSet" : "Default",
+			"showInInventory" : false,
+			"uuid" : "0102359a-1068-4de7-b7a0-a41682e47026"
+		}
+	]
+}

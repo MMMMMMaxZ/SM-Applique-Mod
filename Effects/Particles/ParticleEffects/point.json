@@ -1,0 +1,53 @@
+{
+    "system": {
+      "emitters": [
+        {
+          "ASG_map": "$CONTENT_DATA/Effects/Texture/shine.png",
+          "direction_type": "shape",
+          "duration": 1,
+          "effects": [
+            {
+              "axis": "z",
+              "base": -0.5,
+              "control_point": [
+                [
+                  0,
+                  0.5
+                ],
+                [
+                  1,
+                  -0.5
+                ]
+              ],
+              "guid": 1,
+              "max": 0.5,
+              "name": "Velocity"
+            }
+          ],
+          "emission_mode": "loop",
+          "emission_rate": 1,
+          "guid": 0,
+          "keep_local": true,
+          "material_name": "DifAsg",
+          "max_particles": 2,
+          "mesh": "$CONTENT_DATA/Effects/Mesh/point.obj",
+          "mesh_diffuse": "$CONTENT_DATA/Effects/Texture/eye.png",
+          "mesh_size": [
+            1,
+            1,
+            1
+          ],
+          "name": "point",
+          "particle": "mesh",
+          "rotation": -90,
+          "rotation_axis": [
+            1,
+            0,
+            0
+          ],
+          "time_to_live": 1,
+          "velocity": 0
+        }
+      ]
+    }
+  }

@@ -1,0 +1,68 @@
+{
+	"rotationSet":[ 
+		{
+			"name": "oneFace",
+			"prop": true,
+			"rotation": [
+				{ "south": "X", "east": "Y"  },
+				{ "south": "-Y", "east": "X" },
+				{ "south": "-X", "east": "-Y"},
+				{ "south": "Y", "east": "-X" }		 
+			]
+	},
+	{
+		"name": "HUD",
+		"prop": true,
+		"rotation": [
+			{ "south": "Z", "east": "Y"  },
+			{ "south": "Z", "east": "X" },
+			{ "south": "Z", "east": "-Y"},
+			{ "south": "Z", "east": "-X" }		 
+		]
+	},
+	{
+			"name": "locked",
+			"prop": true,
+			"rotation": [
+				{ "south": "-X", "east": "-Y"}
+			]
+	},
+	{
+			"name": "twoFace",
+			"prop": true,
+			"rotation": [
+				{ "south": "X", "east": "Y"  },
+				{ "south": "-Y", "east": "X" },
+				{ "south": "-X", "east": "-Y"},
+				{ "south": "Y", "east": "-X" },
+				
+				{ "south": "-Y", "east": "Z" },
+				{ "south": "-X", "east": "-Z"},
+				{ "south": "Y", "east": "-Z" },
+				{ "south": "X", "east": "Z"  }
+			]
+	},
+	{
+			"name": "tri_turn",
+			"prop": true,
+			"rotation": [
+				{ "south": "-Y", "east": "-Z" },
+				{ "south": "-X", "east": "-Z" },
+				{ "south": "Y", "east": "-Z" },
+				{ "south": "X", "east": "-Z" }	,
+
+				{ "south": "-Y", "east": "X" },
+				{ "south": "-X", "east": "-Y" },
+				{ "south": "Y", "east": "-X" },
+				{ "south": "X", "east": "Y" },	
+
+				{ "south": "Z", "east": "X" },
+				{ "south": "Z", "east": "-Y" },
+				{ "south": "Z", "east": "-X" },
+				{ "south": "Z", "east": "Y" }	
+			]
+	}
+
+	
+	]
+}

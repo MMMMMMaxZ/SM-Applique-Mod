@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<MyGUI type="Layout" version="3.2.0">
+    <Widget type="Widget" skin="BackgroundSequenceController" align="Default" name="BackPanel" position_real="0 0 0.3 0.3">
+        <Widget type="TextBox" skin="TextBox" name="Name" position_real="0.0 0.15 1.0 0.15">
+            <Property key="Caption" value="MAC File" />
+            <Property key="FontName" value="X_Hud_Alert" />
+            <Property key="TextAlign" value="Center" />
+            <Property key="NeedKey" value="false" />
+            <Property key="NeedMouse" value="false" />
+        </Widget>
+        <Widget type="Canvas" skin="Canvas" position_real="0.1 0.55 0.8 0.163" name="AppliqueList"/>
+        <Widget type="Button" skin="SettingsButton" position_real="0.368421 0.75 0.249123 0.2" name="OpenButton">
+            <Property key="TextAlign" value="Center"/>
+            <Property key="FontName" value="SM_Button"/>
+            <Property key="Caption" value="Open"/>
+        </Widget>
+    </Widget>
+    <CodeGeneratorSettings />
+</MyGUI>

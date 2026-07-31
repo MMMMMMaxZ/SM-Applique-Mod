@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MyGUI type="Layout" version="3.2.0">
+    <Widget type="Widget" skin="BackgroundSequenceController" position_real="0 0 0.53645833333333337 0.76851851851851849" align="Default" name="BackPanel">
+        <Widget type="TextBox" skin="TextBox" position_real="0 0.048192771084337352 1 0.057831325301204821" name="Name">
+            <Property key="Caption" value="MAC File"/>
+            <Property key="FontName" value="X_Hud_Alert"/>
+            <Property key="TextAlign" value="Center"/>
+            <Property key="NeedKey" value="false"/>
+            <Property key="NeedMouse" value="false"/>
+        </Widget>
+        <Widget type="EditBox" skin="EditBox_LiftInput" position_real="0.069902912621359226 0.13614457831325302 0.85242718446601939 0.066265060240963861" name="AppliqueName">
+            <Property key="Caption" value="Name"/>
+            <Property key="TextAlign" value="Center Top"/>
+            <Property key="FontName" value="InventoryItemTitle"/>
+        </Widget>
+        <Widget type="Canvas" skin="Canvas" position_real="0.5 0.21686746987951808 0.42233009708737862 0.062650602409638559" name="AppliqueList"/>
+        <Widget type="Button" skin="SettingsButton" position_real="0.1941747572815534 0.89759036144578308 0.13883495145631067 0.077108433734939766" name="NewButton">
+            <Property key="Caption" value="New"/>
+            <Property key="TextAlign" value="Center"/>
+            <Property key="FontName" value="SM_Button"/>
+        </Widget>
+        <Widget type="Button" skin="SettingsButton" position_real="0.043689320388349516 0.89759036144578308 0.13883495145631067 0.077108433734939766" name="OpenButton">
+            <Property key="TextAlign" value="Center"/>
+            <Property key="FontName" value="SM_Button"/>
+            <Property key="Caption" value="Open"/>
+        </Widget>
+        <Widget type="Button" skin="SettingsButton" position_real="0.77669902912621358 0.89759036144578308 0.13883495145631067 0.077108433734939766" name="SaveButton">
+            <Property key="TextAlign" value="Center"/>
+            <Property key="Caption" value="Save"/>
+            <Property key="FontName" value="SM_Button"/>
+        </Widget>
+        <Widget type="Button" skin="LogicGateButtons" position_real="0.038834951456310676 0.29518072289156627 0.1941747572815534 0.23493975903614459" name="Type1">
+            <Property key="TextAlign" value="Center"/>
+            <Property key="Caption" value="creation"/>
+            <Property key="FontName" value="HandbookFAQAnswer"/>
+            <Widget type="ImageBox" skin="ImageBox" position_real="0.14999999999999999 0.15384615384615385 0.69999999999999996 0.69230769230769229" name="TypeImg1">
+                <Property key="NeedKey" value="false"/>
+                <Property key="NeedMouse" value="false"/>
+            </Widget>
+        </Widget>
+        <Widget type="TextBox" skin="TextBox" position_real="0.25242718446601942 0.30120481927710846 0.66504854368932043 0.22289156626506024" name="TypeDes1">
+            <Property key="Caption" value="description1"/>
+            <Property key="TextAlign" value="Center"/>
+            <Property key="FontName" value="SM_Text"/>
+        </Widget>
+        <Widget type="Button" skin="LogicGateButtons" position_real="0.038834951456310676 0.54819277108433739 0.1941747572815534 0.23493975903614459" name="Type2">
+            <Property key="TextAlign" value="Center"/>
+            <Property key="Caption" value="custom aplique"/>
+            <Property key="FontName" value="HandbookFAQAnswer"/>
+            <Widget type="ImageBox" skin="ImageBox" position_real="0.14999999999999999 0.15384615384615385 0.69999999999999996 0.69230769230769229" name="TypeImg2">
+                <Property key="NeedKey" value="false"/>
+                <Property key="NeedMouse" value="false"/>
+            </Widget>
+        </Widget>
+        <Widget type="TextBox" skin="TextBox" position_real="0.25242718446601942 0.55421686746987953 0.66504854368932043 0.22289156626506024" name="TypeDes2">
+            <Property key="Caption" value="description2"/>
+            <Property key="TextAlign" value="Center"/>
+            <Property key="FontName" value="SM_Text"/>
+        </Widget>
+        <Widget type="TextBox" skin="TextBox" position_real="0.043689320388349516 0.79518072289156627 0.87378640776699024 0.066265060240963861" name="state">
+            <Property key="Caption" value="state:{ name = &quot;&quot; , type = 0}"/>
+            <Property key="TextAlign" value="Center"/>
+            <Property key="FontName" value="SM_SubHeader"/>
+        </Widget>
+    </Widget>
+    <CodeGeneratorSettings/>
+</MyGUI>

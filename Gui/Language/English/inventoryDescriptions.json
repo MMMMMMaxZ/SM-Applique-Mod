@@ -1,0 +1,453 @@
+{
+	"51da94d6-a215-4f69-b569-c45bc1557d00":
+	{
+		"title":"Max eye",
+		"description":"By MaxZ666\nFor Max Missile Launcher\nIt can trace player or heat lure" 
+	},
+	"51da94d6-a215-4f69-b569-c45bc1557d01":
+	{
+		"title":"Max Missile Core",
+		"description":"By MaxZ666\nFor Max Missile Launcher\nKeep activated" 
+	},
+	"51da94d6-a215-4f69-b569-c45bc1557d02":
+	{
+		"title":"Max Missile Launcher",
+		"description":"By MaxZ666\nlaunch missile\n#2ce6e6 light_blue #cfcfcf-input : identify #19e753Missile (Green)\n#d02525 red        #cfcfcf-input : save missile (any color)\n#0a3ee2 dark_blue  #cfcfcf-input : recycle broken missile\n#7514ed purple     #cfcfcf-input : launch timed missile (10s)\n#eeeeee white      #cfcfcf-input : switch to next target\n#222222 black      #cfcfcf-input : switch to last target\n#e2db13 generateMissile    #cfcfcf-input : #df6100launch missile!\n#7514edpurple can show CD" 
+	},
+	"51da94d6-a215-4f69-b569-c45bc1557d03":
+	{
+		"title":"Max logic gate (the Legend's weight)",
+		"description":"By MaxZ666\nFor Max Missile Launcher\n#df6100<!> please put on lift when modifying" 
+	},
+	"51da94d6-a215-4f69-b569-c45bc1557d04":
+	{
+		"title":"Max logic gate (origin weight)",
+		"description":"By MaxZ666\nFor Max Missile Launcher\n#df6100<!> please put on lift when modifying" 
+	},
+	"51da94d6-a215-4f69-b569-c45bc1557d05":
+	{
+		"title":"Max Thruster",
+		"description":"By MaxZ666\nFor Max Missile Launcher\n#df6100<!> please put on lift when modifying" 
+	},
+	"51da94d6-a215-4f69-b569-c45bc1557d06":
+	{
+		"title":"Max Timer",
+		"description":"By MaxZ666\nFor Max Missile Launcher\n#df6100<!> please put on lift when modifying" 
+	},
+	"51da94d6-a215-4f69-b569-c45bc1557d07":
+	{
+		"title":"Max Piston Controller",
+		"description":"By MaxZ666\ncontrol piston by power\n(true amount * power)" 
+	},
+	"51da94d6-a215-4f69-b569-c45bc1557d08":
+	{
+		"title":"Max small-HUD",
+		"description":"By MaxZ666\nHUD!\npress E to change scale\nHUD's color changed by its shape's color\n" 
+	},
+	"51da94d6-a215-4f69-b569-c45bc1557d09":
+	{
+		"title":"Max Big-HUD -- deleted",
+		"description":"By MaxZ666\ndeleted\n" 
+	},
+	"51da94d6-a215-4f69-b569-c45bc1557d0a":
+	{
+		"title":"Max Shifter - Null",
+		"description":"By MaxZ666\nNull\n" 
+	},
+	"51da94d6-a215-4f69-b569-c45bc1557d0b":
+	{
+		"title":"Max Cannon - Null",
+		"description":"By MaxZ666\nNull\n" 
+	},
+	"51da94d6-a215-4f69-b569-c45bc1557d0c":
+	{
+		"title":"Max Custom Applique Device",
+		"description":"#fcfcfcBy MaxZ666\nCustom Applique Generator！\n the second part is The Tutorial of it!!\nVideo tutorial: \nhttps://www.bilibili.com/ \n video/BV14M4m127RG/ \n\nSync every 10s\nIn case of the lagging\nIt only sync one device every 10s" 
+	},
+	"51da94d6-a215-4f69-b569-d45bc1557d0c":
+	{
+		"title":"Max Custom Applique Device (invisible)",
+		"description":"#fcfcfcBy MaxZ666\nCustom Applique Generator！\n the second part is The Tutorial of it!!\nVideo tutorial: \nhttps://www.bilibili.com/ \n video/BV14M4m127RG/ \n\nSync every 10s\nIn case of the lagging\nIt only sync one device every 10s" 
+	},
+	"51da94d6-a215-4f69-b569-c45bc1557d0d":
+	{
+		"title":"Max Piston Controller",
+		"description":"By MaxZ666\n#df6100Caution!!\n#fcfcfccontrol piston by power\n(sum of inputs' power)\n" 
+	},
+	"51da94d6-a215-4f69-b569-c45bc1557d0e":
+	{
+		"title":"Max Custom Applique Device Tutorial!!",
+		"description":"By MaxZ666\n#fcfcfcthe TUTORIAL of Custom Applique Device!!!\n" 
+	},
+	"51da94d6-a215-4f69-b569-c45bc1557d0f":
+	{
+		"title":"Max Custom Applique BackUp",
+		"description":"By MaxZ666\n#fcfcfcthe backup of Host's custom appliques\nsave this as blueprint\n" 
+	},
+	"51da94d6-a215-4f69-b569-c45bc1557d11":
+	{
+		"title":"Max advanced camera",
+		"description":"By MaxZ666\n#fcfcfcadvanced camera" 
+	},
+	"1cd32f21-5fe1-4bae-865b-c0c5440253e5":
+	{
+		"title":"Max MAG tool",
+		"description":"By MaxZ666\n#fcfcfcscan player's inputs\nread its instructions in chat message\n" 
+	},
+	"1cd32f21-5fe1-4bae-865b-c0c5440253e6":
+	{
+		"title":"Max MAG color reader",
+		"description":"By MaxZ666\n#fcfcfcscan color\nread its instructions in chat message\n" 
+	},
+	"1cd32f21-5fe1-4bae-865b-c0c5440253e7":
+	{
+		"title":"Max Custom Applique Device Tutorial!!",
+		"description":"By MaxZ666\n#fcfcfcthe TUTORIAL of Custom Applique Device!!!\n" 
+	},
+	"1cd32f21-5fe1-4bae-865b-c0c5440253e8":
+	{
+		"title":"Max MAG selector",
+		"description":"By MaxZ666\n#fcfcfcselect appliques\n" 
+	},
+	"1cd32f21-5fe1-4bae-865b-c0c5440253e9":
+	{
+		"title":"Max MAG editor",
+		"description":"By MaxZ666\n#fcfcfcedit selected appliques\n" 
+	},
+	"1cd32f21-5fe1-4bae-865b-c0c5440253ea":
+	{
+		"title":"Max MAG mirror",
+		"description":"By MaxZ666\n#fcfcfcmirror applique\n" 
+	},
+	"1cd32f21-5fe1-4bae-865b-c0c5440253eb":
+	{
+		"title":"Max MAG mover",
+		"description":"By MaxZ666\n#fcfcfcmove and rotate applique\n" 
+	},
+	"1cd32f21-5fe1-4bae-865b-c0c5440253ec":
+	{
+		"title":"Max MAG convertor",
+		"description":"By MaxZ666\n#fcfcfcconvert part into applique\n" 
+	},
+	"1cd32f21-5fe1-4bae-865b-c0c5440253ed":
+	{
+		"title":"Max MAG step controller",
+		"description":"By MaxZ666\n#fcfcfccontrol steps and appliques\n" 
+	},
+	"a6d16258-887c-44aa-8e8c-5609b83e29f9":
+	{
+		"title":"Description Object",
+		"description":"Mod test" 
+	},
+	"a6d16258-887c-44aa-8e8c-5609b83e29f8":
+	{
+		"title":"AlertText displayer",
+		"description":"Mod test" 
+	},
+	"a6d16258-887c-44aa-8e8c-5609b83e2911":
+	{
+		"title":"copyright box",
+		"description":"Mod test" 
+	},
+	"a6d16258-887c-44aa-8e8c-5609b83e2912":
+	{
+		"title":"Sword",
+		"description":"Mod test" 
+	},
+	"a6d16258-887c-44aa-8e8c-5609b83e2812":
+	{
+		"title":"giant sword",
+		"description":"By MaxZ666\nMod test" 
+	},
+	"a6d16258-887c-44aa-8e8c-5609b83e2913":
+	{
+		"title":"Missile disturb system",
+		"description":"range to 500 blocks\nwork for 6 seconds\n cold time for 6 seconds\n3 is max\nBy MaxZ666\nmod test" 
+	},
+	"a6d16258-887c-44aa-8e8c-5609b83e2914":
+	{
+		"title":"Giant missile disturb system",
+		"description":"range to 1666 blocks\nwork for 20 seconds\n cold time for 20 seconds\n2 is max\nBy MaxZ666\nmod test" 
+	},
+	"d1705d31-463a-45e2-a80e-3a0d7622adbc":
+	{
+		"title":"OneFaceBlock01",
+		"description":"Mod test" 
+	},
+	"2bb7c218-de97-44ff-b431-dc19efeb39aa":
+	{
+		"title":"OneFaceTri 01",
+		"description":"Mod test" 
+	},
+	"e732f3e9-a0aa-4ba7-9e78-a619be5653ec":
+	{
+		"title":"OneFaceTri 01_Turn",
+		"description":"Mod test" 
+	},
+	"e732f3e9-a0aa-4ba7-9e78-a619be5663ec":
+	{
+		"title":"OneFaceTri 01_OTurn",
+		"description":"Mod test" 
+	},
+	"56b294d3-ff85-4dd0-8857-87ef2e22bc4a":
+	{
+		"title":"OneFaceTri 02",
+		"description":"Mod test" 
+	},
+	"ec19e531-a95c-4e1b-bfa0-54bda759f9c6":
+	{
+		"title":"OneFaceTri 02_Turn",
+		"description":"Mod test" 
+	},
+	"ec19e531-a95c-4e1b-bfa0-54bda75909c6":
+	{
+		"title":"OneFaceTri 02_OTurn",
+		"description":"Mod test" 
+	},
+	"ec19e531-a95c-4e1b-bfa0-54bda759f901":
+	{
+		"title":"OneFaceTri 03",
+		"description":"Mod test" 
+	},
+	"ec19e531-a95c-4e1b-bfa0-54bda759f902":
+	{
+		"title":"OneFaceTri 03_Turn",
+		"description":"Mod test" 
+	},
+	"ec19e531-a95c-4e1b-bfa0-54bda7590902":
+	{
+		"title":"OneFaceTri 03_OTurn",
+		"description":"Mod test" 
+	},
+	"ec19e531-a95c-4e1b-bfa0-54bda759f903":
+	{
+		"title":"OneFaceTri 04",
+		"description":"Mod test" 
+	},
+	"ec19e531-a95c-4e1b-bfa0-54bda759f904":
+	{
+		"title":"OneFaceTri 04_Turn",
+		"description":"Mod test" 
+	},
+	"ec19e531-a95c-4e1b-bfa0-54bda7590904":
+	{
+		"title":"OneFaceTri 04_OTurn",
+		"description":"Mod test" 
+	},
+	"ec19e531-a95c-4e1b-bfa0-54bda759f905":
+	{
+		"title":"OneFaceTri 05",
+		"description":"Mod test" 
+	},
+	"ec19e531-a95c-4e1b-bfa0-54bda759f906":
+	{
+		"title":"OneFaceTri 05_Turn",
+		"description":"Mod test" 
+	},
+	"ec19e531-a95c-4e1b-bfa0-54bda7590906":
+	{
+		"title":"OneFaceTri 05_OTurn",
+		"description":"Mod test" 
+	},
+	
+	
+
+	"4909afe9-f362-45b5-a14e-835ebeb14dac":
+	{
+		"title":"?",
+		"description":"By MaxZ666\n" 
+	},
+	
+	
+	
+	"92ed5119-06be-46bc-8d5e-ae50f928c688":
+	{
+		"title":"MINI LIFT!!!",
+		"description":"-_-" 
+	},
+	"1e5952f9-04c5-4d90-9d37-dd15f5d8464b":
+	{
+		"title":"Max's LOGO 01",
+		"description":"-_-" 
+	},
+	"1e5952f9-04c5-4d90-9d37-dd15f5d8464c":
+	{
+		"title":"GEIER--1*1",
+		"description":"#ff8da2Trex\n" 
+	},
+	"1e5952f9-04c5-4d90-9d37-dd15f5d8464d":
+	{
+		"title":"GEIER--2*1",
+		"description":"#ff8da2Trex\n" 
+	},
+	"1e5952f9-04c5-4d90-9d37-dd15f5d8464e":
+	{
+		"title":"GEIER--2*2",
+		"description":"#ff8da2Trex\n" 
+	},
+	"1e5952f9-04c5-4d90-9d37-dd15f5d8464f":
+	{
+		"title":"Ms.JiaRan--2*2",
+		"description":"#ff8da2Trex\n" 
+	},
+	"1e5952f9-04c5-4d90-9d37-dd15f5d84640":
+	{
+		"title":"A-soulFlag--6*6",
+		"description":"#ff8da2Trex\n" 
+	},
+	"1e5952f9-04c5-4d90-9d37-dd15f5d84641":
+	{
+		"title":"A-soulFlag--6*6",
+		"description":"#ff8da2Trex\n" 
+	},
+	"1e5952f9-04c5-4d90-9d37-dd15f5d84642":
+	{
+		"title":"A-soulFlag--6*6",
+		"description":"#ff8da2Trex\n" 
+	},
+	"1e5952f9-04c5-4d90-9d37-dd15f5d84643":
+	{
+		"title":"A-soulFlag--6*6",
+		"description":"#ff8da2Trex\n" 
+	},
+	"1e5952f9-04c5-4d90-9d37-dd15f5d84644":
+	{
+		"title":"A-soulFlag--6*6",
+		"description":"#ff8da2Trex\n" 
+	},
+	"1e5952f9-04c5-4d90-9d37-dd15f5d84645":
+	{
+		"title":"A-soulFlag--6*6",
+		"description":"#ff8da2Trex\n" 
+	},
+	"1e5952f9-04c5-4d90-9d37-dd15f5d84646":
+	{
+		"title":"A-soulFlag--6*6",
+		"description":"#ff8da2Trex\n" 
+	},
+	"1e5952f9-04c5-4d90-9d37-dd15f5d84647":
+	{
+		"title":"A-soulFlag--6*6",
+		"description":"#ff8da2Trex\n" 
+	},
+	"1e5952f9-04c5-4d90-9d37-dd15f5d84648":
+	{
+		"title":"A-soulFlag--6*6",
+		"description":"#ff8da2Trex\n" 
+	},
+	"1e5952f9-04c5-4d90-9d37-dd15f5d84649":
+	{
+		"title":"A-soulFlag--6*6",
+		"description":"#ff8da2Trex\n" 
+	},
+	"1e5952f9-04c5-4d90-9d37-dd15f5d84650":
+	{
+		"title":"A-soulFlag--3*5*1",
+		"description":"#ff8da2Trex\n" 
+	},
+	"1e5952f9-04c5-4d90-9d37-dd15f5d84651":
+	{
+		"title":"A-soulFlag--2*5",
+		"description":"#ff8da2Trex\n" 
+	},
+	"1e5952f9-04c5-4d90-9d37-dd15f5d84652":
+	{
+		"title":"A-soulFlag--2*3",
+		"description":"#ff8da2Trex\n" 
+	},
+	"1e5952f9-04c5-4d90-9d37-dd15f5d84653":
+	{
+		"title":"A-soulFlag--2*3",
+		"description":"#ff8da2Trex\n" 
+	},
+	"1e5952f9-04c5-4d90-9d37-dd15f5d84654":
+	{
+		"title":"Missing--2*2*4",
+		"description":"#f1f1f1Green Shadow\n" 
+	},
+	"1e5952f9-04c5-4d90-9d37-dd15f5d84655":
+	{
+		"title":"ANVIL AEROSPACE--4_3",
+		"description":"#f1f1f1Green Shadow\n" 
+	},
+	"1e5952f9-04c5-4d90-9d37-dd15f5d84656":
+	{
+		"title":"h1s--3_9",
+		"description":"#f1f1f1HuanYing\n" 
+	},
+	"1e5952f9-04c5-4d90-9d37-dd15f5d84657":
+	{
+		"title":"R--2_8",
+		"description":"#f1f1f1HuanYing\n" 
+	},
+	"1e5952f9-04c5-4d90-9d37-dd15f5d84658":
+	{
+		"title":"Hatsune_miku_logo_v3--2_8",
+		"description":"#f1f1f1HuanYing\n" 
+	},
+	"1e5952f9-04c5-4d90-9d37-dd15f5d84659":
+	{
+		"title":"Danger1--1_1",
+		"description":"#f1f1f1AD-Karl\n" 
+	},
+	"1e5952f9-04c5-4d90-9d37-dd15f5d8465a":
+	{
+		"title":"Snake--1_1",
+		"description":"#f1f1f1Trex\n" 
+	},
+	"1e5952f9-04c5-4d90-9d37-dd15f5d8465b":
+	{
+		"title":"Spear--1_1",
+		"description":"#f1f1f1Trex\n" 
+	},
+	"1e5952f9-04c5-4d90-9d37-dd15f5d8465c":
+	{
+		"title":"HY--1_2",
+		"description":"#f1f1f1HY\n" 
+	},
+	"1e5952f9-04c5-4d90-9d37-dd15f5d8465d":
+	{
+		"title":"HY--2_4",
+		"description":"#f1f1f1HY\n" 
+	},
+	"1e5952f9-04c5-4d90-9d37-dd15f5d8465e":
+	{
+		"title":"Atmosphere_Mark--1_1",
+		"description":"#f1f1f1Public\n" 
+	},
+	"1e5952f9-04c5-4d90-9d37-dd15f5d8465f":
+	{
+		"title":"Ground_Mark--1_1",
+		"description":"#f1f1f1Public\n" 
+	},
+	"1e5952f9-04c5-4d90-9d37-dd15f5d84660":
+	{
+		"title":"Space_Mark--1_1",
+		"description":"#f1f1f1Public\n" 
+	},
+	"1e5952f9-04c5-4d90-9d37-dd15f5d84661":
+	{
+		"title":"DeepWater_Mark--1_1",
+		"description":"#f1f1f1Public\n" 
+	},
+	"1e5952f9-04c5-4d90-9d37-dd15f5d84662":
+	{
+		"title":"armor lock--1_3",
+		"description":"#f1f1f1Public\n" 
+	},
+	"1e5952f9-04c5-4d90-9d37-dd15f5d84663":
+	{
+		"title":"caution--1_2",
+		"description":"#f1f1f1Public\n" 
+	},
+	"1e5952f9-04c5-4d90-9d37-dd15f5d84664":
+	{
+		"title":"manual release--1_1",
+		"description":"#f1f1f1Public\n" 
+	},
+	"1e5952f9-04c5-4d90-9d37-dd15f5d84665":
+	{
+		"title":"warning--1_3",
+		"description":"#f1f1f1Public\n" 
+	}
+}

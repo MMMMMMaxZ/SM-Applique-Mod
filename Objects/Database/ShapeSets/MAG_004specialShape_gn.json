@@ -1,0 +1,214 @@
+
+{
+	"partList" : 
+	[
+		
+		{
+			"box" : 
+			{
+				"x" : 1.0,
+				"y" : 1.0,
+				"z" : 1.0
+			},
+			"color" : "FFFFFF",
+			"name" : "6circle",
+			"physicsMaterial" : "Default",
+			"renderable" : "$MOD_DATA/Objects/Renderable/MAG/004specialShape/6circle_gn.rend",
+			"rotationSet" : "Default",
+			"showInInventory" : false,
+			"uuid" : "0052359a-1068-4de7-b7a0-a41682e47001"
+		},
+		
+		{
+			"box" : 
+			{
+				"x" : 1.0,
+				"y" : 1.0,
+				"z" : 1.0
+			},
+			"color" : "FFFFFF",
+			"name" : "antiCircleSquare",
+			"physicsMaterial" : "Default",
+			"renderable" : "$MOD_DATA/Objects/Renderable/MAG/004specialShape/antiCircleSquare_gn.rend",
+			"rotationSet" : "Default",
+			"showInInventory" : false,
+			"uuid" : "0052359a-1068-4de7-b7a0-a41682e47002"
+		},
+		
+		{
+			"box" : 
+			{
+				"x" : 1.0,
+				"y" : 1.0,
+				"z" : 1.0
+			},
+			"color" : "FFFFFF",
+			"name" : "circleSquare",
+			"physicsMaterial" : "Default",
+			"renderable" : "$MOD_DATA/Objects/Renderable/MAG/004specialShape/circleSquare_gn.rend",
+			"rotationSet" : "Default",
+			"showInInventory" : false,
+			"uuid" : "0052359a-1068-4de7-b7a0-a41682e47003"
+		},
+		
+		{
+			"box" : 
+			{
+				"x" : 1.0,
+				"y" : 1.0,
+				"z" : 1.0
+			},
+			"color" : "FFFFFF",
+			"name" : "compass",
+			"physicsMaterial" : "Default",
+			"renderable" : "$MOD_DATA/Objects/Renderable/MAG/004specialShape/compass_gn.rend",
+			"rotationSet" : "Default",
+			"showInInventory" : false,
+			"uuid" : "0052359a-1068-4de7-b7a0-a41682e47004"
+		},
+		
+		{
+			"box" : 
+			{
+				"x" : 1.0,
+				"y" : 1.0,
+				"z" : 1.0
+			},
+			"color" : "FFFFFF",
+			"name" : "compassPart",
+			"physicsMaterial" : "Default",
+			"renderable" : "$MOD_DATA/Objects/Renderable/MAG/004specialShape/compassPart_gn.rend",
+			"rotationSet" : "Default",
+			"showInInventory" : false,
+			"uuid" : "0052359a-1068-4de7-b7a0-a41682e47005"
+		},
+		
+		{
+			"box" : 
+			{
+				"x" : 1.0,
+				"y" : 1.0,
+				"z" : 1.0
+			},
+			"color" : "FFFFFF",
+			"name" : "diamond",
+			"physicsMaterial" : "Default",
+			"renderable" : "$MOD_DATA/Objects/Renderable/MAG/004specialShape/diamond_gn.rend",
+			"rotationSet" : "Default",
+			"showInInventory" : false,
+			"uuid" : "0052359a-1068-4de7-b7a0-a41682e47006"
+		},
+		
+		{
+			"box" : 
+			{
+				"x" : 1.0,
+				"y" : 1.0,
+				"z" : 1.0
+			},
+			"color" : "FFFFFF",
+			"name" : "nuclear",
+			"physicsMaterial" : "Default",
+			"renderable" : "$MOD_DATA/Objects/Renderable/MAG/004specialShape/nuclear_gn.rend",
+			"rotationSet" : "Default",
+			"showInInventory" : false,
+			"uuid" : "0052359a-1068-4de7-b7a0-a41682e47007"
+		},
+		
+		{
+			"box" : 
+			{
+				"x" : 1.0,
+				"y" : 1.0,
+				"z" : 1.0
+			},
+			"color" : "FFFFFF",
+			"name" : "pill",
+			"physicsMaterial" : "Default",
+			"renderable" : "$MOD_DATA/Objects/Renderable/MAG/004specialShape/pill_gn.rend",
+			"rotationSet" : "Default",
+			"showInInventory" : false,
+			"uuid" : "0052359a-1068-4de7-b7a0-a41682e47008"
+		},
+		
+		{
+			"box" : 
+			{
+				"x" : 1.0,
+				"y" : 1.0,
+				"z" : 1.0
+			},
+			"color" : "FFFFFF",
+			"name" : "police",
+			"physicsMaterial" : "Default",
+			"renderable" : "$MOD_DATA/Objects/Renderable/MAG/004specialShape/police_gn.rend",
+			"rotationSet" : "Default",
+			"showInInventory" : false,
+			"uuid" : "0052359a-1068-4de7-b7a0-a41682e47009"
+		},
+		
+		{
+			"box" : 
+			{
+				"x" : 1.0,
+				"y" : 1.0,
+				"z" : 1.0
+			},
+			"color" : "FFFFFF",
+			"name" : "policeWeirdVersion",
+			"physicsMaterial" : "Default",
+			"renderable" : "$MOD_DATA/Objects/Renderable/MAG/004specialShape/policeWeirdVersion_gn.rend",
+			"rotationSet" : "Default",
+			"showInInventory" : false,
+			"uuid" : "0052359a-1068-4de7-b7a0-a41682e47010"
+		},
+		
+		{
+			"box" : 
+			{
+				"x" : 1.0,
+				"y" : 1.0,
+				"z" : 1.0
+			},
+			"color" : "FFFFFF",
+			"name" : "reuleauxTriangle",
+			"physicsMaterial" : "Default",
+			"renderable" : "$MOD_DATA/Objects/Renderable/MAG/004specialShape/reuleauxTriangle_gn.rend",
+			"rotationSet" : "Default",
+			"showInInventory" : false,
+			"uuid" : "0052359a-1068-4de7-b7a0-a41682e47011"
+		},
+		
+		{
+			"box" : 
+			{
+				"x" : 1.0,
+				"y" : 1.0,
+				"z" : 1.0
+			},
+			"color" : "FFFFFF",
+			"name" : "reuleauxTrianglePart",
+			"physicsMaterial" : "Default",
+			"renderable" : "$MOD_DATA/Objects/Renderable/MAG/004specialShape/reuleauxTrianglePart_gn.rend",
+			"rotationSet" : "Default",
+			"showInInventory" : false,
+			"uuid" : "0052359a-1068-4de7-b7a0-a41682e47012"
+		},
+		
+		{
+			"box" : 
+			{
+				"x" : 1.0,
+				"y" : 1.0,
+				"z" : 1.0
+			},
+			"color" : "FFFFFF",
+			"name" : "shield",
+			"physicsMaterial" : "Default",
+			"renderable" : "$MOD_DATA/Objects/Renderable/MAG/004specialShape/shield_gn.rend",
+			"rotationSet" : "Default",
+			"showInInventory" : false,
+			"uuid" : "0052359a-1068-4de7-b7a0-a41682e47013"
+		}
+	]
+}

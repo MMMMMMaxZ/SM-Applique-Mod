@@ -1,0 +1,187 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MyGUI type="Layout" version="3.2.0">
+    <Widget type="Widget" skin="" position_real="0 0.15740740740740741 0.5 0.68518518518518523" align="Left VCenter" name="BackPanel">
+        <Property key="NeedKey" value="false"/>
+        <Property key="NeedMouse" value="true"/>
+        <Property key="InheritsAlpha" value="false"/>
+        <Widget type="Widget" skin="BackgroundInteractableNarrow" position_real="0 0.060810810810810814 1 0.71621621621621623" name="RightPanel">
+            <Widget type="Window" skin="PanelEmpty" position_real="0.55208333333333337 0.19811320754716982 0.041666666666666664 0.28301886792452829" name="ColorTypeSlider"/>
+            <Widget type="Button" skin="BeaconIconColorBorder" position_real="0.051041666666666666 0.20566037735849058 0.078125 0.13207547169811321" name="colorB1">
+                <Widget type="ImageBox" skin="ImageBox" position_real="0.093333333333333338 0.10000000000000001 0.80000000000000004 0.80000000000000004" name="emptyColorA1">
+                    <Property key="ImageResource" value="BeaconIconMap"/>
+                    <Property key="ImageGroup" value="BeaconIconMap"/>
+                    <Property key="ImageName" value="17"/>
+                    <Property key="NeedMouse" value="false"/>
+                    <Property key="NeedKey" value="false"/>
+                </Widget>
+            </Widget>
+            <Widget type="Button" skin="MenuButton" position_real="0.046875 0.35849056603773582 0.083333333333333329 0.060377358490566038" name="readColorB1">
+                <Property key="Caption" value="Read"/>
+                <Property key="TextAlign" value="Center"/>
+                <Property key="FontName" value="SM_ButtonSmall"/>
+            </Widget>
+            <Widget type="Button" skin="BeaconIconColorBorder" position_real="0.15104166666666666 0.20566037735849058 0.078125 0.13207547169811321" name="colorB2">
+                <Widget type="ImageBox" skin="ImageBox" position_real="0.093333333333333338 0.10000000000000001 0.80000000000000004 0.80000000000000004" name="emptyColorA2">
+                    <Property key="ImageResource" value="BeaconIconMap"/>
+                    <Property key="ImageGroup" value="BeaconIconMap"/>
+                    <Property key="ImageName" value="17"/>
+                    <Property key="NeedMouse" value="false"/>
+                    <Property key="NeedKey" value="false"/>
+                </Widget>
+            </Widget>
+            <Widget type="Button" skin="MenuButton" position_real="0.14583333333333334 0.35849056603773582 0.083333333333333329 0.060377358490566038" name="readColorB2">
+                <Property key="Caption" value="Read"/>
+                <Property key="TextAlign" value="Center"/>
+                <Property key="FontName" value="SM_ButtonSmall"/>
+            </Widget>
+            <Widget type="Button" skin="BeaconIconColorBorder" position_real="0.25104166666666666 0.20566037735849058 0.078125 0.13207547169811321" name="colorB3">
+                <Widget type="ImageBox" skin="ImageBox" position_real="0.093333333333333338 0.10000000000000001 0.80000000000000004 0.80000000000000004" name="emptyColorA3">
+                    <Property key="ImageResource" value="BeaconIconMap"/>
+                    <Property key="ImageGroup" value="BeaconIconMap"/>
+                    <Property key="ImageName" value="17"/>
+                    <Property key="NeedMouse" value="false"/>
+                    <Property key="NeedKey" value="false"/>
+                </Widget>
+            </Widget>
+            <Widget type="Button" skin="MenuButton" position_real="0.25 0.35849056603773582 0.083333333333333329 0.060377358490566038" name="readColorB3">
+                <Property key="Caption" value="Read"/>
+                <Property key="TextAlign" value="Center"/>
+                <Property key="FontName" value="SM_ButtonSmall"/>
+            </Widget>
+            <Widget type="Button" skin="BeaconIconColorBorder" position_real="0.35104166666666664 0.20566037735849058 0.078125 0.13207547169811321" name="colorB4">
+                <Widget type="ImageBox" skin="ImageBox" position_real="0.093333333333333338 0.10000000000000001 0.80000000000000004 0.80000000000000004" name="emptyColorA4">
+                    <Property key="ImageResource" value="BeaconIconMap"/>
+                    <Property key="ImageGroup" value="BeaconIconMap"/>
+                    <Property key="ImageName" value="17"/>
+                    <Property key="NeedMouse" value="false"/>
+                    <Property key="NeedKey" value="false"/>
+                </Widget>
+            </Widget>
+            <Widget type="Button" skin="MenuButton" position_real="0.34895833333333331 0.35849056603773582 0.083333333333333329 0.060377358490566038" name="readColorB4">
+                <Property key="Caption" value="Read"/>
+                <Property key="TextAlign" value="Center"/>
+                <Property key="FontName" value="SM_ButtonSmall"/>
+            </Widget>
+            <Widget type="Button" skin="BeaconIconColorBorder" position_real="0.45104166666666667 0.20566037735849058 0.078125 0.13207547169811321" name="colorB5">
+                <Widget type="ImageBox" skin="ImageBox" position_real="0.093333333333333338 0.10000000000000001 0.80000000000000004 0.80000000000000004" name="emptyColorA5">
+                    <Property key="ImageResource" value="BeaconIconMap"/>
+                    <Property key="ImageGroup" value="BeaconIconMap"/>
+                    <Property key="ImageName" value="17"/>
+                    <Property key="NeedMouse" value="false"/>
+                    <Property key="NeedKey" value="false"/>
+                </Widget>
+            </Widget>
+            <Widget type="Button" skin="MenuButton" position_real="0.44791666666666669 0.35849056603773582 0.083333333333333329 0.060377358490566038" name="readColorB5">
+                <Property key="Caption" value="Read"/>
+                <Property key="TextAlign" value="Center"/>
+                <Property key="FontName" value="SM_ButtonSmall"/>
+            </Widget>
+            <Widget type="Button" skin="BeaconIconColorBorder" position_real="0.051041666666666666 0.50566037735849056 0.078125 0.13207547169811321" name="colorB6">
+                <Widget type="ImageBox" skin="ImageBox" position_real="0.093333333333333338 0.10000000000000001 0.80000000000000004 0.80000000000000004" name="emptyColorA6">
+                    <Property key="ImageResource" value="BeaconIconMap"/>
+                    <Property key="ImageGroup" value="BeaconIconMap"/>
+                    <Property key="ImageName" value="17"/>
+                    <Property key="NeedMouse" value="false"/>
+                    <Property key="NeedKey" value="false"/>
+                </Widget>
+            </Widget>
+            <Widget type="Button" skin="MenuButton" position_real="0.046875 0.65094339622641506 0.083333333333333329 0.060377358490566038" name="readColorB6">
+                <Property key="Caption" value="Read"/>
+                <Property key="TextAlign" value="Center"/>
+                <Property key="FontName" value="SM_ButtonSmall"/>
+            </Widget>
+            <Widget type="Button" skin="BeaconIconColorBorder" position_real="0.15104166666666666 0.50566037735849056 0.078125 0.13207547169811321" name="colorB7">
+                <Widget type="ImageBox" skin="ImageBox" position_real="0.093333333333333338 0.10000000000000001 0.80000000000000004 0.80000000000000004" name="emptyColorA7">
+                    <Property key="ImageResource" value="BeaconIconMap"/>
+                    <Property key="ImageGroup" value="BeaconIconMap"/>
+                    <Property key="ImageName" value="17"/>
+                    <Property key="NeedMouse" value="false"/>
+                    <Property key="NeedKey" value="false"/>
+                </Widget>
+            </Widget>
+            <Widget type="Button" skin="MenuButton" position_real="0.14583333333333334 0.65094339622641506 0.083333333333333329 0.060377358490566038" name="readColorB7">
+                <Property key="Caption" value="Read"/>
+                <Property key="TextAlign" value="Center"/>
+                <Property key="FontName" value="SM_ButtonSmall"/>
+            </Widget>
+            <Widget type="Button" skin="BeaconIconColorBorder" position_real="0.25104166666666666 0.50566037735849056 0.078125 0.13207547169811321" name="colorB8">
+                <Widget type="ImageBox" skin="ImageBox" position_real="0.093333333333333338 0.10000000000000001 0.80000000000000004 0.80000000000000004" name="emptyColorA8">
+                    <Property key="ImageResource" value="BeaconIconMap"/>
+                    <Property key="ImageGroup" value="BeaconIconMap"/>
+                    <Property key="ImageName" value="17"/>
+                    <Property key="NeedMouse" value="false"/>
+                    <Property key="NeedKey" value="false"/>
+                </Widget>
+            </Widget>
+            <Widget type="Button" skin="MenuButton" position_real="0.25 0.65094339622641506 0.083333333333333329 0.060377358490566038" name="readColorB8">
+                <Property key="Caption" value="Read"/>
+                <Property key="TextAlign" value="Center"/>
+                <Property key="FontName" value="SM_ButtonSmall"/>
+            </Widget>
+            <Widget type="Button" skin="BeaconIconColorBorder" position_real="0.35104166666666664 0.50566037735849056 0.078125 0.13207547169811321" name="colorB9">
+                <Widget type="ImageBox" skin="ImageBox" position_real="0.093333333333333338 0.10000000000000001 0.80000000000000004 0.80000000000000004" name="emptyColorA9">
+                    <Property key="ImageResource" value="BeaconIconMap"/>
+                    <Property key="ImageGroup" value="BeaconIconMap"/>
+                    <Property key="ImageName" value="17"/>
+                    <Property key="NeedMouse" value="false"/>
+                    <Property key="NeedKey" value="false"/>
+                </Widget>
+            </Widget>
+            <Widget type="Button" skin="MenuButton" position_real="0.34895833333333331 0.65094339622641506 0.083333333333333329 0.060377358490566038" name="readColorB9">
+                <Property key="Caption" value="Read"/>
+                <Property key="TextAlign" value="Center"/>
+                <Property key="FontName" value="SM_ButtonSmall"/>
+            </Widget>
+            <Widget type="Button" skin="BeaconIconColorBorder" position_real="0.45104166666666667 0.50566037735849056 0.078125 0.13207547169811321" name="colorB10">
+                <Widget type="ImageBox" skin="ImageBox" position_real="0.093333333333333338 0.10000000000000001 0.80000000000000004 0.80000000000000004" name="emptyColorA10">
+                    <Property key="ImageResource" value="BeaconIconMap"/>
+                    <Property key="ImageGroup" value="BeaconIconMap"/>
+                    <Property key="ImageName" value="17"/>
+                    <Property key="NeedMouse" value="false"/>
+                    <Property key="NeedKey" value="false"/>
+                </Widget>
+            </Widget>
+            <Widget type="Button" skin="MenuButton" position_real="0.44791666666666669 0.65094339622641506 0.083333333333333329 0.060377358490566038" name="readColorB10">
+                <Property key="Caption" value="Read"/>
+                <Property key="TextAlign" value="Center"/>
+                <Property key="FontName" value="SM_ButtonSmall"/>
+            </Widget>
+            <Widget type="Button" skin="BeaconIconColorBorder" position_real="0.71354166666666663 0.25471698113207547 0.1875 0.31132075471698112" name="colorEditB">
+                <Widget type="ImageBox" skin="ImageBox" position_real="0.10000000000000001 0.09696969696969697 0.80000000000000004 0.80000000000000004" name="emptyEditA">
+                    <Property key="ImageResource" value="BeaconIconMap"/>
+                    <Property key="ImageGroup" value="BeaconIconMap"/>
+                    <Property key="ImageName" value="17"/>
+                    <Property key="NeedMouse" value="false"/>
+                    <Property key="NeedKey" value="false"/>
+                </Widget>
+            </Widget>
+            <Widget type="Window" skin="PanelEmpty" position_real="0.671875 0.60377358490566035 0.26041666666666669 0.10377358490566038" name="Rslider"/>
+            <Widget type="Window" skin="PanelEmpty" position_real="0.671875 0.70377358490566033 0.26041666666666669 0.10377358490566038" name="Gslider"/>
+            <Widget type="Window" skin="PanelEmpty" position_real="0.671875 0.80188679245283023 0.26041666666666669 0.10377358490566038" name="Bslider"/>
+            <Widget type="TextBox" skin="TextBox" position_real="0.70833333333333337 0.15094339622641509 0.19791666666666666 0.084905660377358486" name="editHexStr">
+                <Property key="Caption" value="hexstr"/>
+                <Property key="FontName" value="SM_SubHeader"/>
+                <Property key="TextAlign" value="Center"/>
+            </Widget>
+        </Widget>
+        <Widget type="TextBox" skin="TextBox" position_real="0 0.064864864864864868 1 0.064864864864864868" name="Name">
+            <Property key="FontName" value="X_Hud_Alert"/>
+            <Property key="TextAlign" value="Center"/>
+            <Property key="NeedKey" value="false"/>
+            <Property key="NeedMouse" value="false"/>
+            <Property key="Caption" value="title"/>
+        </Widget>
+        <Widget type="TextBox" skin="TextBox" position_real="0.052083333333333336 0.60810810810810811 0.546875 0.10135135135135136" name="colorText">
+            <Property key="Caption" value="recent color"/>
+            <Property key="FontName" value="SM_SubHeader"/>
+            <Property key="TextAlign" value="Center"/>
+            <Property key="TextColour" value="1 0.803922 0.247059"/>
+        </Widget>
+    </Widget>
+    <CodeGeneratorSettings>
+        <Property key="IncludeDirectory" value=""/>
+        <Property key="PanelName" value=""/>
+        <Property key="PanelNamespace" value=""/>
+        <Property key="SourceDirectory" value=""/>
+    </CodeGeneratorSettings>
+</MyGUI>

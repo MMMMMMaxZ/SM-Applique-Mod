@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<MyGUI type="Layout" version="3.2.0">
+    <Widget type="Widget" align="Default" name="BackPanel" position_real="0 0 0.5 0.5">
+        <Property key="NeedKey" value="false" />
+        <Property key="NeedMouse" value="true" />
+        <Property key="InheritsAlpha" value="false" />
+        <Widget type="TextBox" skin="TextBox" name="Name" position_real="0.0 0.09 1.0 0.09">
+            <Property key="Caption" value="#{INTERACTABLE_HORN_TITLE}" />
+            <Property key="FontName" value="SM_HeaderLarge_Wide" />
+            <Property key="TextAlign" value="Center" />
+            <Property key="NeedKey" value="false" />
+            <Property key="NeedMouse" value="false" />
+        </Widget>
+        <Widget type="TextBox" skin="TextBox" name="SubTitle" position_real="0.0 0.18 1.0 0.09">
+            <Property key="TextAlign" value="Center" />
+            <Property key="TextColour" value="1 0.803922 0.247059" />
+            <Property key="FontName" value="SM_SubHeader" />
+            <Property key="Caption" value="#{LEVEL} 12345" />
+        </Widget>
+        <Widget type="ImageBox" skin="ImageBox" name="Tutorial" position_real="0.0 0.18 1.0 0.09">
+            <Property key="ImageTexture" value="black.png" />
+            <Property key="NeedToolTip" value="true" />
+            <UserString key="Clickable" value="Yes" />
+        </Widget>
+        <Widget type="Window" skin="PanelEmpty" name="slider1" position_real="0.23 0.27 0.48 0.15">
+            <Property key="Range" value="20" />
+            <Property key="NeedKey" value="false" />
+        </Widget>
+        <Widget type="Window" skin="PanelEmpty" name="slider2" position_real="0.23 0.39 0.48 0.15">
+            <Property key="Range" value="20" />
+            <Property key="NeedKey" value="false" />
+        </Widget>
+        <Widget type="Window" skin="PanelEmpty" name="slider3" position_real="0.23 0.51 0.48 0.15">
+            <Property key="Range" value="20" />
+            <Property key="NeedKey" value="false" />
+        </Widget>
+        <Widget type="Window" skin="PanelEmpty" name="slider4" position_real="0.23 0.63 0.48 0.15">
+            <Property key="Range" value="20" />
+            <Property key="NeedKey" value="false" />
+        </Widget>
+    </Widget>
+    <CodeGeneratorSettings />
+</MyGUI>

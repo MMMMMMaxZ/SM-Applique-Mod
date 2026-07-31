@@ -1,0 +1,1520 @@
+{
+
+	"partList": [/*testObject__LIFT*/
+		{
+			"uuid": "92ed5119-06be-46bc-8d5e-ae50f928c688",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$MOD_DATA/Objects/Textures/char_lift_dif.tga",
+									"$MOD_DATA/Objects/Textures/char_lift_asg.tga",
+									"$MOD_DATA/Objects/Textures/char_lift_nor.tga"
+									
+								],
+								"material": "DifAsgNor"
+							}
+						],
+						"mesh": "$MOD_DATA/Objects/Mesh/lift_preview.fbx"
+					}
+				]
+			},
+			
+			"rotationSet": "PropY",
+			"color": "114514",
+			"box": { "x": 1, "y": 1, "z": 1 },
+			"ratings": {
+					"density": 5,
+					"durability": 5,
+					"friction": 5,
+					"buoyancy": 5
+				},
+			"physicsMaterial": "Glass",
+			"sticky": "+X+Y+Z-X-Y-Z"
+		},
+		{ /*flag00-Max's LOGO*/
+			"uuid": "1e5952f9-04c5-4d90-9d37-dd15f5d8464b",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$MOD_DATA/Objects/Textures/MaxZ_10x.png",
+									"$MOD_DATA/Objects/Textures/wall1_asg.png"
+									
+								],
+								"material": "DifAsg"
+							}
+						],
+						"mesh": "$MOD_DATA/Objects/Mesh/fig_1_1.obj"
+					}
+				]
+			},
+			"rotationSet": "oneFace",
+			"color": "114514",
+			"hull": { 
+				"x": 1, "y": 1, "z": 1,
+				"margin": 0.02,
+				"pointList": [
+					{ "x": 1.0, "y": -1.0, "z": 1.0 },
+					{ "x": 1.0, "y": -1.0, "z": -1.0 },
+					{ "x": -1.0, "y": -1.0, "z": 1.0 },
+					{ "x": -1.0, "y": -1.0, "z": -1.0 }
+				]
+			},
+			"ratings": {
+					"density": 1,
+					"durability": 2,
+					"friction": 1,
+					"buoyancy": 1
+				},
+			"physicsMaterial": "Metal",
+			"sticky": "+X+Z-X-Y-Z"
+		},
+		
+		{ /*flag01-trex's eagle*/
+			"uuid": "1e5952f9-04c5-4d90-9d37-dd15f5d8464c",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$MOD_DATA/Objects/Textures/FIG1.png",
+									"$MOD_DATA/Objects/Textures/wall1_asg.png",
+									"$MOD_DATA/Objects/Textures/FIG1_nor.png"
+									
+								],
+								"material": "DifAsgNor"
+							}
+						],
+						"mesh": "$MOD_DATA/Objects/Mesh/fig_1_1.obj"
+					}
+				]
+			},
+			"rotationSet": "oneFace",
+			"color": "114514",
+			"hull": { 
+				"x": 1, "y": 1, "z": 1,
+				"margin": 0.02,
+				"pointList": [
+					{ "x": 1.0, "y": -1.0, "z": 1.0 },
+					{ "x": 1.0, "y": -1.0, "z": -1.0 },
+					{ "x": -1.0, "y": -1.0, "z": 1.0 },
+					{ "x": -1.0, "y": -1.0, "z": -1.0 }
+				]
+			},
+			"ratings": {
+					"density": 1,
+					"durability": 2,
+					"friction": 1,
+					"buoyancy": 1
+				},
+			"physicsMaterial": "Metal",
+			"sticky": "+X+Z-X-Y-Z"
+		},
+		{ /*flag02-trex's eagle*/
+			"uuid": "1e5952f9-04c5-4d90-9d37-dd15f5d8464d",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$MOD_DATA/Objects/Textures/FIG1.png",
+									"$MOD_DATA/Objects/Textures/wall1_asg.png"
+									
+								],
+								"material": "DifAsg"
+							}
+						],
+						"mesh": "$MOD_DATA/Objects/Mesh/fig_2_1.obj"
+					}
+				]
+			},
+			"rotationSet": "oneFace",
+			"color": "114514",
+			"hull": { 
+				"x": 1, "y": 1, "z": 2,
+				"margin": 0.02,
+				"pointList": [
+					{ "x": 1.0, "y": -1.0, "z": 1.0 },
+					{ "x": 1.0, "y": -1.0, "z": -1.0 },
+					{ "x": -1.0, "y": -1.0, "z": 1.0 },
+					{ "x": -1.0, "y": -1.0, "z": -1.0 }
+				]
+			},
+			"ratings": {
+					"density": 1,
+					"durability": 2,
+					"friction": 1,
+					"buoyancy": 1
+				},
+			"physicsMaterial": "Metal",
+			"sticky": "+X+Z-X-Y-Z"
+		},
+		{ /*flag03-trex's eagle*/
+			"uuid": "1e5952f9-04c5-4d90-9d37-dd15f5d8464e",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$MOD_DATA/Objects/Textures/FIG1.png",
+									"$MOD_DATA/Objects/Textures/wall1_asg.png"
+									
+								],
+								"material": "DifAsg"
+							}
+						],
+						"mesh": "$MOD_DATA/Objects/Mesh/fig_2_2.obj"
+					}
+				]
+			},
+			"rotationSet": "oneFace",
+			"color": "114514",
+			"hull": { 
+				"x": 2, "y": 1, "z": 2,
+				"margin": 0.02,
+				"pointList": [
+					{ "x": 1.0, "y": -1.0, "z": 1.0 },
+					{ "x": 1.0, "y": -1.0, "z": -1.0 },
+					{ "x": -1.0, "y": -1.0, "z": 1.0 },
+					{ "x": -1.0, "y": -1.0, "z": -1.0 }
+				]
+			},
+			"ratings": {
+					"density": 1,
+					"durability": 2,
+					"friction": 1,
+					"buoyancy": 1
+				},
+			"physicsMaterial": "Metal",
+			"sticky": "+X+Z-X-Y-Z"
+		},
+		{ /*flag04-JiaRanFlag*/
+			"uuid": "1e5952f9-04c5-4d90-9d37-dd15f5d8464f",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$MOD_DATA/Objects/Textures/JR4.png",
+									"$MOD_DATA/Objects/Textures/wall1_asg.png"
+									
+								],
+								"material": "DifAsg"
+							}
+						],
+						"mesh": "$MOD_DATA/Objects/Mesh/fig_2_2.obj"
+					}
+				]
+			},
+			"rotationSet": "oneFace",
+			"color": "114514",
+			"hull": { 
+				"x": 2, "y": 1, "z": 2,
+				"margin": 0.02,
+				"pointList": [
+					{ "x": 1.0, "y": -1.0, "z": 1.0 },
+					{ "x": 1.0, "y": -1.0, "z": -1.0 },
+					{ "x": -1.0, "y": -1.0, "z": 1.0 },
+					{ "x": -1.0, "y": -1.0, "z": -1.0 }
+				]
+			},
+			"ratings": {
+					"density": 1,
+					"durability": 2,
+					"friction": 1,
+					"buoyancy": 1
+				},
+			"physicsMaterial": "Metal",
+			"sticky": "+X+Z-X-Y-Z"
+		},
+		{ /*flag05-AsoulFlag*/
+			"uuid": "1e5952f9-04c5-4d90-9d37-dd15f5d84640",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$MOD_DATA/Objects/Textures/A1.png",
+									"$MOD_DATA/Objects/Textures/wall1_asg.png"
+									
+								],
+								"material": "DifAsg"
+							}
+						],
+						"mesh": "$MOD_DATA/Objects/Mesh/fig_6_6.obj"
+					}
+				]
+			},
+			"rotationSet": "oneFace",
+			"color": "114514",
+			"hull": { 
+				"x": 6, "y": 1, "z": 6,
+				"margin": 0.02,
+				"pointList": [
+					{ "x": 1.0, "y": -1.0, "z": 1.0 },
+					{ "x": 1.0, "y": -1.0, "z": -1.0 },
+					{ "x": -1.0, "y": -1.0, "z": 1.0 },
+					{ "x": -1.0, "y": -1.0, "z": -1.0 }
+				]
+			},
+			"ratings": {
+					"density": 1,
+					"durability": 2,
+					"friction": 1,
+					"buoyancy": 1
+				},
+			"physicsMaterial": "Metal",
+			"sticky": "+X+Z-X-Y-Z"
+		},
+		{ /*flag06-AsoulFlag*/
+			"uuid": "1e5952f9-04c5-4d90-9d37-dd15f5d84641",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$MOD_DATA/Objects/Textures/B1.png",
+									"$MOD_DATA/Objects/Textures/wall1_asg.png"
+									
+								],
+								"material": "DifAsg"
+							}
+						],
+						"mesh": "$MOD_DATA/Objects/Mesh/fig_6_6.obj"
+					}
+				]
+			},
+			"rotationSet": "oneFace",
+			"color": "114514",
+			"hull": { 
+				"x": 6, "y": 1, "z": 6,
+				"margin": 0.02,
+				"pointList": [
+					{ "x": 1.0, "y": -1.0, "z": 1.0 },
+					{ "x": 1.0, "y": -1.0, "z": -1.0 },
+					{ "x": -1.0, "y": -1.0, "z": 1.0 },
+					{ "x": -1.0, "y": -1.0, "z": -1.0 }
+				]
+			},
+			"ratings": {
+					"density": 1,
+					"durability": 2,
+					"friction": 1,
+					"buoyancy": 1
+				},
+			"physicsMaterial": "Metal",
+			"sticky": "+X+Z-X-Y-Z"
+		},
+		{ /*flag07-AsoulFlag*/
+			"uuid": "1e5952f9-04c5-4d90-9d37-dd15f5d84642",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$MOD_DATA/Objects/Textures/C1.png",
+									"$MOD_DATA/Objects/Textures/wall1_asg.png"
+									
+								],
+								"material": "DifAsg"
+							}
+						],
+						"mesh": "$MOD_DATA/Objects/Mesh/fig_6_6.obj"
+					}
+				]
+			},
+			"rotationSet": "oneFace",
+			"color": "114514",
+			"hull": { 
+				"x": 6, "y": 1, "z": 6,
+				"margin": 0.02,
+				"pointList": [
+					{ "x": 1.0, "y": -1.0, "z": 1.0 },
+					{ "x": 1.0, "y": -1.0, "z": -1.0 },
+					{ "x": -1.0, "y": -1.0, "z": 1.0 },
+					{ "x": -1.0, "y": -1.0, "z": -1.0 }
+				]
+			},
+			"ratings": {
+					"density": 1,
+					"durability": 2,
+					"friction": 1,
+					"buoyancy": 1
+				},
+			"physicsMaterial": "Metal",
+			"sticky": "+X+Z-X-Y-Z"
+		},
+		{ /*flag08-AsoulFlag*/
+			"uuid": "1e5952f9-04c5-4d90-9d37-dd15f5d84643",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$MOD_DATA/Objects/Textures/D1.png",
+									"$MOD_DATA/Objects/Textures/wall1_asg.png"
+									
+								],
+								"material": "DifAsg"
+							}
+						],
+						"mesh": "$MOD_DATA/Objects/Mesh/fig_6_6.obj"
+					}
+				]
+			},
+			"rotationSet": "oneFace",
+			"color": "114514",
+			"hull": { 
+				"x": 6, "y": 1, "z": 6,
+				"margin": 0.02,
+				"pointList": [
+					{ "x": 1.0, "y": -1.0, "z": 1.0 },
+					{ "x": 1.0, "y": -1.0, "z": -1.0 },
+					{ "x": -1.0, "y": -1.0, "z": 1.0 },
+					{ "x": -1.0, "y": -1.0, "z": -1.0 }
+				]
+			},
+			"ratings": {
+					"density": 1,
+					"durability": 2,
+					"friction": 1,
+					"buoyancy": 1
+				},
+			"physicsMaterial": "Metal",
+			"sticky": "+X+Z-X-Y-Z"
+		},
+		{ /*flag09-AsoulFlag*/
+			"uuid": "1e5952f9-04c5-4d90-9d37-dd15f5d84644",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$MOD_DATA/Objects/Textures/E1.png",
+									"$MOD_DATA/Objects/Textures/wall1_asg.png"
+									
+								],
+								"material": "DifAsg"
+							}
+						],
+						"mesh": "$MOD_DATA/Objects/Mesh/fig_6_6.obj"
+					}
+				]
+			},
+			"rotationSet": "oneFace",
+			"color": "114514",
+			"hull": { 
+				"x": 6, "y": 1, "z": 6,
+				"margin": 0.02,
+				"pointList": [
+					{ "x": 1.0, "y": -1.0, "z": 1.0 },
+					{ "x": 1.0, "y": -1.0, "z": -1.0 },
+					{ "x": -1.0, "y": -1.0, "z": 1.0 },
+					{ "x": -1.0, "y": -1.0, "z": -1.0 }
+				]
+			},
+			"ratings": {
+					"density": 1,
+					"durability": 2,
+					"friction": 1,
+					"buoyancy": 1
+				},
+			"physicsMaterial": "Metal",
+			"sticky": "+X+Z-X-Y-Z"
+		},
+		{ /*flag10-AsoulFlag*/
+			"uuid": "1e5952f9-04c5-4d90-9d37-dd15f5d84645",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$MOD_DATA/Objects/Textures/A1.png",
+									"$MOD_DATA/Objects/Textures/wall1_asg.png"
+									
+								],
+								"material": "DifAsg"
+							}
+						],
+						"mesh": "$MOD_DATA/Objects/Mesh/fig_7_7.obj"
+					}
+				]
+			},
+			"rotationSet": "oneFace",
+			"color": "114514",
+			"hull": { 
+				"x": 1, "y": 1, "z": 1,
+				"margin": 0.02,
+				"pointList": [
+					{ "x": 1.0, "y": -1.0, "z": 1.0 },
+					{ "x": 1.0, "y": -1.0, "z": -1.0 },
+					{ "x": -1.0, "y": -1.0, "z": 1.0 },
+					{ "x": -1.0, "y": -1.0, "z": -1.0 }
+				]
+			},
+			"ratings": {
+					"density": 1,
+					"durability": 2,
+					"friction": 1,
+					"buoyancy": 1
+				},
+			"physicsMaterial": "Metal",
+			"sticky": "+X+Z-X-Y-Z"
+		},
+		{ /*flag11-AsoulFlag*/
+			"uuid": "1e5952f9-04c5-4d90-9d37-dd15f5d84646",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$MOD_DATA/Objects/Textures/B1.png",
+									"$MOD_DATA/Objects/Textures/wall1_asg.png"
+									
+								],
+								"material": "DifAsg"
+							}
+						],
+						"mesh": "$MOD_DATA/Objects/Mesh/fig_7_7.obj"
+					}
+				]
+			},
+			"rotationSet": "oneFace",
+			"color": "114514",
+			"hull": { 
+				"x": 1, "y": 1, "z": 1,
+				"margin": 0.02,
+				"pointList": [
+					{ "x": 1.0, "y": -1.0, "z": 1.0 },
+					{ "x": 1.0, "y": -1.0, "z": -1.0 },
+					{ "x": -1.0, "y": -1.0, "z": 1.0 },
+					{ "x": -1.0, "y": -1.0, "z": -1.0 }
+				]
+			},
+			"ratings": {
+					"density": 1,
+					"durability": 2,
+					"friction": 1,
+					"buoyancy": 1
+				},
+			"physicsMaterial": "Metal",
+			"sticky": "+X+Z-X-Y-Z"
+		},
+		{ /*flag12-AsoulFlag*/
+			"uuid": "1e5952f9-04c5-4d90-9d37-dd15f5d84647",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$MOD_DATA/Objects/Textures/C1.png",
+									"$MOD_DATA/Objects/Textures/wall1_asg.png"
+									
+								],
+								"material": "DifAsg"
+							}
+						],
+						"mesh": "$MOD_DATA/Objects/Mesh/fig_7_7.obj"
+					}
+				]
+			},
+			"rotationSet": "oneFace",
+			"color": "114514",
+			"hull": { 
+				"x": 1, "y": 1, "z": 1,
+				"margin": 0.02,
+				"pointList": [
+					{ "x": 1.0, "y": -1.0, "z": 1.0 },
+					{ "x": 1.0, "y": -1.0, "z": -1.0 },
+					{ "x": -1.0, "y": -1.0, "z": 1.0 },
+					{ "x": -1.0, "y": -1.0, "z": -1.0 }
+				]
+			},
+			"ratings": {
+					"density": 1,
+					"durability": 2,
+					"friction": 1,
+					"buoyancy": 1
+				},
+			"physicsMaterial": "Metal",
+			"sticky": "+X+Z-X-Y-Z"
+		},
+		{ /*flag13-AsoulFlag*/
+			"uuid": "1e5952f9-04c5-4d90-9d37-dd15f5d84648",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$MOD_DATA/Objects/Textures/D1.png",
+									"$MOD_DATA/Objects/Textures/wall1_asg.png"
+									
+								],
+								"material": "DifAsg"
+							}
+						],
+						"mesh": "$MOD_DATA/Objects/Mesh/fig_7_7.obj"
+					}
+				]
+			},
+			"rotationSet": "oneFace",
+			"color": "114514",
+			"hull": { 
+				"x": 1, "y": 1, "z": 1,
+				"margin": 0.02,
+				"pointList": [
+					{ "x": 1.0, "y": -1.0, "z": 1.0 },
+					{ "x": 1.0, "y": -1.0, "z": -1.0 },
+					{ "x": -1.0, "y": -1.0, "z": 1.0 },
+					{ "x": -1.0, "y": -1.0, "z": -1.0 }
+				]
+			},
+			"ratings": {
+					"density": 1,
+					"durability": 2,
+					"friction": 1,
+					"buoyancy": 1
+				},
+			"physicsMaterial": "Metal",
+			"sticky": "+X+Z-X-Y-Z"
+		},
+		{ /*flag14-AsoulFlag*/
+			"uuid": "1e5952f9-04c5-4d90-9d37-dd15f5d84649",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$MOD_DATA/Objects/Textures/E1.png",
+									"$MOD_DATA/Objects/Textures/wall1_asg.png"
+									
+								],
+								"material": "DifAsg"
+							}
+						],
+						"mesh": "$MOD_DATA/Objects/Mesh/fig_7_7.obj"
+					}
+				]
+			},
+			"rotationSet": "oneFace",
+			"color": "114514",
+			"hull": { 
+				"x": 1, "y": 1, "z": 1,
+				"margin": 0.02,
+				"pointList": [
+					{ "x": 1.0, "y": -1.0, "z": 1.0 },
+					{ "x": 1.0, "y": -1.0, "z": -1.0 },
+					{ "x": -1.0, "y": -1.0, "z": 1.0 },
+					{ "x": -1.0, "y": -1.0, "z": -1.0 }
+				]
+			},
+			"ratings": {
+					"density": 1,
+					"durability": 2,
+					"friction": 1,
+					"buoyancy": 1
+				},
+			"physicsMaterial": "Metal",
+			"sticky": "+X+Z-X-Y-Z"
+		},
+		{ /*flag15-AsoulFlag*/
+			"uuid": "1e5952f9-04c5-4d90-9d37-dd15f5d84650",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$MOD_DATA/Objects/Textures/AS1.png",
+									"$MOD_DATA/Objects/Textures/wall1_asg.png"
+									
+								],
+								"material": "DifAsg"
+							}
+						],
+						"mesh": "$MOD_DATA/Objects/Mesh/onefacetri_3_5.obj"
+					}
+				]
+			},
+			"rotationSet": "oneFace",
+			"color": "114514",
+			"hull": { 
+				"x": 1, "y": 1, "z": 1,
+				"margin": 0.02,
+				"pointList": [
+					{ "x": 1.0, "y": -1.0, "z": 1.0 },
+					{ "x": 1.0, "y": -1.0, "z": -1.0 },
+					{ "x": -1.0, "y": -1.0, "z": 1.0 },
+					{ "x": -1.0, "y": -1.0, "z": -1.0 }
+				]
+			},
+			"ratings": {
+					"density": 1,
+					"durability": 2,
+					"friction": 1,
+					"buoyancy": 1
+				},
+			"physicsMaterial": "Metal",
+			"sticky": "+X+Z-X-Y-Z"
+		},
+		{ /*flag16-AsoulFlag*/
+			"uuid": "1e5952f9-04c5-4d90-9d37-dd15f5d84651",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$MOD_DATA/Objects/Textures/AS2.png",
+									"$MOD_DATA/Objects/Textures/wall1_asg.png"
+									
+								],
+								"material": "DifAsg"
+							}
+						],
+						"mesh": "$MOD_DATA/Objects/Mesh/fig_2_5.obj"
+					}
+				]
+			},
+			"rotationSet": "oneFace",
+			"color": "114514",
+			"hull": { 
+				"x": 1, "y": 1, "z": 2,
+				"margin": 0.02,
+				"pointList": [
+					{ "x": 1.0, "y": -1.0, "z": 1.0 },
+					{ "x": 1.0, "y": -1.0, "z": -1.0 },
+					{ "x": -1.0, "y": -1.0, "z": 1.0 },
+					{ "x": -1.0, "y": -1.0, "z": -1.0 }
+				]
+			},
+			"ratings": {
+					"density": 1,
+					"durability": 2,
+					"friction": 1,
+					"buoyancy": 1
+				},
+			"physicsMaterial": "Metal",
+			"sticky": "+X+Z-X-Y-Z"
+		},
+		{ /*flag17-AsoulFlag*/
+			"uuid": "1e5952f9-04c5-4d90-9d37-dd15f5d84652",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$MOD_DATA/Objects/Textures/A4.png",
+									"$MOD_DATA/Objects/Textures/wall1_asg.png"
+									
+								],
+								"material": "DifAsg"
+							}
+						],
+						"mesh": "$MOD_DATA/Objects/Mesh/fig_2_3.obj"
+					}
+				]
+			},
+			"rotationSet": "oneFace",
+			"color": "114514",
+			"hull": { 
+				"x": 1, "y": 1, "z": 2,
+				"margin": 0.02,
+				"pointList": [
+					{ "x": 1.0, "y": -1.0, "z": 1.0 },
+					{ "x": 1.0, "y": -1.0, "z": -1.0 },
+					{ "x": -1.0, "y": -1.0, "z": 1.0 },
+					{ "x": -1.0, "y": -1.0, "z": -1.0 }
+				]
+			},
+			"ratings": {
+					"density": 1,
+					"durability": 2,
+					"friction": 1,
+					"buoyancy": 1
+				},
+			"physicsMaterial": "Metal",
+			"sticky": "+X+Z-X-Y-Z"
+		},
+		{ /*flag18-AsoulFlag*/
+			"uuid": "1e5952f9-04c5-4d90-9d37-dd15f5d84653",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$MOD_DATA/Objects/Textures/D4.png",
+									"$MOD_DATA/Objects/Textures/wall1_asg.png"
+									
+								],
+								"material": "DifAsg"
+							}
+						],
+						"mesh": "$MOD_DATA/Objects/Mesh/fig_2_3.obj"
+					}
+				]
+			},
+			"rotationSet": "oneFace",
+			"color": "114514",
+			"hull": { 
+				"x": 1, "y": 1, "z": 2,
+				"margin": 0.02,
+				"pointList": [
+					{ "x": 1.0, "y": -1.0, "z": 1.0 },
+					{ "x": 1.0, "y": -1.0, "z": -1.0 },
+					{ "x": -1.0, "y": -1.0, "z": 1.0 },
+					{ "x": -1.0, "y": -1.0, "z": -1.0 }
+				]
+			},
+			"ratings": {
+					"density": 1,
+					"durability": 2,
+					"friction": 1,
+					"buoyancy": 1
+				},
+			"physicsMaterial": "Metal",
+			"sticky": "+X+Z-X-Y-Z"
+		},
+		{ /*flag19-TieHuaTuan*/
+			"uuid": "1e5952f9-04c5-4d90-9d37-dd15f5d84654",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$MOD_DATA/Objects/Textures/tiehuatuan01.png",
+									"$MOD_DATA/Objects/Textures/wall1_asg.png"
+									
+								],
+								"material": "DifAsg"
+							}
+						],
+						"mesh": "$MOD_DATA/Objects/Mesh/onefacetri 2_2_4.obj"
+					}
+				]
+			},
+			"rotationSet": "oneFace",
+			"color": "114514",
+			"hull": { 
+				"x": 2, "y": 1, "z": 2,
+				"margin": 0.02,
+				"pointList": [
+					{ "x": 1.0, "y": -1.0, "z": 1.0 },
+					{ "x": 1.0, "y": -1.0, "z": -1.0 },
+					{ "x": -1.0, "y": -1.0, "z": 1.0 },
+					{ "x": -1.0, "y": -1.0, "z": -1.0 }
+				]
+			},
+			"ratings": {
+					"density": 1,
+					"durability": 2,
+					"friction": 1,
+					"buoyancy": 1
+				},
+			"physicsMaterial": "Metal",
+			"sticky": "+X+Z-X-Y-Z"
+		},
+		{ /*flag19-greenshadow-2*/
+			"uuid": "1e5952f9-04c5-4d90-9d37-dd15f5d84655",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$MOD_DATA/Objects/Textures/QGY2.png",
+									"$MOD_DATA/Objects/Textures/wall1_asg.png"
+									
+								],
+								"material": "DifAsg"
+							}
+						],
+						"mesh": "$MOD_DATA/Objects/Mesh/fig_4_3.obj"
+					}
+				]
+			},
+			"rotationSet": "oneFace",
+			"color": "114514",
+			"hull": { 
+				"x": 1, "y": 1, "z": 2,
+				"margin": 0.02,
+				"pointList": [
+					{ "x": 1.0, "y": -1.0, "z": 1.0 },
+					{ "x": 1.0, "y": -1.0, "z": -1.0 },
+					{ "x": -1.0, "y": -1.0, "z": 1.0 },
+					{ "x": -1.0, "y": -1.0, "z": -1.0 }
+				]
+			},
+			"ratings": {
+					"density": 1,
+					"durability": 2,
+					"friction": 1,
+					"buoyancy": 1
+				},
+			"physicsMaterial": "Metal",
+			"sticky": "+X+Z-X-Y-Z"
+		},
+		{ /*flag20-Huanying-1*/
+			"uuid": "1e5952f9-04c5-4d90-9d37-dd15f5d84656",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$MOD_DATA/Objects/Textures/h1s.png",
+									"$MOD_DATA/Objects/Textures/wall1_asg.png"
+									
+								],
+								"material": "DifAsg"
+							}
+						],
+						"mesh": "$MOD_DATA/Objects/Mesh/fig_3_9.obj"
+					}
+				]
+			},
+			"rotationSet": "oneFace",
+			"color": "114514",
+			"hull": { 
+				"x": 1, "y": 1, "z": 1,
+				"margin": 0.02,
+				"pointList": [
+					{ "x": 1.0, "y": -1.0, "z": 1.0 },
+					{ "x": 1.0, "y": -1.0, "z": -1.0 },
+					{ "x": -1.0, "y": -1.0, "z": 1.0 },
+					{ "x": -1.0, "y": -1.0, "z": -1.0 }
+				]
+			},
+			"ratings": {
+					"density": 1,
+					"durability": 2,
+					"friction": 1,
+					"buoyancy": 1
+				},
+			"physicsMaterial": "Metal",
+			"sticky": "+X+Z-X-Y-Z"
+		},
+		{ /*flag21-Huanying-2*/
+			"uuid": "1e5952f9-04c5-4d90-9d37-dd15f5d84657",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$MOD_DATA/Objects/Textures/R.png",
+									"$MOD_DATA/Objects/Textures/wall1_asg.png"
+									
+								],
+								"material": "DifAsg"
+							}
+						],
+						"mesh": "$MOD_DATA/Objects/Mesh/fig_2_8.obj"
+					}
+				]
+			},
+			"rotationSet": "oneFace",
+			"color": "114514",
+			"hull": { 
+				"x": 2, "y": 1, "z": 2,
+				"margin": 0.02,
+				"pointList": [
+					{ "x": 1.0, "y": -1.0, "z": 1.0 },
+					{ "x": 1.0, "y": -1.0, "z": -1.0 },
+					{ "x": -1.0, "y": -1.0, "z": 1.0 },
+					{ "x": -1.0, "y": -1.0, "z": -1.0 }
+				]
+			},
+			"ratings": {
+					"density": 1,
+					"durability": 2,
+					"friction": 1,
+					"buoyancy": 1
+				},
+			"physicsMaterial": "Metal",
+			"sticky": "+X+Z-X-Y-Z"
+		},
+		{ /*flag22-Huanying-3*/
+			"uuid": "1e5952f9-04c5-4d90-9d37-dd15f5d84658",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$MOD_DATA/Objects/Textures/Hatsune_miku_logo_v3.png",
+									"$MOD_DATA/Objects/Textures/wall1_asg.png"
+									
+								],
+								"material": "DifAsg"
+							}
+						],
+						"mesh": "$MOD_DATA/Objects/Mesh/fig_2_8.obj"
+					}
+				]
+			},
+			"rotationSet": "oneFace",
+			"color": "114514",
+			"hull": { 
+				"x": 2, "y": 1, "z": 2,
+				"margin": 0.02,
+				"pointList": [
+					{ "x": 1.0, "y": -1.0, "z": 1.0 },
+					{ "x": 1.0, "y": -1.0, "z": -1.0 },
+					{ "x": -1.0, "y": -1.0, "z": 1.0 },
+					{ "x": -1.0, "y": -1.0, "z": -1.0 }
+				]
+			},
+			"ratings": {
+					"density": 1,
+					"durability": 2,
+					"friction": 1,
+					"buoyancy": 1
+				},
+			"physicsMaterial": "Metal",
+			"sticky": "+X+Z-X-Y-Z"
+		},
+		{ /*flag23-ADKarl-1*/
+			"uuid": "1e5952f9-04c5-4d90-9d37-dd15f5d84659",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$MOD_DATA/Objects/Textures/Danger2.png",
+									"$MOD_DATA/Objects/Textures/wall1_asg.png"
+									
+								],
+								"material": "DifAsg"
+							}
+						],
+						"mesh": "$MOD_DATA/Objects/Mesh/fig_1_1.obj"
+					}
+				]
+			},
+			"rotationSet": "oneFace",
+			"color": "114514",
+			"hull": { 
+				"x": 1, "y": 1, "z": 1,
+				"margin": 0.02,
+				"pointList": [
+					{ "x": 1.0, "y": -1.0, "z": 1.0 },
+					{ "x": 1.0, "y": -1.0, "z": -1.0 },
+					{ "x": -1.0, "y": -1.0, "z": 1.0 },
+					{ "x": -1.0, "y": -1.0, "z": -1.0 }
+				]
+			},
+			"ratings": {
+					"density": 1,//重量
+					"durability": 2,//防御力
+					"friction": 1,//摩擦力
+					"buoyancy": 1//浮力
+				},
+			"physicsMaterial": "Metal",
+			"sticky": "+X+Z-X-Y-Z"
+		},
+		{ /*flag24-trex*/
+			"uuid": "1e5952f9-04c5-4d90-9d37-dd15f5d8465a",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$MOD_DATA/Objects/Textures/She.png",
+									"$MOD_DATA/Objects/Textures/wall1_asg.png"
+									
+								],
+								"material": "DifAsg"
+							}
+						],
+						"mesh": "$MOD_DATA/Objects/Mesh/fig_1_1.obj"
+					}
+				]
+			},
+			"rotationSet": "oneFace",
+			"color": "114514",
+			"hull": { 
+				"x": 1, "y": 1, "z": 1,
+				"margin": 0.02,
+				"pointList": [
+					{ "x": 1.0, "y": -1.0, "z": 1.0 },
+					{ "x": 1.0, "y": -1.0, "z": -1.0 },
+					{ "x": -1.0, "y": -1.0, "z": 1.0 },
+					{ "x": -1.0, "y": -1.0, "z": -1.0 }
+				]
+			},
+			"ratings": {
+					"density": 1,//重量
+					"durability": 2,//防御力
+					"friction": 1,//摩擦力
+					"buoyancy": 1//浮力
+				},
+			"physicsMaterial": "Metal",
+			"sticky": "+X+Z-X-Y-Z"
+		},
+		{ /*flag25-trex*/
+			"uuid": "1e5952f9-04c5-4d90-9d37-dd15f5d8465b",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$MOD_DATA/Objects/Textures/Mao.png",
+									"$MOD_DATA/Objects/Textures/wall1_asg.png"
+									
+								],
+								"material": "DifAsg"
+							}
+						],
+						"mesh": "$MOD_DATA/Objects/Mesh/fig_2_2.obj"
+					}
+				]
+			},
+			"rotationSet": "oneFace",
+			"color": "114514",
+			"hull": { 
+				"x": 2, "y": 1, "z": 2,
+				"margin": 0.02,
+				"pointList": [
+					{ "x": 1.0, "y": -1.0, "z": 1.0 },
+					{ "x": 1.0, "y": -1.0, "z": -1.0 },
+					{ "x": -1.0, "y": -1.0, "z": 1.0 },
+					{ "x": -1.0, "y": -1.0, "z": -1.0 }
+				]
+			},
+			"ratings": {
+					"density": 1,//重量
+					"durability": 2,//防御力
+					"friction": 1,//摩擦力
+					"buoyancy": 1//浮力
+				},
+			"physicsMaterial": "Metal",
+			"sticky": "+X+Z-X-Y-Z"
+		},
+		{ /*flag26-HY*/
+			"uuid": "1e5952f9-04c5-4d90-9d37-dd15f5d8465c",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$MOD_DATA/Objects/Textures/HY.png",
+									"$MOD_DATA/Objects/Textures/wall1_asg.png"
+									
+								],
+								"material": "DifAsg"
+							}
+						],
+						"mesh": "$MOD_DATA/Objects/Mesh/fig_1_2.obj"
+					}
+				]
+			},
+			"rotationSet": "oneFace",
+			"color": "114514",
+			"hull": { 
+				"x": 2, "y": 1, "z": 1,
+				"margin": 0.02,
+				"pointList": [
+					{ "x": 1.0, "y": -1.0, "z": 1.0 },
+					{ "x": 1.0, "y": -1.0, "z": -1.0 },
+					{ "x": -1.0, "y": -1.0, "z": 1.0 },
+					{ "x": -1.0, "y": -1.0, "z": -1.0 }
+				]
+			},
+			"ratings": {
+					"density": 1,//重量
+					"durability": 2,//防御力
+					"friction": 1,//摩擦力
+					"buoyancy": 1//浮力
+				},
+			"physicsMaterial": "Metal",
+			"sticky": "+X+Z-X-Y-Z"
+		},
+		{ /*flag27-HY*/
+			"uuid": "1e5952f9-04c5-4d90-9d37-dd15f5d8465d",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$MOD_DATA/Objects/Textures/HY.png",
+									"$MOD_DATA/Objects/Textures/wall1_asg.png"
+									
+								],
+								"material": "DifAsg"
+							}
+						],
+						"mesh": "$MOD_DATA/Objects/Mesh/fig_2_4.obj"
+					}
+				]
+			},
+			"rotationSet": "oneFace",
+			"color": "114514",
+			"hull": { 
+				"x": 4, "y": 1, "z": 2,
+				"margin": 0.02,
+				"pointList": [
+					{ "x": 1.0, "y": -1.0, "z": 1.0 },
+					{ "x": 1.0, "y": -1.0, "z": -1.0 },
+					{ "x": -1.0, "y": -1.0, "z": 1.0 },
+					{ "x": -1.0, "y": -1.0, "z": -1.0 }
+				]
+			},
+			"ratings": {
+					"density": 1,//重量
+					"durability": 2,//防御力
+					"friction": 1,//摩擦力
+					"buoyancy": 1//浮力
+				},
+			"physicsMaterial": "Metal",
+			"sticky": "+X+Z-X-Y-Z"
+		},
+		{ /*flag28-stickers*/
+			"uuid": "1e5952f9-04c5-4d90-9d37-dd15f5d8465e",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$MOD_DATA/Objects/Textures/stickers/A.png",
+									"$MOD_DATA/Objects/Textures/wall1_asg.png"
+									
+								],
+								"material": "DifAsg"
+							}
+						],
+						"mesh": "$MOD_DATA/Objects/Mesh/fig_1_1.obj"
+					}
+				]
+			},
+			"rotationSet": "oneFace",
+			"color": "114514",
+			"hull": { 
+				"x": 1, "y": 1, "z": 1,
+				"margin": 0.02,
+				"pointList": [
+					{ "x": 1.0, "y": -1.0, "z": 1.0 },
+					{ "x": 1.0, "y": -1.0, "z": -1.0 },
+					{ "x": -1.0, "y": -1.0, "z": 1.0 },
+					{ "x": -1.0, "y": -1.0, "z": -1.0 }
+				]
+			},
+			"ratings": {
+					"density": 1,//重量
+					"durability": 2,//防御力
+					"friction": 1,//摩擦力
+					"buoyancy": 1//浮力
+				},
+			"physicsMaterial": "Metal",
+			"sticky": "+X+Z-X-Y-Z"
+		},
+		{ /*flag29-stickers*/
+			"uuid": "1e5952f9-04c5-4d90-9d37-dd15f5d8465f",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$MOD_DATA/Objects/Textures/stickers/G.png",
+									"$MOD_DATA/Objects/Textures/wall1_asg.png"
+									
+								],
+								"material": "DifAsg"
+							}
+						],
+						"mesh": "$MOD_DATA/Objects/Mesh/fig_1_1.obj"
+					}
+				]
+			},
+			"rotationSet": "oneFace",
+			"color": "114514",
+			"hull": { 
+				"x": 1, "y": 1, "z": 1,
+				"margin": 0.02,
+				"pointList": [
+					{ "x": 1.0, "y": -1.0, "z": 1.0 },
+					{ "x": 1.0, "y": -1.0, "z": -1.0 },
+					{ "x": -1.0, "y": -1.0, "z": 1.0 },
+					{ "x": -1.0, "y": -1.0, "z": -1.0 }
+				]
+			},
+			"ratings": {
+					"density": 1,//重量
+					"durability": 2,//防御力
+					"friction": 1,//摩擦力
+					"buoyancy": 1//浮力
+				},
+			"physicsMaterial": "Metal",
+			"sticky": "+X+Z-X-Y-Z"
+		},
+		{ /*flag30-stickers*/
+			"uuid": "1e5952f9-04c5-4d90-9d37-dd15f5d84660",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$MOD_DATA/Objects/Textures/stickers/S.png",
+									"$MOD_DATA/Objects/Textures/wall1_asg.png"
+									
+								],
+								"material": "DifAsg"
+							}
+						],
+						"mesh": "$MOD_DATA/Objects/Mesh/fig_1_1.obj"
+					}
+				]
+			},
+			"rotationSet": "oneFace",
+			"color": "114514",
+			"hull": { 
+				"x": 1, "y": 1, "z": 1,
+				"margin": 0.02,
+				"pointList": [
+					{ "x": 1.0, "y": -1.0, "z": 1.0 },
+					{ "x": 1.0, "y": -1.0, "z": -1.0 },
+					{ "x": -1.0, "y": -1.0, "z": 1.0 },
+					{ "x": -1.0, "y": -1.0, "z": -1.0 }
+				]
+			},
+			"ratings": {
+					"density": 1,//重量
+					"durability": 2,//防御力
+					"friction": 1,//摩擦力
+					"buoyancy": 1//浮力
+				},
+			"physicsMaterial": "Metal",
+			"sticky": "+X+Z-X-Y-Z"
+		},
+		{ /*flag31-stickers*/
+			"uuid": "1e5952f9-04c5-4d90-9d37-dd15f5d84661",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$MOD_DATA/Objects/Textures/stickers/W.png",
+									"$MOD_DATA/Objects/Textures/wall1_asg.png"
+									
+								],
+								"material": "DifAsg"
+							}
+						],
+						"mesh": "$MOD_DATA/Objects/Mesh/fig_1_1.obj"
+					}
+				]
+			},
+			"rotationSet": "oneFace",
+			"color": "114514",
+			"hull": { 
+				"x": 1, "y": 1, "z": 1,
+				"margin": 0.02,
+				"pointList": [
+					{ "x": 1.0, "y": -1.0, "z": 1.0 },
+					{ "x": 1.0, "y": -1.0, "z": -1.0 },
+					{ "x": -1.0, "y": -1.0, "z": 1.0 },
+					{ "x": -1.0, "y": -1.0, "z": -1.0 }
+				]
+			},
+			"ratings": {
+					"density": 1,//重量
+					"durability": 2,//防御力
+					"friction": 1,//摩擦力
+					"buoyancy": 1//浮力
+				},
+			"physicsMaterial": "Metal",
+			"sticky": "+X+Z-X-Y-Z"
+		},
+		{ /*flag32-stickers*/
+			"uuid": "1e5952f9-04c5-4d90-9d37-dd15f5d84662",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$MOD_DATA/Objects/Textures/stickers/ArmorLock.png",
+									"$MOD_DATA/Objects/Textures/wall1_asg.png"
+									
+								],
+								"material": "DifAsg"
+							}
+						],
+						"mesh": "$MOD_DATA/Objects/Mesh/fig_1_3.obj"
+					}
+				]
+			},
+			"rotationSet": "oneFace",
+			"color": "114514",
+			"hull": { 
+				"x": 3, "y": 1, "z": 1,
+				"margin": 0.02,
+				"pointList": [
+					{ "x": 1.0, "y": -1.0, "z": 1.0 },
+					{ "x": 1.0, "y": -1.0, "z": -1.0 },
+					{ "x": -1.0, "y": -1.0, "z": 1.0 },
+					{ "x": -1.0, "y": -1.0, "z": -1.0 }
+				]
+			},
+			"ratings": {
+					"density": 1,//重量
+					"durability": 2,//防御力
+					"friction": 1,//摩擦力
+					"buoyancy": 1//浮力
+				},
+			"physicsMaterial": "Metal",
+			"sticky": "+X+Z-X-Y-Z"
+		},
+		{ /*flag33-stickers*/
+			"uuid": "1e5952f9-04c5-4d90-9d37-dd15f5d84663",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$MOD_DATA/Objects/Textures/stickers/Caution1.png",
+									"$MOD_DATA/Objects/Textures/wall1_asg.png"
+									
+								],
+								"material": "DifAsg"
+							}
+						],
+						"mesh": "$MOD_DATA/Objects/Mesh/fig_1_2.obj"
+					}
+				]
+			},
+			"rotationSet": "oneFace",
+			"color": "114514",
+			"hull": { 
+				"x": 2, "y": 1, "z": 1,
+				"margin": 0.02,
+				"pointList": [
+					{ "x": 1.0, "y": -1.0, "z": 1.0 },
+					{ "x": 1.0, "y": -1.0, "z": -1.0 },
+					{ "x": -1.0, "y": -1.0, "z": 1.0 },
+					{ "x": -1.0, "y": -1.0, "z": -1.0 }
+				]
+			},
+			"ratings": {
+					"density": 1,//重量
+					"durability": 2,//防御力
+					"friction": 1,//摩擦力
+					"buoyancy": 1//浮力
+				},
+			"physicsMaterial": "Metal",
+			"sticky": "+X+Z-X-Y-Z"
+		},
+		{ /*flag34-stickers*/
+			"uuid": "1e5952f9-04c5-4d90-9d37-dd15f5d84664",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$MOD_DATA/Objects/Textures/stickers/ManualRelease.png",
+									"$MOD_DATA/Objects/Textures/wall1_asg.png"
+									
+								],
+								"material": "DifAsg"
+							}
+						],
+						"mesh": "$MOD_DATA/Objects/Mesh/fig_1_1.obj"
+					}
+				]
+			},
+			"rotationSet": "oneFace",
+			"color": "114514",
+			"hull": { 
+				"x": 1, "y": 1, "z": 1,
+				"margin": 0.02,
+				"pointList": [
+					{ "x": 1.0, "y": -1.0, "z": 1.0 },
+					{ "x": 1.0, "y": -1.0, "z": -1.0 },
+					{ "x": -1.0, "y": -1.0, "z": 1.0 },
+					{ "x": -1.0, "y": -1.0, "z": -1.0 }
+				]
+			},
+			"ratings": {
+					"density": 1,//重量
+					"durability": 2,//防御力
+					"friction": 1,//摩擦力
+					"buoyancy": 1//浮力
+				},
+			"physicsMaterial": "Metal",
+			"sticky": "+X+Z-X-Y-Z"
+		},
+		{ /*flag35-stickers*/
+			"uuid": "1e5952f9-04c5-4d90-9d37-dd15f5d84665",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$MOD_DATA/Objects/Textures/stickers/Warning1.png",
+									"$MOD_DATA/Objects/Textures/wall1_asg.png"
+									
+								],
+								"material": "DifAsg"
+							}
+						],
+						"mesh": "$MOD_DATA/Objects/Mesh/fig_1_3.obj"
+					}
+				]
+			},
+			"rotationSet": "oneFace",
+			"color": "114514",
+			"hull": { 
+				"x": 3, "y": 1, "z": 1,
+				"margin": 0.02,
+				"pointList": [
+					{ "x": 1.0, "y": -1.0, "z": 1.0 },
+					{ "x": 1.0, "y": -1.0, "z": -1.0 },
+					{ "x": -1.0, "y": -1.0, "z": 1.0 },
+					{ "x": -1.0, "y": -1.0, "z": -1.0 }
+				]
+			},
+			"ratings": {
+					"density": 1,//重量
+					"durability": 2,//防御力
+					"friction": 1,//摩擦力
+					"buoyancy": 1//浮力
+				},
+			"physicsMaterial": "Metal",
+			"sticky": "+X+Z-X-Y-Z"
+		}
+	]
+}

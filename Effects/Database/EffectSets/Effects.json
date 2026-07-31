@@ -1,0 +1,121 @@
+{
+   "HUD1_1x" : {
+      "effectList" : [
+         {
+            "attached" : true,
+            "delay" : 0.0,
+            "name" : "HUD1_1x",
+            "offset" : [ 0.0, 0.0, 0.0 ],
+            "type" : "particle"
+         }
+      ],
+      "parameterList" : {}
+   },
+   "HUD1_6x" : {
+      "effectList" : [
+         {
+            "attached" : true,
+            "delay" : 0.0,
+            "name" : "HUD1_6x",
+            "offset" : [ 0.0, 0.0, 0.0 ],
+            "type" : "particle"
+         }
+      ],
+      "parameterList" : {}
+   },
+   "HUD2_1x" : {
+      "effectList" : [
+         {
+            "attached" : true,
+            "delay" : 0.0,
+            "name" : "HUD2_1x",
+            "offset" : [ 0.0, 0.0, 0.0 ],
+            "type" : "particle"
+         }
+      ],
+      "parameterList" : {}
+   },
+   "HUD2_6x" : {
+      "effectList" : [
+         {
+            "attached" : true,
+            "delay" : 0.0,
+            "name" : "HUD2_6x",
+            "offset" : [ 0.0, 0.0, 0.0 ],
+            "type" : "particle"
+         }
+      ],
+      "parameterList" : {}
+   },
+   "Steam - quench" : {
+      "effectList" : [
+         {
+            "attached" : true,
+            "delay" : 0.0,
+            "name" : "paint_smoke_M",
+            "offset" : [ 0.0, 0.0, 0.0 ],
+            "type" : "particle"
+         }
+      ]
+   },
+   "flame" : {
+      "effectList" : [
+         {
+            "attached" : true,
+            "delay" : 0.0,
+            "name" : "flame",
+            "offset" : [ 0.0, 0.0, 0.0 ],
+            "type" : "particle"
+         }
+      ],
+      "parameterList" : {}
+   },
+   "lazer" : {
+      "effectList" : [
+         {
+            "attached" : true,
+            "delay" : 0.0,
+            "name" : "lazer",
+            "offset" : [ 0.0, 0.0, 0.0 ],
+            "type" : "particle"
+         }
+      ],
+      "parameterList" : {}
+   },
+   "point" : {
+      "effectList" : [
+         {
+            "attached" : true,
+            "delay" : 0.0,
+            "name" : "point",
+            "offset" : [ 0.0, 0.0, 0.0 ],
+            "type" : "particle"
+         }
+      ],
+      "parameterList" : {}
+   },
+   "shield" : {
+      "effectList" : [
+         {
+            "attached" : true,
+            "delay" : 0.0,
+            "name" : "shield",
+            "offset" : [ 0.0, 0.0, 0.0 ],
+            "type" : "particle"
+         }
+      ],
+      "parameterList" : {}
+   },
+   "shine" : {
+      "effectList" : [
+         {
+            "attached" : true,
+            "delay" : 0.0,
+            "name" : "shine",
+            "offset" : [ 0.0, 0.0, 0.0 ],
+            "type" : "particle"
+         }
+      ],
+      "parameterList" : {}
+   }
+}

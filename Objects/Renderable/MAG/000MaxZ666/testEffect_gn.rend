@@ -1,0 +1,28 @@
+
+{
+	"lodList" : 
+	[
+		
+		{
+			"mesh" : "$MOD_DATA/Objects/Mesh/MAG/testEftFixed.obj",
+			"minViewSize" : 15.0,
+			"subMeshList" : 
+			[
+				
+				{
+					"custom" : 
+					{
+						"shadow" : false
+					},
+					"material" : "Leaves",
+					"textureList" : 
+					[
+						"$MOD_DATA/Objects/Textures/MAG/MaxZ666_dif.tga",
+						"$MOD_DATA/Objects/Textures/MAG/000MaxZ666/testEffect_asg-export.tga",
+						"$MOD_DATA/Objects/Textures/MAG/_empty-nor.tga"
+					]
+				}
+			]
+		}
+	]
+}

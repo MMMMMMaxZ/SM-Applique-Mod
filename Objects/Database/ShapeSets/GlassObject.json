@@ -1,0 +1,55 @@
+{
+   "partList" : [
+      {
+         "box" : {
+            "x" : 1,
+            "y" : 1,
+            "z" : 1
+         },
+         "color" : "114514",
+         "flammable" : true,
+         "physicsMaterial" : "Glass",
+         "ratings" : {
+            "buoyancy" : 1,
+            "density" : 1,
+            "durability" : 2,
+            "friction" : 1
+         },
+         "renderable" : {
+            "lodList" : [
+               {
+                  "mesh" : "$MOD_DATA/Objects/Mesh/GuangJian_0.obj",
+                  "subMeshList" : [
+                     {
+                        "material" : "Glass",
+                        "textureList" : [
+                           "$MOD_DATA/Objects/Textures/Cube_Out.png",
+                           "$MOD_DATA/Objects/Textures/Cude_Out_Asg.png"
+                        ]
+                     },
+                     {
+                        "material" : "DifAsg",
+                        "textureList" : [
+                           "$MOD_DATA/Objects/Textures/empty_dif.png",
+                           "$MOD_DATA/Objects/Textures/shine_asg.png"
+                        ]
+                     }
+                  ]
+               }
+            ]
+         },
+         "restrictions" : {
+            "erasable" : true,
+            "paintable" : true,
+            "usable" : true
+         },
+         "rotationSet" : "oneFace",
+         "scripted" : {
+            "classname" : "Ball",
+            "filename" : "$MOD_DATA/Scripts/Ball.lua"
+         },
+         "sticky" : "+X+Y+Z-X-Y-Z",
+         "uuid" : "4909afe9-f362-45b5-a14e-835ebeb14dac"
+      }
+   ]
+}

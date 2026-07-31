@@ -1,0 +1,22 @@
+
+{
+	"partList" : 
+	[
+		
+		{
+			"box" : 
+			{
+				"x" : 1.0,
+				"y" : 1.0,
+				"z" : 1.0
+			},
+			"color" : "FFFFFF",
+			"name" : "testEffect",
+			"physicsMaterial" : "Default",
+			"renderable" : "$MOD_DATA/Objects/Renderable/MAG/000MaxZ666/testEffect_gn.rend",
+			"rotationSet" : "Default",
+			"showInInventory" : false,
+			"uuid" : "0012359a-1068-4de7-b7a0-a41682e47001"
+		}
+	]
+}

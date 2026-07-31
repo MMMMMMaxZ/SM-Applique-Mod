@@ -1,0 +1,138 @@
+alertCreator = class(nil)
+alertCreator.maxParentCount = 1
+alertCreator.maxChildCount = 1
+alertCreator.connectionInput = sm.interactable.connectionType.logic
+alertCreator.connectionOutput = sm.interactable.connectionType.logic
+alertCreator.poseWeightCount = 1
+
+alertCreator.colorNormal = sm.color.new(0x14514ff)
+alertCreator.colorHighlight = sm.color.new(0x114514aa)
+
+--------------------------------Server--
+function alertCreator.server_onCreate( self )
+	self.savePlayerName = self.storage:load()
+	if self.savePlayerName== nil then
+		self.savePlayerName = "null"
+		self.storage:save(self.savePlayerName)
+	end
+end
+
+function alertCreator.server_nameChange( self, savePlayerName )
+	self.savePlayerName = savePlayerName
+	self.storage:save(self.savePlayerName)
+end
+
+function alertCreator.server_onFixedUpdate( self, timeStep )
+	self.input = self.interactable:getSingleParent()
+	if self.input then
+		self.inputActive = self.input:isActive()
+		if self.inputActive == true then
+			self.display = true
+		else
+			self.display = false
+		end
+	else
+		self.display = false
+	end
+
+
+	self.currentPos = sm.shape.getWorldPosition(self.shape)
+	Player = server_getNearestPlayer( self.currentPos )
+	self.getID = Player:getId()
+
+	self.textstring = self.savePlayerName
+	self.network:sendToClients("client_Display", { text = self.textstring, playerID = self.getID, display = self.display })
+
+end
+
+function server_getNearestPlayer( position )
+	local nearestPlayer = nil
+	local nearestDistance = nil
+	for id,Player in pairs(sm.player.getAllPlayers())
+	do
+		local length2 = sm.vec3.length2(position - Player.character:getWorldPosition())
+		if nearestDistance == nil or length2 < nearestDistance
+		then
+			nearestDistance = length2
+			nearestPlayer = Player
+		end
+	end
+	return nearestPlayer
+end
+
+function alertCreator.server_explode( self )
+	sm.physics.explode( self.shape.worldPosition, 1, 1.0, 12.0, 400, self.explosionEffectName, self.shape )
+end
+
+function alertCreator.server_onDestroy(self)
+	Player = server_getNearestPlayer( self.currentPos )
+	if self.savePlayerName == Player.name then
+		sm.gui.displayAlertText( "已解除", 2)
+	else
+		sm.physics.explode( self.shape.worldPosition, 1, 1.0, 12.0, 400, self.explosionEffectName, self.shape )
+	end
+end
+
+----------------------------------------------------------------Client--
+function alertCreator.client_onCreate( self )
+	self.UIPosIndex = 1
+end
+
+function alertCreator.client_Display( self, Data )
+	if Data.display == true and Data.playerID == sm.localPlayer.getId() then
+		if Data.text == "null" then
+			sm.gui.displayAlertText( "未设置" , 1)
+		else
+			sm.gui.displayAlertText( "蓝图版权 :"..Data.text , 1)
+		end
+	end
+end
+
+function alertCreator.client_onUpdate( self, dt )
+	if self.savePlayerName == "null" then
+		self.interactable:setUvFrameIndex(0)
+		self.interactable:setPoseWeight(0,0)
+		--print("0")
+	else 
+		self.interactable:setUvFrameIndex(6)
+		self.interactable:setPoseWeight(0,1)
+		--print("1")
+	end
+end
+
+function alertCreator.client_onInteract(self, character, state)
+    if not state then return end
+	local playerName = sm.localPlayer.getPlayer():getName()
+	if self.savePlayerName == playerName then
+		sm.gui.displayAlertText( "已取消锁定玩家", 2)
+		local nullName = "null"
+		self.network:sendToServer("server_nameChange", nullName)
+	else 
+		if self.savePlayerName == "null" then
+			sm.gui.displayAlertText( "已设置锁定玩家", 2)
+			self.network:sendToServer("server_nameChange", playerName)
+		else 
+			sm.gui.displayAlertText( "非设定玩家，无法修改", 2)
+			self.network:sendToServer("server_explode")
+		end
+	end
+	
+end
+
+function alertCreator.client_canInteract(self)
+	if self.savePlayerName == "null" then
+		sm.gui.setInteractionText( "", sm.gui.getKeyBinding( "Use" ), "设置")
+	else
+		sm.gui.setInteractionText( "", sm.gui.getKeyBinding( "Use" ), "已设置")
+	end
+	return true
+end
+
+function alertCreator.client_onDestroy(self)
+	local playerName = sm.localPlayer.getPlayer():getName()
+	if self.savePlayerName == playerName then
+		sm.gui.displayAlertText( "已解除", 2)
+	else
+		self.network:sendToServer("server_explode")
+	end		
+end

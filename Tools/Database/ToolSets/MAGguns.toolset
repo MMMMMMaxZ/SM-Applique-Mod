@@ -1,0 +1,103 @@
+{
+   "toolList" : [
+      {
+         "name" : "MAGgun",
+         "previewRenderable" : "$CONTENT_DATA/Objects/Renderable/MAGgun.rend",
+         "previewRotation" : [ 1, 0, 0, 0, 0, -1, 0, 1, 0 ],
+         "script" : {
+            "class" : "MAGG",
+            "data" : {},
+            "file" : "$CONTENT_DATA/Scripts/tools/MAGgun.lua"
+         },
+         "uuid" : "1cd32f21-5fe1-4bae-865b-c0c5440253e5"
+      },
+      {
+         "name" : "MAGpainter",
+         "previewRenderable" : "$CONTENT_DATA/Objects/Renderable/MAGpainter.rend",
+         "previewRotation" : [ 1, 0, 0, 0, 0, -1, 0, 1, 0 ],
+         "script" : {
+            "class" : "MAGP",
+            "data" : {},
+            "file" : "$CONTENT_DATA/Scripts/tools/MAGpainter.lua"
+         },
+         "uuid" : "1cd32f21-5fe1-4bae-865b-c0c5440253e6"
+      },
+      {
+         "name" : "MAGTutorialTool",
+         "previewRenderable" : "$CONTENT_DATA/Objects/Renderable/MACThand.rend",
+         "previewRotation" : [ 1, 0, 0, 0, 0, -1, 0, 1, 0 ],
+         "script" : {
+            "class" : "MAGTG",
+            "data" : {},
+            "file" : "$CONTENT_DATA/Scripts/tools/MAGTutorialGun.lua"
+         },
+         "uuid" : "1cd32f21-5fe1-4bae-865b-c0c5440253e7"
+      },
+      {
+         "name" : "MAGSelector",
+         "previewRenderable" : "$CONTENT_DATA/Objects/Renderable/MAGselector.rend",
+         "previewRotation" : [ 1, 0, 0, 0, 0, -1, 0, 1, 0 ],
+         "script" : {
+            "class" : "MAGS",
+            "data" : {},
+            "file" : "$CONTENT_DATA/Scripts/tools/MAGselector.lua"
+         },
+         "uuid" : "1cd32f21-5fe1-4bae-865b-c0c5440253e8"
+      },
+      {
+         "name" : "MAGeditor",
+         "previewRenderable" : "$CONTENT_DATA/Objects/Renderable/MAGeditor.rend",
+         "previewRotation" : [ 1, 0, 0, 0, 0, -1, 0, 1, 0 ],
+         "script" : {
+            "class" : "MAGE",
+            "data" : {},
+            "file" : "$CONTENT_DATA/Scripts/tools/MAGeditor.lua"
+         },
+         "uuid" : "1cd32f21-5fe1-4bae-865b-c0c5440253e9"
+      },
+      {
+         "name" : "MAGmirror",
+         "previewRenderable" : "$CONTENT_DATA/Objects/Renderable/MAGmirror.rend",
+         "previewRotation" : [ 1, 0, 0, 0, 0, -1, 0, 1, 0 ],
+         "script" : {
+            "class" : "MAGM",
+            "data" : {},
+            "file" : "$CONTENT_DATA/Scripts/tools/MAGmirror.lua"
+         },
+         "uuid" : "1cd32f21-5fe1-4bae-865b-c0c5440253ea"
+      },
+      {
+         "name" : "MAGmover",
+         "previewRenderable" : "$CONTENT_DATA/Objects/Renderable/MAGmover.rend",
+         "previewRotation" : [ 1, 0, 0, 0, 0, -1, 0, 1, 0 ],
+         "script" : {
+            "class" : "MAGMo",
+            "data" : {},
+            "file" : "$CONTENT_DATA/Scripts/tools/MAGmover.lua"
+         },
+         "uuid" : "1cd32f21-5fe1-4bae-865b-c0c5440253eb"
+      },
+      {
+         "name" : "MAGconvertor",
+         "previewRenderable" : "$CONTENT_DATA/Objects/Renderable/MAGconvertor.rend",
+         "previewRotation" : [ 1, 0, 0, 0, 0, -1, 0, 1, 0 ],
+         "script" : {
+            "class" : "MAGCo",
+            "data" : {},
+            "file" : "$CONTENT_DATA/Scripts/tools/MAGconvertor.lua"
+         },
+         "uuid" : "1cd32f21-5fe1-4bae-865b-c0c5440253ec"
+      },
+      {
+         "name" : "MAGstep",
+         "previewRenderable" : "$CONTENT_DATA/Objects/Renderable/MAGstep.rend",
+         "previewRotation" : [ 1, 0, 0, 0, 0, -1, 0, 1, 0 ],
+         "script" : {
+            "class" : "MAGSt",
+            "data" : {},
+            "file" : "$CONTENT_DATA/Scripts/tools/MAGstep.lua"
+         },
+         "uuid" : "1cd32f21-5fe1-4bae-865b-c0c5440253ed"
+      }
+   ]
+}

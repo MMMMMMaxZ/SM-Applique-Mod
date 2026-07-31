@@ -1,0 +1,24 @@
+{
+   "lodList" : [
+      {
+         "mesh" : "$CONTENT_DATA/Objects/Mesh/crystalTech/MAG.obj",
+         "subMeshList" : [
+            {
+               "material" : "Leaves",
+               "textureList" : [
+                  "$CONTENT_DATA/Objects/Textures/crystalTech/eye.png",
+                  "$CONTENT_DATA/Objects/Textures/shine_asg.png"
+               ]
+            },
+            {
+               "material" : "Leaves",
+               "textureList" : [ "$CONTENT_DATA/Objects/Textures/crystalTech/grey.png" ]
+            },
+            {
+               "material" : "Leaves",
+               "textureList" : [ "$CONTENT_DATA/Objects/Textures/crystalTech/frame.png" ]
+            }
+         ]
+      }
+   ]
+}

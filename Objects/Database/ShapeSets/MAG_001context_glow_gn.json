@@ -1,0 +1,278 @@
+
+{
+	"partList" : 
+	[
+		
+		{
+			"box" : 
+			{
+				"x" : 1.0,
+				"y" : 1.0,
+				"z" : 1.0
+			},
+			"color" : "FFFFFF",
+			"name" : "A",
+			"physicsMaterial" : "Default",
+			"renderable" : "$MOD_DATA/Objects/Renderable/MAG/001context_glow/A_gn.rend",
+			"rotationSet" : "Default",
+			"showInInventory" : false,
+			"uuid" : "0022359b-1068-4de7-b7a0-a41682e47001"
+		},
+		
+		{
+			"box" : 
+			{
+				"x" : 1.0,
+				"y" : 1.0,
+				"z" : 1.0
+			},
+			"color" : "FFFFFF",
+			"name" : "S",
+			"physicsMaterial" : "Default",
+			"renderable" : "$MOD_DATA/Objects/Renderable/MAG/001context_glow/S_gn.rend",
+			"rotationSet" : "Default",
+			"showInInventory" : false,
+			"uuid" : "0022359b-1068-4de7-b7a0-a41682e47002"
+		},
+		
+		{
+			"box" : 
+			{
+				"x" : 1.0,
+				"y" : 1.0,
+				"z" : 1.0
+			},
+			"color" : "FFFFFF",
+			"name" : "G",
+			"physicsMaterial" : "Default",
+			"renderable" : "$MOD_DATA/Objects/Renderable/MAG/001context_glow/G_gn.rend",
+			"rotationSet" : "Default",
+			"showInInventory" : false,
+			"uuid" : "0022359b-1068-4de7-b7a0-a41682e47003"
+		},
+		
+		{
+			"box" : 
+			{
+				"x" : 1.0,
+				"y" : 1.0,
+				"z" : 1.0
+			},
+			"color" : "FFFFFF",
+			"name" : "W",
+			"physicsMaterial" : "Default",
+			"renderable" : "$MOD_DATA/Objects/Renderable/MAG/001context_glow/W_gn.rend",
+			"rotationSet" : "Default",
+			"showInInventory" : false,
+			"uuid" : "0022359b-1068-4de7-b7a0-a41682e47004"
+		},
+		
+		{
+			"box" : 
+			{
+				"x" : 1.0,
+				"y" : 1.0,
+				"z" : 1.0
+			},
+			"color" : "FFFFFF",
+			"name" : "ManualRelease",
+			"physicsMaterial" : "Default",
+			"renderable" : "$MOD_DATA/Objects/Renderable/MAG/001context_glow/ManualRelease_gn.rend",
+			"rotationSet" : "Default",
+			"showInInventory" : false,
+			"uuid" : "0022359b-1068-4de7-b7a0-a41682e47005"
+		},
+		
+		{
+			"box" : 
+			{
+				"x" : 1.0,
+				"y" : 1.0,
+				"z" : 1.0
+			},
+			"color" : "FFFFFF",
+			"name" : "ArmorLock",
+			"physicsMaterial" : "Default",
+			"renderable" : "$MOD_DATA/Objects/Renderable/MAG/001context_glow/ArmorLock_gn.rend",
+			"rotationSet" : "Default",
+			"showInInventory" : false,
+			"uuid" : "0022359b-1068-4de7-b7a0-a41682e47006"
+		},
+		
+		{
+			"box" : 
+			{
+				"x" : 1.0,
+				"y" : 1.0,
+				"z" : 1.0
+			},
+			"color" : "FFFFFF",
+			"name" : "Caution0",
+			"physicsMaterial" : "Default",
+			"renderable" : "$MOD_DATA/Objects/Renderable/MAG/001context_glow/Caution0_gn.rend",
+			"rotationSet" : "Default",
+			"showInInventory" : false,
+			"uuid" : "0022359b-1068-4de7-b7a0-a41682e47007"
+		},
+		
+		{
+			"box" : 
+			{
+				"x" : 1.0,
+				"y" : 1.0,
+				"z" : 1.0
+			},
+			"color" : "FFFFFF",
+			"name" : "Caution1",
+			"physicsMaterial" : "Default",
+			"renderable" : "$MOD_DATA/Objects/Renderable/MAG/001context_glow/Caution1_gn.rend",
+			"rotationSet" : "Default",
+			"showInInventory" : false,
+			"uuid" : "0022359b-1068-4de7-b7a0-a41682e47008"
+		},
+		
+		{
+			"box" : 
+			{
+				"x" : 1.0,
+				"y" : 1.0,
+				"z" : 1.0
+			},
+			"color" : "FFFFFF",
+			"name" : "Caution2",
+			"physicsMaterial" : "Default",
+			"renderable" : "$MOD_DATA/Objects/Renderable/MAG/001context_glow/Caution2_gn.rend",
+			"rotationSet" : "Default",
+			"showInInventory" : false,
+			"uuid" : "0022359b-1068-4de7-b7a0-a41682e47009"
+		},
+		
+		{
+			"box" : 
+			{
+				"x" : 1.0,
+				"y" : 1.0,
+				"z" : 1.0
+			},
+			"color" : "FFFFFF",
+			"name" : "Caution3",
+			"physicsMaterial" : "Default",
+			"renderable" : "$MOD_DATA/Objects/Renderable/MAG/001context_glow/Caution3_gn.rend",
+			"rotationSet" : "Default",
+			"showInInventory" : false,
+			"uuid" : "0022359b-1068-4de7-b7a0-a41682e47010"
+		},
+		
+		{
+			"box" : 
+			{
+				"x" : 1.0,
+				"y" : 1.0,
+				"z" : 1.0
+			},
+			"color" : "FFFFFF",
+			"name" : "Caution4",
+			"physicsMaterial" : "Default",
+			"renderable" : "$MOD_DATA/Objects/Renderable/MAG/001context_glow/Caution4_gn.rend",
+			"rotationSet" : "Default",
+			"showInInventory" : false,
+			"uuid" : "0022359b-1068-4de7-b7a0-a41682e47011"
+		},
+		
+		{
+			"box" : 
+			{
+				"x" : 1.0,
+				"y" : 1.0,
+				"z" : 1.0
+			},
+			"color" : "FFFFFF",
+			"name" : "Caution5",
+			"physicsMaterial" : "Default",
+			"renderable" : "$MOD_DATA/Objects/Renderable/MAG/001context_glow/Caution5_gn.rend",
+			"rotationSet" : "Default",
+			"showInInventory" : false,
+			"uuid" : "0022359b-1068-4de7-b7a0-a41682e47012"
+		},
+		
+		{
+			"box" : 
+			{
+				"x" : 1.0,
+				"y" : 1.0,
+				"z" : 1.0
+			},
+			"color" : "FFFFFF",
+			"name" : "Caution6",
+			"physicsMaterial" : "Default",
+			"renderable" : "$MOD_DATA/Objects/Renderable/MAG/001context_glow/Caution6_gn.rend",
+			"rotationSet" : "Default",
+			"showInInventory" : false,
+			"uuid" : "0022359b-1068-4de7-b7a0-a41682e47013"
+		},
+		
+		{
+			"box" : 
+			{
+				"x" : 1.0,
+				"y" : 1.0,
+				"z" : 1.0
+			},
+			"color" : "FFFFFF",
+			"name" : "Danger0",
+			"physicsMaterial" : "Default",
+			"renderable" : "$MOD_DATA/Objects/Renderable/MAG/001context_glow/Danger0_gn.rend",
+			"rotationSet" : "Default",
+			"showInInventory" : false,
+			"uuid" : "0022359b-1068-4de7-b7a0-a41682e47014"
+		},
+		
+		{
+			"box" : 
+			{
+				"x" : 1.0,
+				"y" : 1.0,
+				"z" : 1.0
+			},
+			"color" : "FFFFFF",
+			"name" : "Danger3",
+			"physicsMaterial" : "Default",
+			"renderable" : "$MOD_DATA/Objects/Renderable/MAG/001context_glow/Danger3_gn.rend",
+			"rotationSet" : "Default",
+			"showInInventory" : false,
+			"uuid" : "0022359b-1068-4de7-b7a0-a41682e47015"
+		},
+		
+		{
+			"box" : 
+			{
+				"x" : 1.0,
+				"y" : 1.0,
+				"z" : 1.0
+			},
+			"color" : "FFFFFF",
+			"name" : "Warning0",
+			"physicsMaterial" : "Default",
+			"renderable" : "$MOD_DATA/Objects/Renderable/MAG/001context_glow/Warning0_gn.rend",
+			"rotationSet" : "Default",
+			"showInInventory" : false,
+			"uuid" : "0022359b-1068-4de7-b7a0-a41682e47016"
+		},
+		
+		{
+			"box" : 
+			{
+				"x" : 1.0,
+				"y" : 1.0,
+				"z" : 1.0
+			},
+			"color" : "FFFFFF",
+			"name" : "Warning1",
+			"physicsMaterial" : "Default",
+			"renderable" : "$MOD_DATA/Objects/Renderable/MAG/001context_glow/Warning1_gn.rend",
+			"rotationSet" : "Default",
+			"showInInventory" : false,
+			"uuid" : "0022359b-1068-4de7-b7a0-a41682e47017"
+		}
+	]
+}

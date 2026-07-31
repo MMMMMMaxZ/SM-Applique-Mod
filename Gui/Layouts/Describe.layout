@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MyGUI type="Layout" version="3.2.0">
+    <Widget type="Widget" skin="LogicGateBG" position_real="0.20052083333333334 0.069444444444444448 0.59999999999999998 0.77777777777777779" name="MainPanel">
+        <Widget type="TextBox" skin="TextBox" position_real="0 0 1 0.16666666666666666" name="Title">
+            <Property key="Caption" value="投稿通道"/>
+            <Property key="TextAlign" value="Center"/>
+            <Property key="FontName" value="X_Hud_Alert"/>
+        </Widget>
+        <Widget type="TextBox" skin="TextBox" position_real="0 0.16666666666666666 1 0.83333333333333337" name="Content">
+            <Property key="Caption" value="已废弃！有自定义贴花装置啦！"/>
+            <Property key="TextAlign" value="Default"/>
+            <Property key="FontName" value="SM_SubHeader"/>
+            <Property key="Alpha" value="0.5"/>
+        </Widget>
+    </Widget>
+    <CodeGeneratorSettings/>
+</MyGUI>

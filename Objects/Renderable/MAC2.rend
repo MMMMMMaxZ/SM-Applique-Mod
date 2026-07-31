@@ -1,0 +1,35 @@
+{
+   "lodList" : [
+      {
+         "mesh" : "$CONTENT_DATA/Objects/Mesh/crystalTech/MAC2.obj",
+         "subMeshList" : [
+            {
+               "material" : "Dif",
+               "textureList" : [ "$CONTENT_DATA/Objects/Textures/crystalTech/grey.png" ]
+            },
+            {
+               "material" : "Dif",
+               "textureList" : [ "$CONTENT_DATA/Objects/Textures/crystalTech/grey.png" ]
+            },
+            {
+               "material" : "Glass",
+               "textureList" : [
+                  "$CONTENT_DATA/Objects/Textures/crystalTech/glass.png",
+                  "$CONTENT_DATA/Objects/Textures/empty_dif.png"
+               ]
+            },
+            {
+               "material" : "Dif",
+               "textureList" : [ "$CONTENT_DATA/Objects/Textures/crystalTech/frame.png" ]
+            },
+            {
+               "material" : "DifAsg",
+               "textureList" : [
+                  "$CONTENT_DATA/Objects/Textures/crystalTech/eye.png",
+                  "$CONTENT_DATA/Objects/Textures/shine_asg.png"
+               ]
+            }
+         ]
+      }
+   ]
+}

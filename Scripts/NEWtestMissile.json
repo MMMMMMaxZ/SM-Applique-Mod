@@ -1,0 +1,99 @@
+
+[
+	
+	{
+		"boundingBox" : 
+		{
+			"x" : 1.0,
+			"y" : 1.0,
+			"z" : 1.0
+		},
+		"canInteract" : true,
+		"children" : [ 3.0 ],
+		"color" : "4a4a4aff",
+		"isBlock" : false,
+		"localPosition" : 
+		{
+			"x" : -13.0,
+			"y" : -11.0,
+			"z" : 5.0
+		},
+		"uuid" : "51da94d6-a215-4f69-b569-c45bc1557d01",
+		"xAxis" : 
+		{
+			"x" : 0.0,
+			"y" : 1.0,
+			"z" : 0.0
+		},
+		"zAxis" : 
+		{
+			"x" : 1.0,
+			"y" : 0.0,
+			"z" : 0.0
+		}
+	},
+	
+	{
+		"boundingBox" : 
+		{
+			"x" : 1.0,
+			"y" : 1.0,
+			"z" : 1.0
+		},
+		"canInteract" : false,
+		"children" : null,
+		"color" : "4a4a4aff",
+		"isBlock" : true,
+		"localPosition" : 
+		{
+			"x" : -13.0,
+			"y" : -11.0,
+			"z" : 4.0
+		},
+		"uuid" : "8aedf6c2-94e1-4506-89d4-a0227c552f1e",
+		"xAxis" : 
+		{
+			"x" : 1.0,
+			"y" : 0.0,
+			"z" : 0.0
+		},
+		"zAxis" : 
+		{
+			"x" : 0.0,
+			"y" : 0.0,
+			"z" : 1.0
+		}
+	},
+	
+	{
+		"boundingBox" : 
+		{
+			"x" : 1.0,
+			"y" : 1.0,
+			"z" : 1.0
+		},
+		"canInteract" : true,
+		"children" : null,
+		"color" : "4a4a4aff",
+		"isBlock" : false,
+		"localPosition" : 
+		{
+			"x" : -13.0,
+			"y" : -10.0,
+			"z" : 3.0
+		},
+		"uuid" : "3003aaba-5494-11e6-beb8-9e71128cae77",
+		"xAxis" : 
+		{
+			"x" : 1.0,
+			"y" : 0.0,
+			"z" : 0.0
+		},
+		"zAxis" : 
+		{
+			"x" : 0.0,
+			"y" : -1.0,
+			"z" : 0.0
+		}
+	}
+]

@@ -1,0 +1,8 @@
+# Made in Blockbench 4.7.4
+newmtl m_4569ab1b-bdf9-822c-7834-45bea2c7044e
+map_Kd frame.png 
+newmtl m_ba20216c-d936-2ad9-12ed-eb081b4ca282
+map_Kd grey.png 
+newmtl m_504e46ee-bc08-d695-f731-19d95e7d89c5
+map_Kd eye.png 
+newmtl none

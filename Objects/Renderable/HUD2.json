@@ -1,0 +1,20 @@
+{
+   "lodList" : [
+      {
+         "mesh" : "$CONTENT_DATA/Objects/Mesh/HUD/MHUD2_2.obj",
+         "minViewSize" : 15,
+         "subMeshList" : [
+            {
+               "custom" : {
+                  "shadow" : false
+               },
+               "material" : "Leaves",
+               "textureList" : [
+                  "$CONTENT_DATA/Objects/Textures/HUD/_Empty.tga",
+                  "$CONTENT_DATA/Objects/Textures/HUD/MHUD2_2_1_asg.tga"
+               ]
+            }
+         ]
+      }
+   ]
+}

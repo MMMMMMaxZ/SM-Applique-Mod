@@ -1,0 +1,263 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MyGUI type="Layout" version="3.2.0">
+    <Widget type="Widget" skin="" position_real="0 0 0.75 0.69444444444444442" align="Default" name="BackPanel">
+        <Property key="NeedKey" value="false"/>
+        <Property key="NeedMouse" value="true"/>
+        <Property key="InheritsAlpha" value="false"/>
+        <Widget type="Widget" skin="BackgroundInteractableWide" position_real="0.21527777777777779 0.69999999999999996 0.34930555555555554 0.29333333333333333"/>
+        <Widget type="TextBox" skin="TextBox" position_real="0.56944444444444442 0.13333333333333333 0.40000000000000002 0.064000000000000001" name="Name">
+            <Property key="Caption" value="title"/>
+            <Property key="FontName" value="SM_HeaderLarge_Wide"/>
+            <Property key="TextAlign" value="Center"/>
+            <Property key="NeedKey" value="false"/>
+            <Property key="NeedMouse" value="false"/>
+        </Widget>
+        <Widget type="TextBox" skin="TextBox" position_real="0.21180555555555555 0.13333333333333333 0.35833333333333334 0.064000000000000001" name="SubTitle">
+            <Property key="TextAlign" value="Center"/>
+            <Property key="TextColour" value="1 0.803922 0.247059"/>
+            <Property key="FontName" value="SM_SubHeader"/>
+            <Property key="Caption" value="subtitle"/>
+        </Widget>
+        <Widget type="ImageBox" skin="ImageBox" position_real="0.21180555555555555 0.13333333333333333 0.35833333333333334 0.064000000000000001" name="Tutorial">
+            <Property key="ImageTexture" value="black.png"/>
+            <Property key="NeedToolTip" value="true"/>
+            <UserString key="Clickable" value="Yes"/>
+        </Widget>
+        <Widget type="Window" skin="PanelEmpty" position_real="0.2361111111111111 0.78000000000000003 0.31805555555555554 0.108" name="slider1">
+            <Property key="Range" value="20"/>
+            <Property key="NeedKey" value="false"/>
+        </Widget>
+        <Widget type="Window" skin="PanelEmpty" position_real="0.2361111111111111 0.85999999999999999 0.31805555555555554 0.108" name="slider2">
+            <Property key="Range" value="20"/>
+            <Property key="NeedKey" value="false"/>
+        </Widget>
+        <Widget type="Widget" skin="BackgroundPopup" position_real="0.21180555555555555 0.20666666666666667 0.34375 0.47999999999999998">
+            <Widget type="ImageBox" skin="ImageBox" position_real="0.16161616161616163 0.055555555555555552 0.63434343434343432 0.86111111111111116" name="itemPreview"/>
+        </Widget>
+        <Widget type="Widget" skin="BackgroundPopup" position_real="0.58680555555555558 0.20666666666666667 0.38541666666666669 0.72133333333333338">
+            <Widget type="Button" skin="LiftTab" position_real="0.048648648648648651 0.049907578558225509 0.11891891891891893 0.11829944547134935" name="apqButton1">
+                <Widget type="ImageBox" skin="ImageBox" position_real="0 0 1 1" name="item1">
+                    <Property key="Enabled" value="false"/>
+                </Widget>
+            </Widget>
+            <Widget type="Button" skin="LiftTab" position_real="0.24864864864864866 0.049907578558225509 0.11891891891891893 0.11829944547134935" name="apqButton2">
+                <Widget type="ImageBox" skin="ImageBox" position_real="0 0 1 1" name="item2">
+                    <Property key="Enabled" value="false"/>
+                </Widget>
+            </Widget>
+            <Widget type="Button" skin="LiftTab" position_real="0.44864864864864867 0.049907578558225509 0.11891891891891893 0.11829944547134935" name="apqButton3">
+                <Widget type="ImageBox" skin="ImageBox" position_real="0 0 1 1" name="item3">
+                    <Property key="Enabled" value="false"/>
+                </Widget>
+            </Widget>
+            <Widget type="Button" skin="LiftTab" position_real="0.64864864864864868 0.049907578558225509 0.11891891891891893 0.11829944547134935" name="apqButton4">
+                <Widget type="ImageBox" skin="ImageBox" position_real="0 0 1 1" name="item4">
+                    <Property key="Enabled" value="false"/>
+                </Widget>
+            </Widget>
+            <Widget type="Button" skin="LiftTab" position_real="0.84864864864864864 0.049907578558225509 0.11891891891891893 0.11829944547134935" name="apqButton5">
+                <Widget type="ImageBox" skin="ImageBox" position_real="0 0 1 1" name="item5">
+                    <Property key="Enabled" value="false"/>
+                </Widget>
+            </Widget>
+            <Widget type="Button" skin="LiftTab" position_real="0.048648648648648651 0.19963031423290203 0.11891891891891893 0.11829944547134935" name="apqButton6">
+                <Widget type="ImageBox" skin="ImageBox" position_real="0 0 1 1" name="item6">
+                    <Property key="Enabled" value="false"/>
+                </Widget>
+            </Widget>
+            <Widget type="Button" skin="LiftTab" position_real="0.24864864864864866 0.19963031423290203 0.11891891891891893 0.11829944547134935" name="apqButton7">
+                <Widget type="ImageBox" skin="ImageBox" position_real="0 0 1 1" name="item7">
+                    <Property key="Enabled" value="false"/>
+                </Widget>
+            </Widget>
+            <Widget type="Button" skin="LiftTab" position_real="0.44864864864864867 0.19963031423290203 0.11891891891891893 0.11829944547134935" name="apqButton8">
+                <Widget type="ImageBox" skin="ImageBox" position_real="0 0 1 1" name="item8">
+                    <Property key="Enabled" value="false"/>
+                </Widget>
+            </Widget>
+            <Widget type="Button" skin="LiftTab" position_real="0.64864864864864868 0.19963031423290203 0.11891891891891893 0.11829944547134935" name="apqButton9">
+                <Widget type="ImageBox" skin="ImageBox" position_real="0 0 1 1" name="item9">
+                    <Property key="Enabled" value="false"/>
+                </Widget>
+            </Widget>
+            <Widget type="Button" skin="LiftTab" position_real="0.84864864864864864 0.19963031423290203 0.11891891891891893 0.11829944547134935" name="apqButton10">
+                <Widget type="ImageBox" skin="ImageBox" position_real="0 0 1 1" name="item10">
+                    <Property key="Enabled" value="false"/>
+                </Widget>
+            </Widget>
+            <Widget type="Button" skin="LiftTab" position_real="0.048648648648648651 0.34935304990757854 0.11891891891891893 0.11829944547134935" name="apqButton11">
+                <Widget type="ImageBox" skin="ImageBox" position_real="0 0 1 1" name="item11">
+                    <Property key="Enabled" value="false"/>
+                </Widget>
+            </Widget>
+            <Widget type="Button" skin="LiftTab" position_real="0.24864864864864866 0.34935304990757854 0.11891891891891893 0.11829944547134935" name="apqButton12">
+                <Widget type="ImageBox" skin="ImageBox" position_real="0 0 1 1" name="item12">
+                    <Property key="Enabled" value="false"/>
+                </Widget>
+            </Widget>
+            <Widget type="Button" skin="LiftTab" position_real="0.44864864864864867 0.34935304990757854 0.11891891891891893 0.11829944547134935" name="apqButton13">
+                <Widget type="ImageBox" skin="ImageBox" position_real="0 0 1 1" name="item13">
+                    <Property key="Enabled" value="false"/>
+                </Widget>
+            </Widget>
+            <Widget type="Button" skin="LiftTab" position_real="0.64864864864864868 0.34935304990757854 0.11891891891891893 0.11829944547134935" name="apqButton14">
+                <Widget type="ImageBox" skin="ImageBox" position_real="0 0 1 1" name="item14">
+                    <Property key="Enabled" value="false"/>
+                </Widget>
+            </Widget>
+            <Widget type="Button" skin="LiftTab" position_real="0.84864864864864864 0.34935304990757854 0.11891891891891893 0.11829944547134935" name="apqButton15">
+                <Widget type="ImageBox" skin="ImageBox" position_real="0 0 1 1" name="item15">
+                    <Property key="Enabled" value="false"/>
+                </Widget>
+            </Widget>
+            <Widget type="Button" skin="LiftTab" position_real="0.048648648648648651 0.49907578558225507 0.11891891891891893 0.11829944547134935" name="apqButton16">
+                <Widget type="ImageBox" skin="ImageBox" position_real="0 0 1 1" name="item16">
+                    <Property key="Enabled" value="false"/>
+                </Widget>
+            </Widget>
+            <Widget type="Button" skin="LiftTab" position_real="0.24864864864864866 0.49907578558225507 0.11891891891891893 0.11829944547134935" name="apqButton17">
+                <Widget type="ImageBox" skin="ImageBox" position_real="0 0 1 1" name="item17">
+                    <Property key="Enabled" value="false"/>
+                </Widget>
+            </Widget>
+            <Widget type="Button" skin="LiftTab" position_real="0.44864864864864867 0.49907578558225507 0.11891891891891893 0.11829944547134935" name="apqButton18">
+                <Widget type="ImageBox" skin="ImageBox" position_real="0 0 1 1" name="item18">
+                    <Property key="Enabled" value="false"/>
+                </Widget>
+            </Widget>
+            <Widget type="Button" skin="LiftTab" position_real="0.64864864864864868 0.49907578558225507 0.11891891891891893 0.11829944547134935" name="apqButton19">
+                <Widget type="ImageBox" skin="ImageBox" position_real="0 0 1 1" name="item19">
+                    <Property key="Enabled" value="false"/>
+                </Widget>
+            </Widget>
+            <Widget type="Button" skin="LiftTab" position_real="0.84864864864864864 0.49907578558225507 0.11891891891891893 0.11829944547134935" name="apqButton20">
+                <Widget type="ImageBox" skin="ImageBox" position_real="0 0 1 1" name="item20">
+                    <Property key="Enabled" value="false"/>
+                </Widget>
+            </Widget>
+            <Widget type="Button" skin="LiftTab" position_real="0.048648648648648651 0.6487985212569316 0.11891891891891893 0.11829944547134935" name="apqButton21">
+                <Widget type="ImageBox" skin="ImageBox" position_real="0 0 1 1" name="item21">
+                    <Property key="Enabled" value="false"/>
+                </Widget>
+            </Widget>
+            <Widget type="Button" skin="LiftTab" position_real="0.24864864864864866 0.6487985212569316 0.11891891891891893 0.11829944547134935" name="apqButton22">
+                <Widget type="ImageBox" skin="ImageBox" position_real="0 0 1 1" name="item22">
+                    <Property key="Enabled" value="false"/>
+                </Widget>
+            </Widget>
+            <Widget type="Button" skin="LiftTab" position_real="0.44864864864864867 0.6487985212569316 0.11891891891891893 0.11829944547134935" name="apqButton23">
+                <Widget type="ImageBox" skin="ImageBox" position_real="0 0 1 1" name="item23">
+                    <Property key="Enabled" value="false"/>
+                </Widget>
+            </Widget>
+            <Widget type="Button" skin="LiftTab" position_real="0.64864864864864868 0.6487985212569316 0.11891891891891893 0.11829944547134935" name="apqButton24">
+                <Widget type="ImageBox" skin="ImageBox" position_real="0 0 1 1" name="item24">
+                    <Property key="Enabled" value="false"/>
+                </Widget>
+            </Widget>
+            <Widget type="Button" skin="LiftTab" position_real="0.84864864864864864 0.6487985212569316 0.11891891891891893 0.11829944547134935" name="apqButton25">
+                <Widget type="ImageBox" skin="ImageBox" position_real="0 0 1 1" name="item25">
+                    <Property key="Enabled" value="false"/>
+                </Widget>
+            </Widget>
+            <Widget type="Button" skin="LiftTab" position_real="0.048648648648648651 0.79852125693160814 0.11891891891891893 0.11829944547134935" name="apqButton26">
+                <Widget type="ImageBox" skin="ImageBox" position_real="0 0 1 1" name="item26">
+                    <Property key="Enabled" value="false"/>
+                </Widget>
+            </Widget>
+            <Widget type="Button" skin="LiftTab" position_real="0.24864864864864866 0.79852125693160814 0.11891891891891893 0.11829944547134935" name="apqButton27">
+                <Widget type="ImageBox" skin="ImageBox" position_real="0 0 1 1" name="item27">
+                    <Property key="Enabled" value="false"/>
+                </Widget>
+            </Widget>
+            <Widget type="Button" skin="LiftTab" position_real="0.44864864864864867 0.79852125693160814 0.11891891891891893 0.11829944547134935" name="apqButton28">
+                <Widget type="ImageBox" skin="ImageBox" position_real="0 0 1 1" name="item28">
+                    <Property key="Enabled" value="false"/>
+                </Widget>
+            </Widget>
+            <Widget type="Button" skin="LiftTab" position_real="0.64864864864864868 0.79852125693160814 0.11891891891891893 0.11829944547134935" name="apqButton29">
+                <Widget type="ImageBox" skin="ImageBox" position_real="0 0 1 1" name="item29">
+                    <Property key="Enabled" value="false"/>
+                </Widget>
+            </Widget>
+            <Widget type="Button" skin="LiftTab" position_real="0.84864864864864864 0.79852125693160814 0.11891891891891893 0.11829944547134935" name="apqButton30">
+                <Widget type="ImageBox" skin="ImageBox" position_real="0 0 1 1" name="item30">
+                    <Property key="Enabled" value="false"/>
+                </Widget>
+            </Widget>
+        </Widget>
+        <Widget type="Widget" skin="BackgroundPopup" position_real="0.010416666666666666 0.13333333333333333 0.19791666666666666 0.78666666666666663">
+            <Widget type="Button" skin="SecondaryButton" position_real="0.070175438596491224 0.033898305084745763 0.42105263157894735 0.076271186440677971" name="TypeButtonUp">
+                <Property key="Caption" value="Up"/>
+                <Property key="FontName" value="SM_Button"/>
+                <Property key="TextAlign" value="Center"/>
+            </Widget>
+            <Widget type="Button" skin="SecondaryButton" position_real="0.052631578947368418 0.88983050847457623 0.43859649122807015 0.076271186440677971" name="TypeButtonDown">
+                <Property key="Caption" value="Down"/>
+                <Property key="FontName" value="SM_Button"/>
+                <Property key="TextAlign" value="Center"/>
+            </Widget>
+            <Widget type="Button" skin="ToggleButton" position_real="0.19298245614035087 0.11016949152542373 0.77192982456140347 0.10169491525423729" name="TypeButton1">
+                <Property key="Caption" value="1"/>
+                <Property key="FontName" value="SM_Button"/>
+                <Property key="TextAlign" value="Left VCenter"/>
+            </Widget>
+            <Widget type="Button" skin="ToggleButton" position_real="0.19298245614035087 0.18474576271186441 0.77192982456140347 0.10169491525423729" name="TypeButton2">
+                <Property key="Caption" value="2"/>
+                <Property key="FontName" value="SM_Button"/>
+                <Property key="TextAlign" value="Left VCenter"/>
+            </Widget>
+            <Widget type="Button" skin="ToggleButton" position_real="0.19298245614035087 0.2593220338983051 0.77192982456140347 0.10169491525423729" name="TypeButton3">
+                <Property key="Caption" value="3"/>
+                <Property key="FontName" value="SM_Button"/>
+                <Property key="TextAlign" value="Left VCenter"/>
+            </Widget>
+            <Widget type="Button" skin="ToggleButton" position_real="0.19298245614035087 0.33559322033898303 0.77192982456140347 0.10169491525423729" name="TypeButton4">
+                <Property key="Caption" value="4"/>
+                <Property key="FontName" value="SM_Button"/>
+                <Property key="TextAlign" value="Left VCenter"/>
+            </Widget>
+            <Widget type="Button" skin="ToggleButton" position_real="0.19298245614035087 0.40847457627118644 0.77192982456140347 0.10169491525423729" name="TypeButton5">
+                <Property key="Caption" value="5"/>
+                <Property key="FontName" value="SM_Button"/>
+                <Property key="TextAlign" value="Left VCenter"/>
+            </Widget>
+            <Widget type="Button" skin="ToggleButton" position_real="0.19298245614035087 0.48474576271186443 0.77192982456140347 0.10169491525423729" name="TypeButton6">
+                <Property key="Caption" value="6"/>
+                <Property key="FontName" value="SM_Button"/>
+                <Property key="TextAlign" value="Left VCenter"/>
+            </Widget>
+            <Widget type="Button" skin="ToggleButton" position_real="0.19298245614035087 0.56101694915254241 0.77192982456140347 0.10169491525423729" name="TypeButton7">
+                <Property key="Caption" value="7"/>
+                <Property key="FontName" value="SM_Button"/>
+                <Property key="TextAlign" value="Left VCenter"/>
+            </Widget>
+            <Widget type="Button" skin="ToggleButton" position_real="0.19298245614035087 0.63559322033898302 0.77192982456140347 0.10169491525423729" name="TypeButton8">
+                <Property key="Caption" value="8"/>
+                <Property key="FontName" value="SM_Button"/>
+                <Property key="TextAlign" value="Left VCenter"/>
+            </Widget>
+            <Widget type="Button" skin="ToggleButton" position_real="0.19298245614035087 0.71016949152542375 0.77192982456140347 0.10169491525423729" name="TypeButton9">
+                <Property key="Caption" value="9"/>
+                <Property key="FontName" value="SM_Button"/>
+                <Property key="TextAlign" value="Left VCenter"/>
+            </Widget>
+            <Widget type="Button" skin="ToggleButton" position_real="0.19298245614035087 0.78644067796610173 0.77192982456140347 0.10169491525423729" name="TypeButton10">
+                <Property key="Caption" value="10"/>
+                <Property key="FontName" value="SM_Button"/>
+                <Property key="TextAlign" value="Left VCenter"/>
+            </Widget>
+            <Widget type="ImageBox" skin="ImageBox" position_real="0.052631578947368418 0.1271186440677966 0.15789473684210525 0.076271186440677971" name="TypeI1"/>
+            <Widget type="ImageBox" skin="ImageBox" position_real="0.052631578947368418 0.19830508474576272 0.15789473684210525 0.076271186440677971" name="TypeI2"/>
+            <Widget type="ImageBox" skin="ImageBox" position_real="0.052631578947368418 0.26779661016949152 0.15789473684210525 0.076271186440677971" name="TypeI3"/>
+            <Widget type="ImageBox" skin="ImageBox" position_real="0.052631578947368418 0.34745762711864409 0.15789473684210525 0.076271186440677971" name="TypeI4"/>
+            <Widget type="ImageBox" skin="ImageBox" position_real="0.052631578947368418 0.41864406779661018 0.15789473684210525 0.076271186440677971" name="TypeI5"/>
+            <Widget type="ImageBox" skin="ImageBox" position_real="0.052631578947368418 0.49830508474576274 0.15789473684210525 0.076271186440677971" name="TypeI6"/>
+            <Widget type="ImageBox" skin="ImageBox" position_real="0.052631578947368418 0.57796610169491525 0.15789473684210525 0.076271186440677971" name="TypeI7"/>
+            <Widget type="ImageBox" skin="ImageBox" position_real="0.052631578947368418 0.64745762711864407 0.15789473684210525 0.076271186440677971" name="TypeI8"/>
+            <Widget type="ImageBox" skin="ImageBox" position_real="0.052631578947368418 0.72711864406779658 0.15789473684210525 0.076271186440677971" name="TypeI9"/>
+            <Widget type="ImageBox" skin="ImageBox" position_real="0.052631578947368418 0.79830508474576267 0.15789473684210525 0.076271186440677971" name="TypeI10"/>
+        </Widget>
+    </Widget>
+    <CodeGeneratorSettings/>
+</MyGUI>

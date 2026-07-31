@@ -1,0 +1,28 @@
+
+{
+	"lodList" : 
+	[
+		
+		{
+			"mesh" : "$MOD_DATA/Objects/Mesh/MAG/testEftFixed.obj",
+			"minViewSize" : 15.0,
+			"subMeshList" : 
+			[
+				
+				{
+					"custom" : 
+					{
+						"shadow" : false
+					},
+					"material" : "Leaves",
+					"textureList" : 
+					[
+						"$MOD_DATA/Objects/Textures/MAG/_empty-export.tga",
+						"$MOD_DATA/Objects/Textures/MAG/001context_glow/W_asg-export.tga",
+						"$MOD_DATA/Objects/Textures/MAG/_empty-nor.tga"
+					]
+				}
+			]
+		}
+	]
+}

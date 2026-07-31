@@ -1,0 +1,503 @@
+{
+	"51da94d6-a215-4f69-b569-c45bc1557d00":
+	{
+		"title":"Max制导模块",
+		"description":"By MaxZ666\n用于Max导弹生成器上，激活即追踪目标\n" 
+	},
+	"51da94d6-a215-4f69-b569-c45bc1557d01":
+	{
+		"title":"Max导弹核心",
+		"description":"By MaxZ666\n用于Max导弹生成器上，生成后持续输出True信号" 
+	},
+	"51da94d6-a215-4f69-b569-c45bc1557d02":
+	{
+		"title":"Max导弹生成器",
+		"description":"By MaxZ666\n导弹生成！\n#2ce6e6 天蓝色 #cfcfcf输入信号：识别#19e753导弹（绿色）\n#d02525 红色   #cfcfcf输入信号：保存导弹（any色）\n#0a3ee2 深蓝色 #cfcfcf输入信号：回收破损导弹\n#7514ed 紫色   #cfcfcf输入信号：生成带燃料导弹（10s后关闭）\n#eeeeee 白色   #cfcfcf输入信号：切换下一个目标\n#222222 黑色   #cfcfcf输入信号：切换上一个目标\n#df6100 其他色 #cfcfcf输入信号：#e2db13生成导弹\n#7514ed紫色可显示冷却时间\n#cfcfcf冷却时间由导弹零件数决定" 
+	},
+	"51da94d6-a215-4f69-b569-c45bc1557d03":
+	{
+		"title":"Max逻辑门（传奇重量）",
+		"description":"By MaxZ666\n用于Max导弹生成器上\n#df6100<!> 修改请放在架子上修改！" 
+	},
+	"51da94d6-a215-4f69-b569-c45bc1557d04":
+	{
+		"title":"Max逻辑门（原版重量）",
+		"description":"By MaxZ666\n用于Max导弹生成器上\n#df6100<!> 修改请放在架子上修改！" 
+	},
+	"51da94d6-a215-4f69-b569-c45bc1557d05":
+	{
+		"title":"Max喷射器",
+		"description":"By MaxZ666\n用于Max导弹生成器上\n#df6100<!> 修改请放在架子上修改！" 
+	},
+	"51da94d6-a215-4f69-b569-c45bc1557d06":
+	{
+		"title":"Max延时器",
+		"description":"By MaxZ666\n用于Max导弹生成器上\n#df6100<!> 修改请放在架子上修改！" 
+	},
+	"51da94d6-a215-4f69-b569-c45bc1557d07":
+	{
+		"title":"Max活塞控制器",
+		"description":"By MaxZ666\n通过连入的power控制，计算方式：\n（true的数量）*（power的积）\n" 
+	},
+	"51da94d6-a215-4f69-b569-c45bc1557d08":
+	{
+		"title":"Max 小型HUD",
+		"description":"By MaxZ666\nHUD！\n按E改大小\n上色改变HUD颜色\n" 
+	},
+	"51da94d6-a215-4f69-b569-c45bc1557d09":
+	{
+		"title":"Max 大型HUD -- 已删除",
+		"description":"By MaxZ666\n大的HUD！\n" 
+	},
+	"51da94d6-a215-4f69-b569-c45bc1557d0a":
+	{
+		"title":"Max 武器切换 - 未实装",
+		"description":"By MaxZ666\n未实装\n" 
+	},
+	"51da94d6-a215-4f69-b569-c45bc1557d0b":
+	{
+		"title":"Max 加农 - 未实装",
+		"description":"By MaxZ666\n未实装\n" 
+	},
+	"51da94d6-a215-4f69-b569-c45bc1557d0c":
+	{
+		"title":"Max 自定义贴花装置",
+		"description":"#fcfcfcBy MaxZ666\n自定义贴花和粘贴花！\n教程：第二个物品为教程！\n视频：https://www.bilibili.com/ \n video/BV14M4m127RG/ \n\n每10s检测并同步一次\n为了不造成客户端玩家延迟\n每10s只同步一个装置" 
+	},
+	"51da94d6-a215-4f69-b569-d45bc1557d0c":
+	{
+		"title":"Max 隐形自定义贴花装置",
+		"description":"#fcfcfcBy MaxZ666\n自定义贴花和粘贴花！\n教程：第二个物品为教程！\n视频：https://www.bilibili.com/ \n video/BV14M4m127RG/ \n\n每10s检测并同步一次\n为了不造成客户端玩家延迟\n每10s只同步一个装置" 
+	},
+	"51da94d6-a215-4f69-b569-c45bc1557d0d":
+	{
+		"title":"Max活塞控制器_合理版",
+		"description":"By MaxZ666\n#df6100注意！\n#fcfcfc通过连入的power控制，计算方式：\n（true）*（power）再作合\n" 
+	},
+	"51da94d6-a215-4f69-b569-c45bc1557d0e":
+	{
+		"title":"Max自定义贴花装置 教程！",
+		"description":"By MaxZ666\n#fcfcfc自定义贴花装置的教程！\n按E即可打开！\n" 
+	},
+	"51da94d6-a215-4f69-b569-c45bc1557d0f":
+	{
+		"title":"Max自定义贴花备份",
+		"description":"By MaxZ666\n#fcfcfc房主的自定义贴花的备份！\n保存到蓝图\n" 
+	},
+	"51da94d6-a215-4f69-b569-c45bc1557d11":
+	{
+		"title":"Max升级版精确跟随",
+		"description":"By MaxZ666\n#fcfcfc升级的摄像头" 
+	},
+	"1cd32f21-5fe1-4bae-865b-c0c5440253e5":
+	{
+		"title":"Max MAG贴花工具",
+		"description":"By MaxZ666\n#fcfcfc用于识别用户输入\n使用方法在教程和聊天框\n" 
+	},
+	"1cd32f21-5fe1-4bae-865b-c0c5440253e6":
+	{
+		"title":"Max MAG颜色读取工具",
+		"description":"By MaxZ666\n#fcfcfc用于读取颜色\n使用方法在教程和聊天框\n" 
+	},
+	"1cd32f21-5fe1-4bae-865b-c0c5440253e7":
+	{
+		"title":"Max MAG教程书",
+		"description":"By MaxZ666\n#fcfcfc自定义贴花装置的教程！\n左键即可打开！\n" 
+	},
+	"1cd32f21-5fe1-4bae-865b-c0c5440253e8":
+	{
+		"title":"Max MAG选择工具",
+		"description":"By MaxZ666\n#fcfcfc用于框选已黏上的贴花\n" 
+	},
+	"1cd32f21-5fe1-4bae-865b-c0c5440253e9":
+	{
+		"title":"Max MAG编辑工具",
+		"description":"By MaxZ666\n#fcfcfc编辑框选的贴花\n" 
+	},
+	"1cd32f21-5fe1-4bae-865b-c0c5440253ea":
+	{
+		"title":"Max MAG镜像工具",
+		"description":"By MaxZ666\n#fcfcfc镜像翻转贴花\n" 
+	},
+	"1cd32f21-5fe1-4bae-865b-c0c5440253eb":
+	{
+		"title":"Max MAG位移旋转拉伸工具",
+		"description":"By MaxZ666\n#fcfcfc位移旋转拉伸贴花\n" 
+	},
+	"1cd32f21-5fe1-4bae-865b-c0c5440253ec":
+	{
+		"title":"Max MAG转化工具",
+		"description":"By MaxZ666\n#fcfcfc转化部件为贴花\n" 
+	},
+	"1cd32f21-5fe1-4bae-865b-c0c5440253ed":
+	{
+		"title":"Max MAG流程控制工具",
+		"description":"By MaxZ666\n#fcfcfc控制流程\n" 
+	},
+	"a6d16258-887c-44aa-8e8c-5609b83e29f9":
+	{
+		"title":"说明用物体",
+		"description":"By MaxZ666\n模组测试" 
+	},
+	"a6d16258-887c-44aa-8e8c-5609b83e29f8":
+	{
+		"title":"警示演示器",
+		"description":"By MaxZ666\n模组测试" 
+	},
+	"a6d16258-887c-44aa-8e8c-5609b83e2911":
+	{
+		"title":"蓝图作者储存器",
+		"description":"按E储存下名字\n搭三个在作品上并且顺次连接成闭环\n（一个作品上最多只能搭载3个）\n#ff3e53从蓝图中拿出来后，如果不解除锁定就拆卸或\n断开连线，将会爆炸\nBy MaxZ666\n模组测试" 
+	},
+	"a6d16258-887c-44aa-8e8c-5609b83e2910":
+	{
+		"title":"蓝图保护器",
+		"description":"按E储存下名字\n搭三个在作品上并且顺次连接成闭环\n（一个作品上最多只能搭载3个）\n#ff3e53从蓝图中拿出来后，如果不解除锁定就拆卸或\n断开连线，将会爆炸\nBy MaxZ666\n模组测试" 
+	},
+	"a6d16258-887c-44aa-8e8c-5609b83e2912":
+	{
+		"title":"光剑发生器",
+		"description":"By MaxZ666\n模组测试" 
+	},
+	"a6d16258-887c-44aa-8e8c-5609b83e2812":
+	{
+		"title":"大型光剑发生器",
+		"description":"By MaxZ666\n模组测试" 
+	},
+	"a6d16258-887c-44aa-8e8c-5609b83e2913":
+	{
+		"title":"机载导弹干扰系统",
+		"description":"范围为500格\n持续时间6秒\n冷却时间6秒\n单机最多搭载3个\nBy MaxZ666\n模组测试" 
+	},
+	"a6d16258-887c-44aa-8e8c-5609b83e2914":
+	{
+		"title":"舰载大型导弹干扰系统",
+		"description":"范围为1666格\n持续时间20秒\n冷却时间20秒\n单机最多搭载2个\nBy MaxZ666\n模组测试" 
+	},
+	"d1705d31-463a-45e2-a80e-3a0d7622adbc":
+	{
+		"title":"单面砖01",
+		"description":"By MaxZ666\n模组测试t" 
+	},
+	"2bb7c218-de97-44ff-b431-dc19efeb39aa":
+	{
+		"title":"单面三角 01",
+		"description":"By MaxZ666\n模组测试" 
+	},
+	"e732f3e9-a0aa-4ba7-9e78-a619be5653ec":
+	{
+		"title":"单面三角 01_Turn",
+		"description":"By MaxZ666\n模组测试" 
+	},
+	"e732f3e9-a0aa-4ba7-9e78-a619be5663ec":
+	{
+		"title":"单面切角立方体 01_Turn",
+		"description":"By MaxZ666\n模组测试" 
+	},
+	"56b294d3-ff85-4dd0-8857-87ef2e22bc4a":
+	{
+		"title":"单面三角 02",
+		"description":"By MaxZ666\n模组测试" 
+	},
+	"ec19e531-a95c-4e1b-bfa0-54bda759f9c6":
+	{
+		"title":"单面三角 02_Turn",
+		"description":"By MaxZ666\n模组测试" 
+	},
+	"ec19e531-a95c-4e1b-bfa0-54bda75909c6":
+	{
+		"title":"单面切角立方体 02_Turn",
+		"description":"By MaxZ666\n模组测试" 
+	},
+	"ec19e531-a95c-4e1b-bfa0-54bda759f901":
+	{
+		"title":"单面三角 03",
+		"description":"By MaxZ666\n模组测试" 
+	},
+	"ec19e531-a95c-4e1b-bfa0-54bda759f902":
+	{
+		"title":"单面三角 03_Turn",
+		"description":"By MaxZ666\n模组测试" 
+	},
+	"ec19e531-a95c-4e1b-bfa0-54bda7590902":
+	{
+		"title":"单面切角立方体 03_Turn",
+		"description":"By MaxZ666\n模组测试" 
+	},
+	"ec19e531-a95c-4e1b-bfa0-54bda759f903":
+	{
+		"title":"单面三角 04",
+		"description":"By MaxZ666\n模组测试" 
+	},
+	"ec19e531-a95c-4e1b-bfa0-54bda759f904":
+	{
+		"title":"单面三角 04_Turn",
+		"description":"By MaxZ666\n模组测试" 
+	},
+	"ec19e531-a95c-4e1b-bfa0-54bda7590904":
+	{
+		"title":"单面切角立方体 04_Turn",
+		"description":"By MaxZ666\n模组测试" 
+	},
+	"ec19e531-a95c-4e1b-bfa0-54bda759f905":
+	{
+		"title":"单面三角 05",
+		"description":"By MaxZ666\n模组测试" 
+	},
+	"ec19e531-a95c-4e1b-bfa0-54bda759f906":
+	{
+		"title":"单面三角 05_Turn",
+		"description":"By MaxZ666\n模组测试" 
+	},
+	"ec19e531-a95c-4e1b-bfa0-54bda7590906":
+	{
+		"title":"单面切角立方体 05_Turn",
+		"description":"By MaxZ666\n模组测试" 
+	},
+	"ec19e531-a95c-4e1b-bfa0-54bda7590907":
+	{
+		"title":"单面三角平面1*1",
+		"description":"By MaxZ666\n模组测试" 
+	},
+	"ec19e531-a95c-4e1b-bfa0-54bda7590908":
+	{
+		"title":"单面三角平面1*2left",
+		"description":"By MaxZ666\n模组测试" 
+	},
+	"ec19e531-a95c-4e1b-bfa0-54bda7590909":
+	{
+		"title":"单面三角平面1*3left",
+		"description":"By MaxZ666\n模组测试" 
+	},
+	"ec19e531-a95c-4e1b-bfa0-54bda7590910":
+	{
+		"title":"单面三角平面1*4left",
+		"description":"By MaxZ666\n模组测试" 
+	},
+	"ec19e531-a95c-4e1b-bfa0-54bda7590911":
+	{
+		"title":"单面三角平面1*5left",
+		"description":"By MaxZ666\n模组测试" 
+	},
+	"ec19e531-a95c-4e1b-bfa0-54bda7590912":
+	{
+		"title":"单面三角平面1*2right",
+		"description":"By MaxZ666\n模组测试" 
+	},
+	"ec19e531-a95c-4e1b-bfa0-54bda7590913":
+	{
+		"title":"单面三角平面1*3right",
+		"description":"By MaxZ666\n模组测试" 
+	},
+	"ec19e531-a95c-4e1b-bfa0-54bda7590914":
+	{
+		"title":"单面三角平面1*4right",
+		"description":"By MaxZ666\n模组测试" 
+	},
+	"ec19e531-a95c-4e1b-bfa0-54bda7590915":
+	{
+		"title":"单面三角平面1*5right",
+		"description":"By MaxZ666\n模组测试" 
+	},
+
+
+
+	"4909afe9-f362-45b5-a14e-835ebeb14dac":
+	{
+		"title":"装饰用砖块",
+		"description":"By MaxZ666\n" 
+	},
+
+	
+	
+	"92ed5119-06be-46bc-8d5e-ae50f928c688":
+	{
+		"title":"小型架子!!!",
+		"description":"By MaxZ666\n" 
+	},
+	"1e5952f9-04c5-4d90-9d37-dd15f5d8464b":
+	{
+		"title":"Max's LOGO 01",
+		"description":"By MaxZ666\n" 
+	},
+	"1e5952f9-04c5-4d90-9d37-dd15f5d8464c":
+	{
+		"title":"秃鹰队徽--1*1",
+		"description":"#ff8da2Trex\n" 
+	},
+	"1e5952f9-04c5-4d90-9d37-dd15f5d8464d":
+	{
+		"title":"秃鹰队徽--2*1",
+		"description":"#ff8da2Trex\n" 
+	},
+	"1e5952f9-04c5-4d90-9d37-dd15f5d8464e":
+	{
+		"title":"秃鹰队徽--2*2",
+		"description":"#ff8da2Trex\n" 
+	},
+	"1e5952f9-04c5-4d90-9d37-dd15f5d8464f":
+	{
+		"title":"嘉然贴花--2*2",
+		"description":"#ff8da2Trex\n" 
+	},
+	"1e5952f9-04c5-4d90-9d37-dd15f5d84640":
+	{
+		"title":"A-soul贴花--6*6",
+		"description":"#ff8da2Trex\n" 
+	},
+	"1e5952f9-04c5-4d90-9d37-dd15f5d84641":
+	{
+		"title":"A-soul贴花--6*6",
+		"description":"#ff8da2Trex\n" 
+	},
+	"1e5952f9-04c5-4d90-9d37-dd15f5d84642":
+	{
+		"title":"A-soul贴花--6*6",
+		"description":"#ff8da2Trex\n" 
+	},
+	"1e5952f9-04c5-4d90-9d37-dd15f5d84643":
+	{
+		"title":"A-soul贴花--6*6",
+		"description":"#ff8da2Trex\n" 
+	},
+	"1e5952f9-04c5-4d90-9d37-dd15f5d84644":
+	{
+		"title":"A-soul贴花--6*6",
+		"description":"#ff8da2Trex\n" 
+	},
+	"1e5952f9-04c5-4d90-9d37-dd15f5d84645":
+	{
+		"title":"A-soul贴花--7*7",
+		"description":"#ff8da2Trex\n" 
+	},
+	"1e5952f9-04c5-4d90-9d37-dd15f5d84646":
+	{
+		"title":"A-soul贴花--7*7",
+		"description":"#ff8da2Trex\n" 
+	},
+	"1e5952f9-04c5-4d90-9d37-dd15f5d84647":
+	{
+		"title":"A-soul贴花--7*7",
+		"description":"#ff8da2Trex\n" 
+	},
+	"1e5952f9-04c5-4d90-9d37-dd15f5d84648":
+	{
+		"title":"A-soul贴花--7*7",
+		"description":"#ff8da2Trex\n" 
+	},
+	"1e5952f9-04c5-4d90-9d37-dd15f5d84649":
+	{
+		"title":"A-soul贴花--7*7",
+		"description":"#ff8da2Trex\n" 
+	},
+	"1e5952f9-04c5-4d90-9d37-dd15f5d84650":
+	{
+		"title":"A-soul贴花--3*5*1",
+		"description":"#ff8da2Trex\n" 
+	},
+	"1e5952f9-04c5-4d90-9d37-dd15f5d84651":
+	{
+		"title":"A-soul贴花--2*5",
+		"description":"#ff8da2Trex\n" 
+	},
+	"1e5952f9-04c5-4d90-9d37-dd15f5d84652":
+	{
+		"title":"A-soul贴花--2*3",
+		"description":"#ff8da2Trex\n" 
+	},
+	"1e5952f9-04c5-4d90-9d37-dd15f5d84653":
+	{
+		"title":"A-soul贴花--2*3",
+		"description":"#ff8da2Trex\n" 
+	},
+	"1e5952f9-04c5-4d90-9d37-dd15f5d84654":
+	{
+		"title":"铁华团贴花--2*2*4",
+		"description":"#f1f1f1青光影\n" 
+	},
+	"1e5952f9-04c5-4d90-9d37-dd15f5d84655":
+	{
+		"title":"ANVIL AEROSPACE--4*3",
+		"description":"#f1f1f1青光影\n" 
+	},
+	"1e5952f9-04c5-4d90-9d37-dd15f5d84656":
+	{
+		"title":"h1s--3*9",
+		"description":"#f1f1f1幻影\n" 
+	},
+	"1e5952f9-04c5-4d90-9d37-dd15f5d84657":
+	{
+		"title":"R--2*8",
+		"description":"#f1f1f1幻影\n" 
+	},
+	"1e5952f9-04c5-4d90-9d37-dd15f5d84658":
+	{
+		"title":"Hatsune_miku_logo_v3--2*8",
+		"description":"#f1f1f1幻影\n" 
+	},
+	"1e5952f9-04c5-4d90-9d37-dd15f5d84659":
+	{
+		"title":"弹射座椅警示标志--1*1",
+		"description":"#f1f1f1AD-Karl\n" 
+	},
+	"1e5952f9-04c5-4d90-9d37-dd15f5d8465a":
+	{
+		"title":"蛇--1*1",
+		"description":"#f1f1f1trex\n" 
+	},
+	"1e5952f9-04c5-4d90-9d37-dd15f5d8465b":
+	{
+		"title":"矛--2_2",
+		"description":"#f1f1f1trex\n" 
+	},
+	"1e5952f9-04c5-4d90-9d37-dd15f5d8465c":
+	{
+		"title":"幻影图标--1_2",
+		"description":"#f1f1f1幻影\n" 
+	},
+	"1e5952f9-04c5-4d90-9d37-dd15f5d8465d":
+	{
+		"title":"幻影图标--2_4",
+		"description":"#f1f1f1幻影\n" 
+	},
+	"1e5952f9-04c5-4d90-9d37-dd15f5d8465e":
+	{
+		"title":"大气圈标志--1_1",
+		"description":"#f1f1f1atmos\n公用\n" 
+	},
+	"1e5952f9-04c5-4d90-9d37-dd15f5d8465f":
+	{
+		"title":"陆地标志--1_1",
+		"description":"#f1f1f1ground\n公用\n" 
+	},
+	"1e5952f9-04c5-4d90-9d37-dd15f5d84660":
+	{
+		"title":"宇宙标志--1_1",
+		"description":"#f1f1f1space\n公用\n" 
+	},
+	"1e5952f9-04c5-4d90-9d37-dd15f5d84661":
+	{
+		"title":"深海标志--1_1",
+		"description":"#f1f1f1DeepWater\n公用\n" 
+	},
+	"1e5952f9-04c5-4d90-9d37-dd15f5d84662":
+	{
+		"title":"装甲锁--1_3",
+		"description":"#f1f1f1战斗前后检查\nCRMCAL螺栓扭矩\n详见维修手册" 
+	},
+	"1e5952f9-04c5-4d90-9d37-dd15f5d84663":
+	{
+		"title":"注意--1_2",
+		"description":"#f1f1f1战斗前后检查\n" 
+	},
+	"1e5952f9-04c5-4d90-9d37-dd15f5d84664":
+	{
+		"title":"手动释放--1_1",
+		"description":"#f1f1f1=_=\n" 
+	},
+	"1e5952f9-04c5-4d90-9d37-dd15f5d84665":
+	{
+		"title":"警告--1_3",
+		"description":"#f1f1f1隐藏结构螺栓\n详见维修手册" 
+	}
+}

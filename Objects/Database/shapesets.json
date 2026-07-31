@@ -1,0 +1,35 @@
+{
+   "shapeSetList" : [ 
+		"$CONTENT_DATA/Objects/Database/ShapeSets/blocks.json",
+		"$CONTENT_DATA/Objects/Database/ShapeSets/parts.json" ,
+		"$CONTENT_DATA/Objects/Database/ShapeSets/interactive.json" ,
+		"$CONTENT_DATA/Objects/Database/ShapeSets/GlassObject.json" ,
+		"$CONTENT_DATA/Objects/Database/ShapeSets/functionalStuff.json" ,
+		"$CONTENT_DATA/Objects/Database/ShapeSets/HUD.json" ,
+
+		"$CONTENT_DATA/Objects/Database/ShapeSets/MAG_000MaxZ666_gn.json" ,
+		"$CONTENT_DATA/Objects/Database/ShapeSets/MAG_001context_gn.json" ,
+		"$CONTENT_DATA/Objects/Database/ShapeSets/MAG_002shape_gn.json" ,
+		"$CONTENT_DATA/Objects/Database/ShapeSets/MAG_003hollowShape_gn.json" ,
+		"$CONTENT_DATA/Objects/Database/ShapeSets/MAG_004specialShape_gn.json" ,
+		"$CONTENT_DATA/Objects/Database/ShapeSets/MAG_005lineShape_gn.json" ,
+		"$CONTENT_DATA/Objects/Database/ShapeSets/MAG_006fonts_gn.json" ,
+		"$CONTENT_DATA/Objects/Database/ShapeSets/MAG_007numbers1_gn.json" ,
+		"$CONTENT_DATA/Objects/Database/ShapeSets/MAG_008numbers2_gn.json" ,
+		"$CONTENT_DATA/Objects/Database/ShapeSets/MAG_009fonts_l_gn.json" ,
+		"$CONTENT_DATA/Objects/Database/ShapeSets/MAG_010fonts2_gn.json" ,
+		"$CONTENT_DATA/Objects/Database/ShapeSets/MAG_011numbers3_gn.json" ,
+
+		"$CONTENT_DATA/Objects/Database/ShapeSets/MAG_000MaxZ666_glow_gn.json" ,
+		"$CONTENT_DATA/Objects/Database/ShapeSets/MAG_002shape_glow_gn.json" ,
+		"$CONTENT_DATA/Objects/Database/ShapeSets/MAG_003hollowShape_glow_gn.json" ,
+		"$CONTENT_DATA/Objects/Database/ShapeSets/MAG_004specialShape_glow_gn.json" ,
+		"$CONTENT_DATA/Objects/Database/ShapeSets/MAG_005lineShape_glow_gn.json" ,
+		"$CONTENT_DATA/Objects/Database/ShapeSets/MAG_006font_glows_gn.json" ,
+		"$CONTENT_DATA/Objects/Database/ShapeSets/MAG_007numbers1_glow_gn.json" ,
+		"$CONTENT_DATA/Objects/Database/ShapeSets/MAG_008numbers2_glow_gn.json" ,
+		"$CONTENT_DATA/Objects/Database/ShapeSets/MAG_009fonts_l_glow_gn.json" ,
+		"$CONTENT_DATA/Objects/Database/ShapeSets/MAG_010fonts2_glow_gn.json" ,
+		"$CONTENT_DATA/Objects/Database/ShapeSets/MAG_011numbers3_glow_gn.json" 
+   ]
+}

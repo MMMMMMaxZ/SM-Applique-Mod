@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MyGUI type="Layout" version="3.2.0">
+    <Widget type="Widget" skin="" position_real="0 0 0.859375 0.76388888888888884" align="Default" name="BackPanel">
+        <Property key="NeedKey" value="false"/>
+        <Property key="NeedMouse" value="true"/>
+        <Property key="InheritsAlpha" value="false"/>
+        <Widget type="Widget" skin="BackgroundPopup" position_real="0.22424242424242424 0.018181818181818181 0.77090909090909088 0.96969696969696972">
+            <Widget type="ImageBox" skin="ImageBox" position_real="0.019654088050314465 0.043749999999999997 0.38128930817610063 0.80625000000000002" name="ImageBox"/>
+            <Widget type="TextBox" skin="TextBox" position_real="0.42059748427672955 0.1125 0.56210691823899372 0.86250000000000004" name="TextBox">
+                <Property key="FontName" value="SM_Text"/>
+            </Widget>
+            <Widget type="TextBox" skin="TextBox" position_real="0.42059748427672955 0.037499999999999999 0.56210691823899372 0.074999999999999997" name="Title">
+                <Property key="FontName" value="X_Hud_Alert"/>
+                <Property key="TextAlign" value="Center"/>
+            </Widget>
+        </Widget>
+        <Widget type="Widget" skin="BackgroundPopup" position_real="0.0090909090909090905 0.018181818181818181 0.21212121212121213 0.8666666666666667">
+            <Widget type="Button" skin="SecondaryButton" position_real="0.057142857142857141 0.027972027972027972 0.34285714285714286 0.062937062937062943" name="TypeButtonUp">
+                <Property key="Caption" value="Up"/>
+                <Property key="FontName" value="SM_Button"/>
+                <Property key="TextAlign" value="Center"/>
+            </Widget>
+            <Widget type="Button" skin="SecondaryButton" position_real="0.042857142857142858 0.73426573426573427 0.35714285714285715 0.062937062937062943" name="TypeButtonDown">
+                <Property key="Caption" value="Down"/>
+                <Property key="FontName" value="SM_Button"/>
+                <Property key="TextAlign" value="Center"/>
+            </Widget>
+            <Widget type="Button" skin="ToggleButton" position_real="0.15714285714285714 0.090909090909090912 0.62857142857142856 0.083916083916083919" name="TypeButton1">
+                <Property key="Caption" value="1"/>
+                <Property key="FontName" value="SM_Button"/>
+                <Property key="TextAlign" value="Left VCenter"/>
+            </Widget>
+            <Widget type="Button" skin="ToggleButton" position_real="0.15714285714285714 0.15244755244755245 0.62857142857142856 0.083916083916083919" name="TypeButton2">
+                <Property key="Caption" value="2"/>
+                <Property key="FontName" value="SM_Button"/>
+                <Property key="TextAlign" value="Left VCenter"/>
+            </Widget>
+            <Widget type="Button" skin="ToggleButton" position_real="0.15714285714285714 0.213986013986014 0.62857142857142856 0.083916083916083919" name="TypeButton3">
+                <Property key="Caption" value="3"/>
+                <Property key="FontName" value="SM_Button"/>
+                <Property key="TextAlign" value="Left VCenter"/>
+            </Widget>
+            <Widget type="Button" skin="ToggleButton" position_real="0.15714285714285714 0.27692307692307694 0.62857142857142856 0.083916083916083919" name="TypeButton4">
+                <Property key="Caption" value="4"/>
+                <Property key="FontName" value="SM_Button"/>
+                <Property key="TextAlign" value="Left VCenter"/>
+            </Widget>
+            <Widget type="Button" skin="ToggleButton" position_real="0.15714285714285714 0.33706293706293705 0.62857142857142856 0.083916083916083919" name="TypeButton5">
+                <Property key="Caption" value="5"/>
+                <Property key="FontName" value="SM_Button"/>
+                <Property key="TextAlign" value="Left VCenter"/>
+            </Widget>
+            <Widget type="Button" skin="ToggleButton" position_real="0.15714285714285714 0.40000000000000002 0.62857142857142856 0.083916083916083919" name="TypeButton6">
+                <Property key="Caption" value="6"/>
+                <Property key="FontName" value="SM_Button"/>
+                <Property key="TextAlign" value="Left VCenter"/>
+            </Widget>
+            <Widget type="Button" skin="ToggleButton" position_real="0.15714285714285714 0.46293706293706294 0.62857142857142856 0.083916083916083919" name="TypeButton7">
+                <Property key="Caption" value="7"/>
+                <Property key="FontName" value="SM_Button"/>
+                <Property key="TextAlign" value="Left VCenter"/>
+            </Widget>
+            <Widget type="Button" skin="ToggleButton" position_real="0.15714285714285714 0.52447552447552448 0.62857142857142856 0.083916083916083919" name="TypeButton8">
+                <Property key="Caption" value="8"/>
+                <Property key="FontName" value="SM_Button"/>
+                <Property key="TextAlign" value="Left VCenter"/>
+            </Widget>
+            <Widget type="Button" skin="ToggleButton" position_real="0.15714285714285714 0.58601398601398602 0.62857142857142856 0.083916083916083919" name="TypeButton9">
+                <Property key="Caption" value="9"/>
+                <Property key="FontName" value="SM_Button"/>
+                <Property key="TextAlign" value="Left VCenter"/>
+            </Widget>
+            <Widget type="Button" skin="ToggleButton" position_real="0.15714285714285714 0.64895104895104894 0.62857142857142856 0.083916083916083919" name="TypeButton10">
+                <Property key="Caption" value="10"/>
+                <Property key="FontName" value="SM_Button"/>
+                <Property key="TextAlign" value="Left VCenter"/>
+            </Widget>
+            <Widget type="ImageBox" skin="ImageBox" position_real="0.042857142857142858 0.1048951048951049 0.12571428571428572 0.062937062937062943" name="TypeI1"/>
+            <Widget type="ImageBox" skin="ImageBox" position_real="0.042857142857142858 0.16363636363636364 0.12571428571428572 0.062937062937062943" name="TypeI2"/>
+            <Widget type="ImageBox" skin="ImageBox" position_real="0.042857142857142858 0.22097902097902097 0.12571428571428572 0.062937062937062943" name="TypeI3"/>
+            <Widget type="ImageBox" skin="ImageBox" position_real="0.042857142857142858 0.28671328671328672 0.12571428571428572 0.062937062937062943" name="TypeI4"/>
+            <Widget type="ImageBox" skin="ImageBox" position_real="0.042857142857142858 0.34545454545454546 0.12571428571428572 0.062937062937062943" name="TypeI5"/>
+            <Widget type="ImageBox" skin="ImageBox" position_real="0.042857142857142858 0.41118881118881118 0.12571428571428572 0.062937062937062943" name="TypeI6"/>
+            <Widget type="ImageBox" skin="ImageBox" position_real="0.042857142857142858 0.47692307692307695 0.12571428571428572 0.062937062937062943" name="TypeI7"/>
+            <Widget type="ImageBox" skin="ImageBox" position_real="0.042857142857142858 0.53426573426573432 0.12571428571428572 0.062937062937062943" name="TypeI8"/>
+            <Widget type="ImageBox" skin="ImageBox" position_real="0.042857142857142858 0.59999999999999998 0.12571428571428572 0.062937062937062943" name="TypeI9"/>
+            <Widget type="ImageBox" skin="ImageBox" position_real="0.042857142857142858 0.65874125874125877 0.12571428571428572 0.062937062937062943" name="TypeI10"/>
+            <Widget type="Canvas" skin="Canvas" position_real="0.042857142857142858 0.82517482517482521 0.88571428571428568 0.055944055944055944" name="DropDown"/>
+            <Widget type="Widget" skin="PanelEmpty" position_real="0.7857142857142857 0.083916083916083919 0.17142857142857143 0.66433566433566438" name="ScrollDown"/>
+        </Widget>
+    </Widget>
+    <CodeGeneratorSettings/>
+</MyGUI>

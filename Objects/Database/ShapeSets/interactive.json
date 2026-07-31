@@ -1,0 +1,2045 @@
+{
+   "partList" : [
+      {
+         "box" : {
+            "x" : 2,
+            "y" : 3,
+            "z" : 1
+         },
+         "color" : "df7f00",
+         "flammable" : true,
+         "physicsMaterial" : "Plastic",
+         "ratings" : {
+            "buoyancy" : 5,
+            "density" : 5,
+            "durability" : 5,
+            "friction" : 5
+         },
+         "renderable" : {
+            "lodList" : [
+               {
+                  "mesh" : "$MOD_DATA/Objects/Mesh/obj_consumable_outfitpackage.fbx",
+                  "subMeshList" : [
+                     {
+                        "material" : "DifAsgNor",
+                        "textureList" : [
+                           "$MOD_DATA/Objects/Textures/obj_consumable_outfitpackage_legendary_dif.tga",
+                           "$MOD_DATA/Objects/Textures/obj_consumable_outfitpackage_legendary_asg.tga",
+                           "$MOD_DATA/Objects/Textures/obj_consumable_outfitpackage_legendary_nor.tga"
+                        ]
+                     }
+                  ]
+               }
+            ]
+         },
+         "restrictions" : {
+            "erasable" : true,
+            "paintable" : true,
+            "usable" : true
+         },
+         "rotationSet" : "PropY",
+         "scripted" : {
+            "classname" : "text",
+            "filename" : "$MOD_DATA/Scripts/text.lua"
+         },
+         "sticky" : "+X+Y+Z-X-Y-Z",
+         "uuid" : "a6d16258-887c-44aa-8e8c-5609b83e29f9"
+      },
+      {
+         "box" : {
+            "x" : 1,
+            "y" : 1,
+            "z" : 1
+         },
+         "color" : "114514",
+         "flammable" : true,
+         "physicsMaterial" : "Metal",
+         "ratings" : {
+            "buoyancy" : 1,
+            "density" : 1,
+            "durability" : 2,
+            "friction" : 1
+         },
+         "renderable" : {
+            "lodList" : [
+               {
+                  "mesh" : "$MOD_DATA/Objects/Mesh/alert_box.obj",
+                  "subMeshList" : [
+                     {
+                        "material" : "DifAsg",
+                        "textureList" : [
+                           "$MOD_DATA/Objects/Textures/Infor_dif.png",
+                           "$MOD_DATA/Objects/Textures/Infor_asg.png"
+                        ]
+                     }
+                  ]
+               }
+            ]
+         },
+         "restrictions" : {
+            "erasable" : true,
+            "paintable" : true,
+            "usable" : true
+         },
+         "rotationSet" : "oneFace",
+         "scripted" : {
+            "classname" : "alertText",
+            "filename" : "$MOD_DATA/Scripts/alertText.lua"
+         },
+         "sticky" : "+X+Y+Z-X-Y-Z",
+         "uuid" : "a6d16258-887c-44aa-8e8c-5609b83e29f8"
+      },
+      {
+         "box" : {
+            "x" : 1,
+            "y" : 1,
+            "z" : 1
+         },
+         "color" : "114514",
+         "flammable" : true,
+         "physicsMaterial" : "Metal",
+         "ratings" : {
+            "buoyancy" : 1,
+            "density" : 1,
+            "durability" : 10,
+            "friction" : 1
+         },
+         "renderable" : {
+            "lodList" : [
+               {
+                  "mesh" : "$GAME_DATA/Objects/Mesh/interactive/obj_interactive_logicgate_off.fbx",
+                  "pose0" : "$GAME_DATA/Objects/Mesh/interactive/obj_interactive_logicgate_on.fbx",
+                  "subMeshList" : [
+                     {
+                        "material" : "PoseAnimDifAsgNor",
+                        "textureList" : [
+                           "$MOD_DATA/Objects/Textures/LogicGate.png",
+                           "$GAME_DATA/Objects/Textures/interactive/obj_interactive_logicgate_asg.tga",
+                           "$GAME_DATA/Objects/Textures/interactive/obj_interactive_logicgate_nor.tga"
+                        ]
+                     },
+                     {
+                        "custom" : {
+                           "uv0" : {
+                              "u" : 0.166666670,
+                              "v" : 0.16450
+                           }
+                        },
+                        "material" : "UVAnimDifAsgNor",
+                        "textureList" : [
+                           "$MOD_DATA/Objects/Textures/LogicGate.png",
+                           "$GAME_DATA/Objects/Textures/interactive/obj_interactive_logicgate_asg.tga",
+                           "$GAME_DATA/Objects/Textures/interactive/obj_interactive_logicgate_nor.tga"
+                        ]
+                     }
+                  ]
+               }
+            ]
+         },
+         "restrictions" : {
+            "erasable" : true,
+            "paintable" : true,
+            "usable" : true
+         },
+         "rotationSet" : "oneFace",
+         "scripted" : {
+            "classname" : "alertCreator",
+            "filename" : "$MOD_DATA/Scripts/alertCreator.lua"
+         },
+         "sticky" : "+X+Y+Z-X-Y-Z",
+         "uuid" : "a6d16258-887c-44aa-8e8c-5609b83e2911"
+      },
+      {
+         "box" : {
+            "x" : 1,
+            "y" : 1,
+            "z" : 1
+         },
+         "color" : "ff3e53",
+         "flammable" : true,
+         "physicsMaterial" : "Metal",
+         "ratings" : {
+            "buoyancy" : 1,
+            "density" : 1,
+            "durability" : 10,
+            "friction" : 1
+         },
+         "renderable" : {
+            "lodList" : [
+               {
+                  "mesh" : "$GAME_DATA/Objects/Mesh/interactive/obj_interactive_logicgate_off.fbx",
+                  "pose0" : "$GAME_DATA/Objects/Mesh/interactive/obj_interactive_logicgate_on.fbx",
+                  "subMeshList" : [
+                     {
+                        "material" : "PoseAnimDifAsgNor",
+                        "textureList" : [
+                           "$MOD_DATA/Objects/Textures/LogicGate.png",
+                           "$GAME_DATA/Objects/Textures/interactive/obj_interactive_logicgate_asg.tga",
+                           "$GAME_DATA/Objects/Textures/interactive/obj_interactive_logicgate_nor.tga"
+                        ]
+                     },
+                     {
+                        "custom" : {
+                           "uv0" : {
+                              "u" : 0.166666670,
+                              "v" : 0.16450
+                           }
+                        },
+                        "material" : "UVAnimDifAsgNor",
+                        "textureList" : [
+                           "$MOD_DATA/Objects/Textures/LogicGate.png",
+                           "$GAME_DATA/Objects/Textures/interactive/obj_interactive_logicgate_asg.tga",
+                           "$GAME_DATA/Objects/Textures/interactive/obj_interactive_logicgate_nor.tga"
+                        ]
+                     }
+                  ]
+               }
+            ]
+         },
+         "restrictions" : {
+            "erasable" : true,
+            "paintable" : true,
+            "usable" : true
+         },
+         "rotationSet" : "oneFace",
+         "scripted" : {
+            "classname" : "SBP",
+            "filename" : "$MOD_DATA/Scripts/SelfBlueprintProtector.lua"
+         },
+         "sticky" : "+X+Y+Z-X-Y-Z",
+         "uuid" : "a6d16258-887c-44aa-8e8c-5609b83e2910"
+      },
+      {
+         "box" : {
+            "x" : 1,
+            "y" : 1,
+            "z" : 1
+         },
+         "color" : "114514",
+         "flammable" : true,
+         "physicsMaterial" : "Metal",
+         "ratings" : {
+            "buoyancy" : 1,
+            "density" : 1,
+            "durability" : 2,
+            "friction" : 1
+         },
+         "renderable" : {
+            "lodList" : [
+               {
+                  "mesh" : "$MOD_DATA/Objects/Mesh/crystalTech/swordNEW.obj",
+                  "subMeshList" : [
+                     {
+                        "material" : "Dif",
+                        "textureList" : [ "$MOD_DATA/Objects/Textures/crystalTech/frame.png" ]
+                     },
+                     {
+                        "material" : "Dif",
+                        "textureList" : [ "$MOD_DATA/Objects/Textures/crystalTech/grey.png" ]
+                     },
+                     {
+                        "material" : "DifAsg",
+                        "textureList" : [
+                           "$MOD_DATA/Objects/Textures/crystalTech/eye.png",
+                           "$MOD_DATA/Objects/Textures/shine_asg.png"
+                        ]
+                     }
+                  ]
+               }
+            ]
+         },
+         "restrictions" : {
+            "erasable" : true,
+            "paintable" : true,
+            "usable" : true
+         },
+         "rotationSet" : "oneFace",
+         "scripted" : {
+            "classname" : "Sword",
+            "data" : {
+               "length" : 1
+            },
+            "filename" : "$MOD_DATA/Scripts/Sword.lua"
+         },
+         "sticky" : "+X+Y+Z-X-Y-Z",
+         "uuid" : "a6d16258-887c-44aa-8e8c-5609b83e2912"
+      },
+      {
+         "box" : {
+            "x" : 3,
+            "y" : 9,
+            "z" : 3
+         },
+         "color" : "114514",
+         "flammable" : true,
+         "physicsMaterial" : "Metal",
+         "ratings" : {
+            "buoyancy" : 1,
+            "density" : 1,
+            "durability" : 2,
+            "friction" : 1
+         },
+         "renderable" : {
+            "lodList" : [
+               {
+                  "mesh" : "$MOD_DATA/Objects/Mesh/crystalTech/swordHUGE.obj",
+                  "subMeshList" : [
+                     {
+                        "material" : "Dif",
+                        "textureList" : [ "$MOD_DATA/Objects/Textures/crystalTech/frame.png" ]
+                     },
+                     {
+                        "material" : "DifAsg",
+                        "textureList" : [
+                           "$MOD_DATA/Objects/Textures/crystalTech/eye.png",
+                           "$MOD_DATA/Objects/Textures/shine_asg.png"
+                        ]
+                     },
+                     {
+                        "material" : "Dif",
+                        "textureList" : [ "$MOD_DATA/Objects/Textures/crystalTech/grey.png" ]
+                     }
+                  ]
+               }
+            ]
+         },
+         "restrictions" : {
+            "erasable" : true,
+            "paintable" : true,
+            "usable" : true
+         },
+         "rotationSet" : "oneFace",
+         "scripted" : {
+            "classname" : "Sword",
+            "data" : {
+               "length" : 20
+            },
+            "filename" : "$MOD_DATA/Scripts/Sword.lua"
+         },
+         "sticky" : "+X+Y+Z-X-Y-Z",
+         "uuid" : "a6d16258-887c-44aa-8e8c-5609b83e2812"
+      },
+      {
+         "box" : {
+            "x" : 1,
+            "y" : 1,
+            "z" : 1
+         },
+         "color" : "fcfcfc",
+         "flammable" : true,
+         "physicsMaterial" : "Metal",
+         "ratings" : {
+            "buoyancy" : 1,
+            "density" : 1,
+            "durability" : 2,
+            "friction" : 1
+         },
+         "renderable" : "$CONTENT_DATA/Objects/Renderable/blade.rend",
+         "restrictions" : {
+            "erasable" : true,
+            "paintable" : true,
+            "usable" : true
+         },
+         "rotationSet" : "oneFace",
+         "showInInventory" : false,
+         "sticky" : "+X+Y+Z-X-Y-Z",
+         "uuid" : "a6d16258-887c-44aa-8e8c-5609b83e2712"
+      },
+      {
+         "box" : {
+            "x" : 4,
+            "y" : 1,
+            "z" : 1
+         },
+         "color" : "114514",
+         "flammable" : true,
+         "physicsMaterial" : "Metal",
+         "ratings" : {
+            "buoyancy" : 1,
+            "density" : 5,
+            "durability" : 5,
+            "friction" : 4
+         },
+         "renderable" : {
+            "lodList" : [
+               {
+                  "mesh" : "$MOD_DATA/Objects/Mesh/crystalTech/MDS.obj",
+                  "subMeshList" : [
+                     {
+                        "material" : "Dif",
+                        "textureList" : [ "$MOD_DATA/Objects/Textures/crystalTech/frame.png" ]
+                     },
+                     {
+                        "material" : "Dif",
+                        "textureList" : [ "$MOD_DATA/Objects/Textures/crystalTech/grey.png" ]
+                     },
+                     {
+                        "material" : "DifAsg",
+                        "textureList" : [
+                           "$MOD_DATA/Objects/Textures/crystalTech/eye.png",
+                           "$MOD_DATA/Objects/Textures/shine_asg.png"
+                        ]
+                     },
+                     {
+                        "material" : "DifAsg",
+                        "textureList" : [
+                           "$MOD_DATA/Objects/Textures/crystalTech/eye.png",
+                           "$MOD_DATA/Objects/Textures/shine_asg.png"
+                        ]
+                     },
+                     {
+                        "material" : "Dif",
+                        "textureList" : [ "$MOD_DATA/Objects/Textures/crystalTech/frame.png" ]
+                     },
+                     {
+                        "material" : "Dif",
+                        "textureList" : [ "$MOD_DATA/Objects/Textures/crystalTech/frame.png" ]
+                     }
+                  ]
+               }
+            ]
+         },
+         "restrictions" : {
+            "erasable" : true,
+            "paintable" : true,
+            "usable" : true
+         },
+         "rotationSet" : "oneFace",
+         "scripted" : {
+            "classname" : "MDS",
+            "data" : {
+               "CD" : 6,
+               "delay" : 6,
+               "disturbRadius" : 1500,
+               "maxAmount" : 3
+            },
+            "filename" : "$MOD_DATA/Scripts/MissileDisturbSystem.lua"
+         },
+         "sticky" : "+X+Y+Z-X-Y-Z",
+         "uuid" : "a6d16258-887c-44aa-8e8c-5609b83e2913"
+      },
+      {
+         "box" : {
+            "x" : 12,
+            "y" : 9,
+            "z" : 9
+         },
+         "color" : "114514",
+         "flammable" : true,
+         "physicsMaterial" : "Metal",
+         "ratings" : {
+            "buoyancy" : 1,
+            "density" : 8,
+            "durability" : 5,
+            "friction" : 4
+         },
+         "renderable" : {
+            "lodList" : [
+               {
+                  "mesh" : "$MOD_DATA/Objects/Mesh/crystalTech/MDS_H.obj",
+                  "subMeshList" : [
+                     {
+                        "material" : "Dif",
+                        "textureList" : [ "$MOD_DATA/Objects/Textures/crystalTech/frame.png" ]
+                     },
+                     {
+                        "material" : "Dif",
+                        "textureList" : [ "$MOD_DATA/Objects/Textures/crystalTech/frame.png" ]
+                     },
+                     {
+                        "material" : "DifAsg",
+                        "textureList" : [
+                           "$MOD_DATA/Objects/Textures/crystalTech/eye.png",
+                           "$MOD_DATA/Objects/Textures/shine_asg.png"
+                        ]
+                     },
+                     {
+                        "material" : "DifAsg",
+                        "textureList" : [
+                           "$MOD_DATA/Objects/Textures/crystalTech/eye.png",
+                           "$MOD_DATA/Objects/Textures/shine_asg.png"
+                        ]
+                     },
+                     {
+                        "material" : "DifAsg",
+                        "textureList" : [
+                           "$MOD_DATA/Objects/Textures/crystalTech/frame.png",
+                           "$MOD_DATA/Objects/Textures/shine_asg.png"
+                        ]
+                     },
+                     {
+                        "material" : "DifAsg",
+                        "textureList" : [
+                           "$MOD_DATA/Objects/Textures/crystalTech/frame.png",
+                           "$MOD_DATA/Objects/Textures/shine_asg.png"
+                        ]
+                     },
+                     {
+                        "material" : "DifAsg",
+                        "textureList" : [
+                           "$MOD_DATA/Objects/Textures/crystalTech/grey.png",
+                           "$MOD_DATA/Objects/Textures/shine_asg.png"
+                        ]
+                     },
+                     {
+                        "material" : "DifAsg",
+                        "textureList" : [
+                           "$MOD_DATA/Objects/Textures/crystalTech/grey.png",
+                           "$MOD_DATA/Objects/Textures/shine_asg.png"
+                        ]
+                     },
+                     {
+                        "material" : "DifAsg",
+                        "textureList" : [
+                           "$MOD_DATA/Objects/Textures/crystalTech/frame.png",
+                           "$MOD_DATA/Objects/Textures/shine_asg.png"
+                        ]
+                     },
+                     {
+                        "material" : "DifAsg",
+                        "textureList" : [
+                           "$MOD_DATA/Objects/Textures/crystalTech/frame.png",
+                           "$MOD_DATA/Objects/Textures/shine_asg.png"
+                        ]
+                     }
+                  ]
+               }
+            ]
+         },
+         "restrictions" : {
+            "erasable" : true,
+            "paintable" : true,
+            "usable" : true
+         },
+         "rotationSet" : "oneFace",
+         "scripted" : {
+            "classname" : "MDS",
+            "data" : {
+               "CD" : 20,
+               "delay" : 20,
+               "disturbRadius" : 5000,
+               "maxAmount" : 2
+            },
+            "filename" : "$MOD_DATA/Scripts/MissileDisturbSystem.lua"
+         },
+         "sticky" : "+X+Y+Z-X-Y-Z",
+         "uuid" : "a6d16258-887c-44aa-8e8c-5609b83e2914"
+      },
+      {
+         "box" : {
+            "x" : 1,
+            "y" : 1,
+            "z" : 1
+         },
+         "color" : "114514",
+         "physicsMaterial" : "Metal",
+         "ratings" : {
+            "buoyancy" : 8,
+            "density" : 1,
+            "durability" : 5,
+            "friction" : 5
+         },
+         "renderable" : {
+            "lodList" : [
+               {
+                  "mesh" : "$MOD_DATA/Objects/Mesh/onefaceblock2.obj",
+                  "subMeshList" : [
+                     {
+                        "material" : "DifAsg",
+                        "textureList" : [
+                           "$MOD_DATA/Objects/Textures/empty_dif.png",
+                           "$MOD_DATA/Objects/Textures/wall1_asg.png"
+                        ]
+                     }
+                  ]
+               }
+            ]
+         },
+         "rotationSet" : "oneFace",
+         "sticky" : "+X+Y+Z-X-Y-Z",
+         "uuid" : "d1705d31-463a-45e2-a80e-3a0d7622adbc"
+      },
+      {
+         "color" : "114514",
+         "hull" : {
+            "margin" : 0.0,
+            "pointList" : [
+               {
+                  "x" : 1.0,
+                  "y" : -1.0,
+                  "z" : 1.0
+               },
+               {
+                  "x" : 1.0,
+                  "y" : -1.0,
+                  "z" : -1.0
+               },
+               {
+                  "x" : -1.0,
+                  "y" : -1.0,
+                  "z" : 1.0
+               },
+               {
+                  "x" : 1.0,
+                  "y" : 1.0,
+                  "z" : 1.0
+               },
+               {
+                  "x" : -1.0,
+                  "y" : 1.0,
+                  "z" : 1.0
+               },
+               {
+                  "x" : -1.0,
+                  "y" : -1.0,
+                  "z" : -1.0
+               }
+            ],
+            "x" : 1,
+            "y" : 1,
+            "z" : 1
+         },
+         "physicsMaterial" : "Metal",
+         "ratings" : {
+            "buoyancy" : 8,
+            "density" : 1,
+            "durability" : 5,
+            "friction" : 5
+         },
+         "renderable" : {
+            "lodList" : [
+               {
+                  "mesh" : "$MOD_DATA/Objects/Mesh/onefacetri01.obj",
+                  "subMeshList" : [
+                     {
+                        "material" : "DifAsg",
+                        "textureList" : [
+                           "$MOD_DATA/Objects/Textures/empty_dif.png",
+                           "$MOD_DATA/Objects/Textures/wall1_asg.png"
+                        ]
+                     }
+                  ]
+               }
+            ]
+         },
+         "rotationSet" : "oneFace",
+         "sticky" : "+X+Y+Z-X-Y-Z",
+         "uuid" : "2bb7c218-de97-44ff-b431-dc19efeb39aa"
+      },
+      {
+         "color" : "114514",
+         "hull" : {
+            "margin" : 0.0,
+            "pointList" : [
+               {
+                  "x" : 1.0,
+                  "y" : 1.0,
+                  "z" : -1.0
+               },
+               {
+                  "x" : 1.0,
+                  "y" : -1.0,
+                  "z" : 1.0
+               },
+               {
+                  "x" : 1.0,
+                  "y" : -1.0,
+                  "z" : -1.0
+               },
+               {
+                  "x" : -1.0,
+                  "y" : -1.0,
+                  "z" : -1.0
+               }
+            ],
+            "x" : 1,
+            "y" : 1,
+            "z" : 1
+         },
+         "physicsMaterial" : "Metal",
+         "ratings" : {
+            "buoyancy" : 8,
+            "density" : 1,
+            "durability" : 5,
+            "friction" : 5
+         },
+         "renderable" : {
+            "lodList" : [
+               {
+                  "mesh" : "$MOD_DATA/Objects/Mesh/onefacetri01_turn.obj",
+                  "subMeshList" : [
+                     {
+                        "material" : "DifAsg",
+                        "textureList" : [
+                           "$MOD_DATA/Objects/Textures/empty_dif.png",
+                           "$MOD_DATA/Objects/Textures/wall1_asg.png"
+                        ]
+                     }
+                  ]
+               }
+            ]
+         },
+         "rotationSet" : "tri_turn",
+         "sticky" : "+X+Y+Z-X-Y-Z",
+         "uuid" : "e732f3e9-a0aa-4ba7-9e78-a619be5653ec"
+      },
+      {
+         "color" : "114514",
+         "hull" : {
+            "margin" : 0.0,
+            "pointList" : [
+               {
+                  "x" : 1.0,
+                  "y" : 1.0,
+                  "z" : -1.0
+               },
+               {
+                  "x" : 1.0,
+                  "y" : -1.0,
+                  "z" : 1.0
+               },
+               {
+                  "x" : 1.0,
+                  "y" : -1.0,
+                  "z" : -1.0
+               },
+               {
+                  "x" : 1.0,
+                  "y" : 1.0,
+                  "z" : 1.0
+               },
+               {
+                  "x" : -1.0,
+                  "y" : 1.0,
+                  "z" : -1.0
+               },
+               {
+                  "x" : -1.0,
+                  "y" : -1.0,
+                  "z" : 1.0
+               },
+               {
+                  "x" : -1.0,
+                  "y" : -1.0,
+                  "z" : -1.0
+               }
+            ],
+            "x" : 1,
+            "y" : 1,
+            "z" : 1
+         },
+         "physicsMaterial" : "Metal",
+         "ratings" : {
+            "buoyancy" : 8,
+            "density" : 1,
+            "durability" : 5,
+            "friction" : 5
+         },
+         "renderable" : {
+            "lodList" : [
+               {
+                  "mesh" : "$MOD_DATA/Objects/Mesh/onefacetri01_Oturn.obj",
+                  "subMeshList" : [
+                     {
+                        "material" : "DifAsg",
+                        "textureList" : [
+                           "$MOD_DATA/Objects/Textures/empty_dif.png",
+                           "$MOD_DATA/Objects/Textures/wall1_asg.png"
+                        ]
+                     }
+                  ]
+               }
+            ]
+         },
+         "rotationSet" : "PropFull",
+         "sticky" : "+X+Y+Z-X-Y-Z",
+         "uuid" : "e732f3e9-a0aa-4ba7-9e78-a619be5663ec"
+      },
+      {
+         "color" : "114514",
+         "hull" : {
+            "margin" : 0.0,
+            "pointList" : [
+               {
+                  "x" : 1.0,
+                  "y" : 1.0,
+                  "z" : -1.0
+               },
+               {
+                  "x" : -1.0,
+                  "y" : 1.0,
+                  "z" : -1.0
+               },
+               {
+                  "x" : 1.0,
+                  "y" : -1.0,
+                  "z" : -1.0
+               },
+               {
+                  "x" : -1.0,
+                  "y" : -1.0,
+                  "z" : -1.0
+               },
+               {
+                  "x" : 1.0,
+                  "y" : -1.0,
+                  "z" : 1.0
+               },
+               {
+                  "x" : -1.0,
+                  "y" : -1.0,
+                  "z" : 1.0
+               }
+            ],
+            "x" : 1,
+            "y" : 1,
+            "z" : 2
+         },
+         "physicsMaterial" : "Metal",
+         "ratings" : {
+            "buoyancy" : 8,
+            "density" : 1,
+            "durability" : 5,
+            "friction" : 5
+         },
+         "renderable" : {
+            "lodList" : [
+               {
+                  "mesh" : "$MOD_DATA/Objects/Mesh/onefacetri02.obj",
+                  "subMeshList" : [
+                     {
+                        "material" : "DifAsg",
+                        "textureList" : [
+                           "$MOD_DATA/Objects/Textures/empty_dif.png",
+                           "$MOD_DATA/Objects/Textures/wall1_asg.png"
+                        ]
+                     }
+                  ]
+               }
+            ]
+         },
+         "rotationSet" : "twoFace",
+         "sticky" : "+X+Y+Z-X-Y-Z",
+         "uuid" : "56b294d3-ff85-4dd0-8857-87ef2e22bc4a"
+      },
+      {
+         "color" : "114514",
+         "hull" : {
+            "margin" : 0.0,
+            "pointList" : [
+               {
+                  "x" : 1.0,
+                  "y" : 1.0,
+                  "z" : -1.0
+               },
+               {
+                  "x" : 1.0,
+                  "y" : -1.0,
+                  "z" : 1.0
+               },
+               {
+                  "x" : 1.0,
+                  "y" : -1.0,
+                  "z" : -1.0
+               },
+               {
+                  "x" : -1.0,
+                  "y" : -1.0,
+                  "z" : -1.0
+               }
+            ],
+            "x" : 1,
+            "y" : 1,
+            "z" : 2
+         },
+         "physicsMaterial" : "Metal",
+         "ratings" : {
+            "buoyancy" : 8,
+            "density" : 1,
+            "durability" : 5,
+            "friction" : 5
+         },
+         "renderable" : {
+            "lodList" : [
+               {
+                  "mesh" : "$MOD_DATA/Objects/Mesh/onefacetri02_turn.obj",
+                  "subMeshList" : [
+                     {
+                        "material" : "DifAsg",
+                        "textureList" : [
+                           "$MOD_DATA/Objects/Textures/empty_dif.png",
+                           "$MOD_DATA/Objects/Textures/wall1_asg.png"
+                        ]
+                     }
+                  ]
+               }
+            ]
+         },
+         "rotationSet" : "tri_turn",
+         "sticky" : "+X+Y+Z-X-Y-Z",
+         "uuid" : "ec19e531-a95c-4e1b-bfa0-54bda759f9c6"
+      },
+      {
+         "color" : "114514",
+         "hull" : {
+            "margin" : 0.0,
+            "pointList" : [
+               {
+                  "x" : 1.0,
+                  "y" : 1.0,
+                  "z" : -1.0
+               },
+               {
+                  "x" : 1.0,
+                  "y" : -1.0,
+                  "z" : 1.0
+               },
+               {
+                  "x" : 1.0,
+                  "y" : -1.0,
+                  "z" : -1.0
+               },
+               {
+                  "x" : 1.0,
+                  "y" : 1.0,
+                  "z" : 1.0
+               },
+               {
+                  "x" : -1.0,
+                  "y" : 1.0,
+                  "z" : -1.0
+               },
+               {
+                  "x" : -1.0,
+                  "y" : -1.0,
+                  "z" : 1.0
+               },
+               {
+                  "x" : -1.0,
+                  "y" : -1.0,
+                  "z" : -1.0
+               }
+            ],
+            "x" : 1,
+            "y" : 1,
+            "z" : 2
+         },
+         "physicsMaterial" : "Metal",
+         "ratings" : {
+            "buoyancy" : 8,
+            "density" : 1,
+            "durability" : 5,
+            "friction" : 5
+         },
+         "renderable" : {
+            "lodList" : [
+               {
+                  "mesh" : "$MOD_DATA/Objects/Mesh/onefacetri02_Oturn.obj",
+                  "subMeshList" : [
+                     {
+                        "material" : "DifAsg",
+                        "textureList" : [
+                           "$MOD_DATA/Objects/Textures/empty_dif.png",
+                           "$MOD_DATA/Objects/Textures/wall1_asg.png"
+                        ]
+                     }
+                  ]
+               }
+            ]
+         },
+         "rotationSet" : "PropFull",
+         "sticky" : "+X+Y+Z-X-Y-Z",
+         "uuid" : "ec19e531-a95c-4e1b-bfa0-54bda75909c6"
+      },
+      {
+         "color" : "114514",
+         "hull" : {
+            "margin" : 0.0,
+            "pointList" : [
+               {
+                  "x" : 1.0,
+                  "y" : 1.0,
+                  "z" : -1.0
+               },
+               {
+                  "x" : -1.0,
+                  "y" : 1.0,
+                  "z" : -1.0
+               },
+               {
+                  "x" : 1.0,
+                  "y" : -1.0,
+                  "z" : -1.0
+               },
+               {
+                  "x" : -1.0,
+                  "y" : -1.0,
+                  "z" : -1.0
+               },
+               {
+                  "x" : 1.0,
+                  "y" : -1.0,
+                  "z" : 1.0
+               },
+               {
+                  "x" : -1.0,
+                  "y" : -1.0,
+                  "z" : 1.0
+               }
+            ],
+            "x" : 1,
+            "y" : 1,
+            "z" : 3
+         },
+         "physicsMaterial" : "Metal",
+         "ratings" : {
+            "buoyancy" : 8,
+            "density" : 1,
+            "durability" : 5,
+            "friction" : 5
+         },
+         "renderable" : {
+            "lodList" : [
+               {
+                  "mesh" : "$MOD_DATA/Objects/Mesh/onefacetri03.obj",
+                  "subMeshList" : [
+                     {
+                        "material" : "DifAsg",
+                        "textureList" : [
+                           "$MOD_DATA/Objects/Textures/empty_dif.png",
+                           "$MOD_DATA/Objects/Textures/wall1_asg.png"
+                        ]
+                     }
+                  ]
+               }
+            ]
+         },
+         "rotationSet" : "oneFace",
+         "sticky" : "+X+Y+Z-X-Y-Z",
+         "uuid" : "ec19e531-a95c-4e1b-bfa0-54bda759f901"
+      },
+      {
+         "color" : "114514",
+         "hull" : {
+            "margin" : 0.0,
+            "pointList" : [
+               {
+                  "x" : 1.0,
+                  "y" : 1.0,
+                  "z" : -1.0
+               },
+               {
+                  "x" : 1.0,
+                  "y" : -1.0,
+                  "z" : 1.0
+               },
+               {
+                  "x" : 1.0,
+                  "y" : -1.0,
+                  "z" : -1.0
+               },
+               {
+                  "x" : -1.0,
+                  "y" : -1.0,
+                  "z" : -1.0
+               }
+            ],
+            "x" : 1,
+            "y" : 1,
+            "z" : 3
+         },
+         "physicsMaterial" : "Metal",
+         "ratings" : {
+            "buoyancy" : 8,
+            "density" : 1,
+            "durability" : 5,
+            "friction" : 5
+         },
+         "renderable" : {
+            "lodList" : [
+               {
+                  "mesh" : "$MOD_DATA/Objects/Mesh/onefacetri03_turn.obj",
+                  "subMeshList" : [
+                     {
+                        "material" : "DifAsg",
+                        "textureList" : [
+                           "$MOD_DATA/Objects/Textures/empty_dif.png",
+                           "$MOD_DATA/Objects/Textures/wall1_asg.png"
+                        ]
+                     }
+                  ]
+               }
+            ]
+         },
+         "rotationSet" : "tri_turn",
+         "sticky" : "+X+Y+Z-X-Y-Z",
+         "uuid" : "ec19e531-a95c-4e1b-bfa0-54bda759f902"
+      },
+      {
+         "color" : "114514",
+         "hull" : {
+            "margin" : 0.0,
+            "pointList" : [
+               {
+                  "x" : 1.0,
+                  "y" : 1.0,
+                  "z" : -1.0
+               },
+               {
+                  "x" : 1.0,
+                  "y" : -1.0,
+                  "z" : 1.0
+               },
+               {
+                  "x" : 1.0,
+                  "y" : -1.0,
+                  "z" : -1.0
+               },
+               {
+                  "x" : 1.0,
+                  "y" : 1.0,
+                  "z" : 1.0
+               },
+               {
+                  "x" : -1.0,
+                  "y" : 1.0,
+                  "z" : -1.0
+               },
+               {
+                  "x" : -1.0,
+                  "y" : -1.0,
+                  "z" : 1.0
+               },
+               {
+                  "x" : -1.0,
+                  "y" : -1.0,
+                  "z" : -1.0
+               }
+            ],
+            "x" : 1,
+            "y" : 1,
+            "z" : 3
+         },
+         "physicsMaterial" : "Metal",
+         "ratings" : {
+            "buoyancy" : 8,
+            "density" : 1,
+            "durability" : 5,
+            "friction" : 5
+         },
+         "renderable" : {
+            "lodList" : [
+               {
+                  "mesh" : "$MOD_DATA/Objects/Mesh/onefacetri03_Oturn.obj",
+                  "subMeshList" : [
+                     {
+                        "material" : "DifAsg",
+                        "textureList" : [
+                           "$MOD_DATA/Objects/Textures/empty_dif.png",
+                           "$MOD_DATA/Objects/Textures/wall1_asg.png"
+                        ]
+                     }
+                  ]
+               }
+            ]
+         },
+         "rotationSet" : "PropFull",
+         "sticky" : "+X+Y+Z-X-Y-Z",
+         "uuid" : "ec19e531-a95c-4e1b-bfa0-54bda7590902"
+      },
+      {
+         "color" : "114514",
+         "hull" : {
+            "margin" : 0.0,
+            "pointList" : [
+               {
+                  "x" : 1.0,
+                  "y" : 1.0,
+                  "z" : -1.0
+               },
+               {
+                  "x" : -1.0,
+                  "y" : 1.0,
+                  "z" : -1.0
+               },
+               {
+                  "x" : 1.0,
+                  "y" : -1.0,
+                  "z" : -1.0
+               },
+               {
+                  "x" : -1.0,
+                  "y" : -1.0,
+                  "z" : -1.0
+               },
+               {
+                  "x" : 1.0,
+                  "y" : -1.0,
+                  "z" : 1.0
+               },
+               {
+                  "x" : -1.0,
+                  "y" : -1.0,
+                  "z" : 1.0
+               }
+            ],
+            "x" : 1,
+            "y" : 1,
+            "z" : 4
+         },
+         "physicsMaterial" : "Metal",
+         "ratings" : {
+            "buoyancy" : 8,
+            "density" : 1,
+            "durability" : 5,
+            "friction" : 5
+         },
+         "renderable" : {
+            "lodList" : [
+               {
+                  "mesh" : "$MOD_DATA/Objects/Mesh/onefacetri04.obj",
+                  "subMeshList" : [
+                     {
+                        "material" : "DifAsg",
+                        "textureList" : [
+                           "$MOD_DATA/Objects/Textures/empty_dif.png",
+                           "$MOD_DATA/Objects/Textures/wall1_asg.png"
+                        ]
+                     }
+                  ]
+               }
+            ]
+         },
+         "rotationSet" : "oneFace",
+         "sticky" : "+X+Y+Z-X-Y-Z",
+         "uuid" : "ec19e531-a95c-4e1b-bfa0-54bda759f903"
+      },
+      {
+         "color" : "114514",
+         "hull" : {
+            "margin" : 0.0,
+            "pointList" : [
+               {
+                  "x" : 1.0,
+                  "y" : 1.0,
+                  "z" : -1.0
+               },
+               {
+                  "x" : 1.0,
+                  "y" : -1.0,
+                  "z" : 1.0
+               },
+               {
+                  "x" : 1.0,
+                  "y" : -1.0,
+                  "z" : -1.0
+               },
+               {
+                  "x" : -1.0,
+                  "y" : -1.0,
+                  "z" : -1.0
+               }
+            ],
+            "x" : 1,
+            "y" : 1,
+            "z" : 4
+         },
+         "physicsMaterial" : "Metal",
+         "ratings" : {
+            "buoyancy" : 8,
+            "density" : 1,
+            "durability" : 5,
+            "friction" : 5
+         },
+         "renderable" : {
+            "lodList" : [
+               {
+                  "mesh" : "$MOD_DATA/Objects/Mesh/onefacetri04_turn.obj",
+                  "subMeshList" : [
+                     {
+                        "material" : "DifAsg",
+                        "textureList" : [
+                           "$MOD_DATA/Objects/Textures/empty_dif.png",
+                           "$MOD_DATA/Objects/Textures/wall1_asg.png"
+                        ]
+                     }
+                  ]
+               }
+            ]
+         },
+         "rotationSet" : "tri_turn",
+         "sticky" : "+X+Y+Z-X-Y-Z",
+         "uuid" : "ec19e531-a95c-4e1b-bfa0-54bda759f904"
+      },
+      {
+         "color" : "114514",
+         "hull" : {
+            "margin" : 0.0,
+            "pointList" : [
+               {
+                  "x" : 1.0,
+                  "y" : 1.0,
+                  "z" : -1.0
+               },
+               {
+                  "x" : 1.0,
+                  "y" : -1.0,
+                  "z" : 1.0
+               },
+               {
+                  "x" : 1.0,
+                  "y" : -1.0,
+                  "z" : -1.0
+               },
+               {
+                  "x" : 1.0,
+                  "y" : 1.0,
+                  "z" : 1.0
+               },
+               {
+                  "x" : -1.0,
+                  "y" : 1.0,
+                  "z" : -1.0
+               },
+               {
+                  "x" : -1.0,
+                  "y" : -1.0,
+                  "z" : 1.0
+               },
+               {
+                  "x" : -1.0,
+                  "y" : -1.0,
+                  "z" : -1.0
+               }
+            ],
+            "x" : 1,
+            "y" : 1,
+            "z" : 4
+         },
+         "physicsMaterial" : "Metal",
+         "ratings" : {
+            "buoyancy" : 8,
+            "density" : 1,
+            "durability" : 5,
+            "friction" : 5
+         },
+         "renderable" : {
+            "lodList" : [
+               {
+                  "mesh" : "$MOD_DATA/Objects/Mesh/onefacetri04_Oturn.obj",
+                  "subMeshList" : [
+                     {
+                        "material" : "DifAsg",
+                        "textureList" : [
+                           "$MOD_DATA/Objects/Textures/empty_dif.png",
+                           "$MOD_DATA/Objects/Textures/wall1_asg.png"
+                        ]
+                     }
+                  ]
+               }
+            ]
+         },
+         "rotationSet" : "PropFull",
+         "sticky" : "+X+Y+Z-X-Y-Z",
+         "uuid" : "ec19e531-a95c-4e1b-bfa0-54bda7590904"
+      },
+      {
+         "color" : "114514",
+         "hull" : {
+            "margin" : 0.0,
+            "pointList" : [
+               {
+                  "x" : 1.0,
+                  "y" : 1.0,
+                  "z" : -1.0
+               },
+               {
+                  "x" : -1.0,
+                  "y" : 1.0,
+                  "z" : -1.0
+               },
+               {
+                  "x" : 1.0,
+                  "y" : -1.0,
+                  "z" : -1.0
+               },
+               {
+                  "x" : -1.0,
+                  "y" : -1.0,
+                  "z" : -1.0
+               },
+               {
+                  "x" : 1.0,
+                  "y" : -1.0,
+                  "z" : 1.0
+               },
+               {
+                  "x" : -1.0,
+                  "y" : -1.0,
+                  "z" : 1.0
+               }
+            ],
+            "x" : 1,
+            "y" : 1,
+            "z" : 5
+         },
+         "physicsMaterial" : "Metal",
+         "ratings" : {
+            "buoyancy" : 8,
+            "density" : 1,
+            "durability" : 5,
+            "friction" : 5
+         },
+         "renderable" : {
+            "lodList" : [
+               {
+                  "mesh" : "$MOD_DATA/Objects/Mesh/onefacetri05.obj",
+                  "subMeshList" : [
+                     {
+                        "material" : "DifAsg",
+                        "textureList" : [
+                           "$MOD_DATA/Objects/Textures/empty_dif.png",
+                           "$MOD_DATA/Objects/Textures/wall1_asg.png"
+                        ]
+                     }
+                  ]
+               }
+            ]
+         },
+         "rotationSet" : "oneFace",
+         "sticky" : "+X+Y+Z-X-Y-Z",
+         "uuid" : "ec19e531-a95c-4e1b-bfa0-54bda759f905"
+      },
+      {
+         "color" : "114514",
+         "hull" : {
+            "margin" : 0.0,
+            "pointList" : [
+               {
+                  "x" : 1.0,
+                  "y" : 1.0,
+                  "z" : -1.0
+               },
+               {
+                  "x" : 1.0,
+                  "y" : -1.0,
+                  "z" : 1.0
+               },
+               {
+                  "x" : 1.0,
+                  "y" : -1.0,
+                  "z" : -1.0
+               },
+               {
+                  "x" : -1.0,
+                  "y" : -1.0,
+                  "z" : -1.0
+               }
+            ],
+            "x" : 1,
+            "y" : 1,
+            "z" : 5
+         },
+         "physicsMaterial" : "Metal",
+         "ratings" : {
+            "buoyancy" : 8,
+            "density" : 1,
+            "durability" : 5,
+            "friction" : 5
+         },
+         "renderable" : {
+            "lodList" : [
+               {
+                  "mesh" : "$MOD_DATA/Objects/Mesh/onefacetri05_turn.obj",
+                  "subMeshList" : [
+                     {
+                        "material" : "DifAsg",
+                        "textureList" : [
+                           "$MOD_DATA/Objects/Textures/empty_dif.png",
+                           "$MOD_DATA/Objects/Textures/wall1_asg.png"
+                        ]
+                     }
+                  ]
+               }
+            ]
+         },
+         "rotationSet" : "tri_turn",
+         "sticky" : "+X+Y+Z-X-Y-Z",
+         "uuid" : "ec19e531-a95c-4e1b-bfa0-54bda759f906"
+      },
+      {
+         "color" : "114514",
+         "hull" : {
+            "margin" : 0.0,
+            "pointList" : [
+               {
+                  "x" : 1.0,
+                  "y" : 1.0,
+                  "z" : -1.0
+               },
+               {
+                  "x" : 1.0,
+                  "y" : -1.0,
+                  "z" : 1.0
+               },
+               {
+                  "x" : 1.0,
+                  "y" : -1.0,
+                  "z" : -1.0
+               },
+               {
+                  "x" : 1.0,
+                  "y" : 1.0,
+                  "z" : 1.0
+               },
+               {
+                  "x" : -1.0,
+                  "y" : 1.0,
+                  "z" : -1.0
+               },
+               {
+                  "x" : -1.0,
+                  "y" : -1.0,
+                  "z" : 1.0
+               },
+               {
+                  "x" : -1.0,
+                  "y" : -1.0,
+                  "z" : -1.0
+               }
+            ],
+            "x" : 1,
+            "y" : 1,
+            "z" : 5
+         },
+         "physicsMaterial" : "Metal",
+         "ratings" : {
+            "buoyancy" : 8,
+            "density" : 1,
+            "durability" : 5,
+            "friction" : 5
+         },
+         "renderable" : {
+            "lodList" : [
+               {
+                  "mesh" : "$MOD_DATA/Objects/Mesh/onefacetri05_Oturn.obj",
+                  "subMeshList" : [
+                     {
+                        "material" : "DifAsg",
+                        "textureList" : [
+                           "$MOD_DATA/Objects/Textures/empty_dif.png",
+                           "$MOD_DATA/Objects/Textures/wall1_asg.png"
+                        ]
+                     }
+                  ]
+               }
+            ]
+         },
+         "rotationSet" : "PropFull",
+         "sticky" : "+X+Y+Z-X-Y-Z",
+         "uuid" : "ec19e531-a95c-4e1b-bfa0-54bda7590906"
+      },
+      {
+         "color" : "114514",
+         "hull" : {
+            "margin" : 0.020,
+            "pointList" : [
+               {
+                  "x" : 1.0,
+                  "y" : -1.0,
+                  "z" : -1.0
+               },
+               {
+                  "x" : -1.0,
+                  "y" : -1.0,
+                  "z" : -1.0
+               },
+               {
+                  "x" : -1.0,
+                  "y" : -1.0,
+                  "z" : 1.0
+               }
+            ],
+            "x" : 1,
+            "y" : 1,
+            "z" : 1
+         },
+         "physicsMaterial" : "Metal",
+         "ratings" : {
+            "buoyancy" : 8,
+            "density" : 1,
+            "durability" : 5,
+            "friction" : 5
+         },
+         "renderable" : {
+            "lodList" : [
+               {
+                  "mesh" : "$MOD_DATA/Objects/Mesh/flat_tri_1.obj",
+                  "subMeshList" : [
+                     {
+                        "material" : "DifAsg",
+                        "textureList" : [
+                           "$MOD_DATA/Objects/Textures/empty_dif.png",
+                           "$MOD_DATA/Objects/Textures/wall1_asg.png"
+                        ]
+                     }
+                  ]
+               }
+            ]
+         },
+         "rotationSet" : "oneFace",
+         "sticky" : "+X+Y+Z-X-Y-Z",
+         "uuid" : "ec19e531-a95c-4e1b-bfa0-54bda7590907"
+      },
+      {
+         "color" : "114514",
+         "hull" : {
+            "margin" : 0.020,
+            "pointList" : [
+               {
+                  "x" : 1.0,
+                  "y" : -1.0,
+                  "z" : -1.0
+               },
+               {
+                  "x" : -1.0,
+                  "y" : -1.0,
+                  "z" : -1.0
+               },
+               {
+                  "x" : -1.0,
+                  "y" : -1.0,
+                  "z" : 1.0
+               }
+            ],
+            "x" : 1,
+            "y" : 1,
+            "z" : 2
+         },
+         "physicsMaterial" : "Metal",
+         "ratings" : {
+            "buoyancy" : 8,
+            "density" : 1,
+            "durability" : 5,
+            "friction" : 5
+         },
+         "renderable" : {
+            "lodList" : [
+               {
+                  "mesh" : "$MOD_DATA/Objects/Mesh/flat_tri_2.obj",
+                  "subMeshList" : [
+                     {
+                        "material" : "DifAsg",
+                        "textureList" : [
+                           "$MOD_DATA/Objects/Textures/empty_dif.png",
+                           "$MOD_DATA/Objects/Textures/wall1_asg.png"
+                        ]
+                     }
+                  ]
+               }
+            ]
+         },
+         "rotationSet" : "oneFace",
+         "sticky" : "+X+Y+Z-X-Y-Z",
+         "uuid" : "ec19e531-a95c-4e1b-bfa0-54bda7590908"
+      },
+      {
+         "color" : "114514",
+         "hull" : {
+            "margin" : 0.020,
+            "pointList" : [
+               {
+                  "x" : 1.0,
+                  "y" : -1.0,
+                  "z" : -1.0
+               },
+               {
+                  "x" : -1.0,
+                  "y" : -1.0,
+                  "z" : -1.0
+               },
+               {
+                  "x" : -1.0,
+                  "y" : -1.0,
+                  "z" : 1.0
+               }
+            ],
+            "x" : 1,
+            "y" : 1,
+            "z" : 3
+         },
+         "physicsMaterial" : "Metal",
+         "ratings" : {
+            "buoyancy" : 8,
+            "density" : 1,
+            "durability" : 5,
+            "friction" : 5
+         },
+         "renderable" : {
+            "lodList" : [
+               {
+                  "mesh" : "$MOD_DATA/Objects/Mesh/flat_tri_3.obj",
+                  "subMeshList" : [
+                     {
+                        "material" : "DifAsg",
+                        "textureList" : [
+                           "$MOD_DATA/Objects/Textures/empty_dif.png",
+                           "$MOD_DATA/Objects/Textures/wall1_asg.png"
+                        ]
+                     }
+                  ]
+               }
+            ]
+         },
+         "rotationSet" : "oneFace",
+         "sticky" : "+X+Y+Z-X-Y-Z",
+         "uuid" : "ec19e531-a95c-4e1b-bfa0-54bda7590909"
+      },
+      {
+         "color" : "114514",
+         "hull" : {
+            "margin" : 0.020,
+            "pointList" : [
+               {
+                  "x" : 1.0,
+                  "y" : -1.0,
+                  "z" : -1.0
+               },
+               {
+                  "x" : -1.0,
+                  "y" : -1.0,
+                  "z" : -1.0
+               },
+               {
+                  "x" : -1.0,
+                  "y" : -1.0,
+                  "z" : 1.0
+               }
+            ],
+            "x" : 1,
+            "y" : 1,
+            "z" : 4
+         },
+         "physicsMaterial" : "Metal",
+         "ratings" : {
+            "buoyancy" : 8,
+            "density" : 1,
+            "durability" : 5,
+            "friction" : 5
+         },
+         "renderable" : {
+            "lodList" : [
+               {
+                  "mesh" : "$MOD_DATA/Objects/Mesh/flat_tri_4.obj",
+                  "subMeshList" : [
+                     {
+                        "material" : "DifAsg",
+                        "textureList" : [
+                           "$MOD_DATA/Objects/Textures/empty_dif.png",
+                           "$MOD_DATA/Objects/Textures/wall1_asg.png"
+                        ]
+                     }
+                  ]
+               }
+            ]
+         },
+         "rotationSet" : "oneFace",
+         "sticky" : "+X+Y+Z-X-Y-Z",
+         "uuid" : "ec19e531-a95c-4e1b-bfa0-54bda7590910"
+      },
+      {
+         "color" : "114514",
+         "hull" : {
+            "margin" : 0.020,
+            "pointList" : [
+               {
+                  "x" : 1.0,
+                  "y" : -1.0,
+                  "z" : -1.0
+               },
+               {
+                  "x" : -1.0,
+                  "y" : -1.0,
+                  "z" : -1.0
+               },
+               {
+                  "x" : -1.0,
+                  "y" : -1.0,
+                  "z" : 1.0
+               }
+            ],
+            "x" : 1,
+            "y" : 1,
+            "z" : 5
+         },
+         "physicsMaterial" : "Metal",
+         "ratings" : {
+            "buoyancy" : 8,
+            "density" : 1,
+            "durability" : 5,
+            "friction" : 5
+         },
+         "renderable" : {
+            "lodList" : [
+               {
+                  "mesh" : "$MOD_DATA/Objects/Mesh/flat_tri_5.obj",
+                  "subMeshList" : [
+                     {
+                        "material" : "DifAsg",
+                        "textureList" : [
+                           "$MOD_DATA/Objects/Textures/empty_dif.png",
+                           "$MOD_DATA/Objects/Textures/wall1_asg.png"
+                        ]
+                     }
+                  ]
+               }
+            ]
+         },
+         "rotationSet" : "oneFace",
+         "sticky" : "+X+Y+Z-X-Y-Z",
+         "uuid" : "ec19e531-a95c-4e1b-bfa0-54bda7590911"
+      },
+      {
+         "color" : "114514",
+         "hull" : {
+            "margin" : 0.020,
+            "pointList" : [
+               {
+                  "x" : 1.0,
+                  "y" : -1.0,
+                  "z" : -1.0
+               },
+               {
+                  "x" : -1.0,
+                  "y" : -1.0,
+                  "z" : -1.0
+               },
+               {
+                  "x" : 1.0,
+                  "y" : -1.0,
+                  "z" : 1.0
+               }
+            ],
+            "x" : 1,
+            "y" : 1,
+            "z" : 2
+         },
+         "physicsMaterial" : "Metal",
+         "ratings" : {
+            "buoyancy" : 8,
+            "density" : 1,
+            "durability" : 5,
+            "friction" : 5
+         },
+         "renderable" : {
+            "lodList" : [
+               {
+                  "mesh" : "$MOD_DATA/Objects/Mesh/flat_tri_2_r.obj",
+                  "subMeshList" : [
+                     {
+                        "material" : "DifAsg",
+                        "textureList" : [
+                           "$MOD_DATA/Objects/Textures/empty_dif.png",
+                           "$MOD_DATA/Objects/Textures/wall1_asg.png"
+                        ]
+                     }
+                  ]
+               }
+            ]
+         },
+         "rotationSet" : "oneFace",
+         "sticky" : "+X+Y+Z-X-Y-Z",
+         "uuid" : "ec19e531-a95c-4e1b-bfa0-54bda7590912"
+      },
+      {
+         "color" : "114514",
+         "hull" : {
+            "margin" : 0.020,
+            "pointList" : [
+               {
+                  "x" : 1.0,
+                  "y" : -1.0,
+                  "z" : -1.0
+               },
+               {
+                  "x" : -1.0,
+                  "y" : -1.0,
+                  "z" : -1.0
+               },
+               {
+                  "x" : 1.0,
+                  "y" : -1.0,
+                  "z" : 1.0
+               }
+            ],
+            "x" : 1,
+            "y" : 1,
+            "z" : 3
+         },
+         "physicsMaterial" : "Metal",
+         "ratings" : {
+            "buoyancy" : 8,
+            "density" : 1,
+            "durability" : 5,
+            "friction" : 5
+         },
+         "renderable" : {
+            "lodList" : [
+               {
+                  "mesh" : "$MOD_DATA/Objects/Mesh/flat_tri_3_r.obj",
+                  "subMeshList" : [
+                     {
+                        "material" : "DifAsg",
+                        "textureList" : [
+                           "$MOD_DATA/Objects/Textures/empty_dif.png",
+                           "$MOD_DATA/Objects/Textures/wall1_asg.png"
+                        ]
+                     }
+                  ]
+               }
+            ]
+         },
+         "rotationSet" : "oneFace",
+         "sticky" : "+X+Y+Z-X-Y-Z",
+         "uuid" : "ec19e531-a95c-4e1b-bfa0-54bda7590913"
+      },
+      {
+         "color" : "114514",
+         "hull" : {
+            "margin" : 0.020,
+            "pointList" : [
+               {
+                  "x" : 1.0,
+                  "y" : -1.0,
+                  "z" : -1.0
+               },
+               {
+                  "x" : -1.0,
+                  "y" : -1.0,
+                  "z" : -1.0
+               },
+               {
+                  "x" : 1.0,
+                  "y" : -1.0,
+                  "z" : 1.0
+               }
+            ],
+            "x" : 1,
+            "y" : 1,
+            "z" : 4
+         },
+         "physicsMaterial" : "Metal",
+         "ratings" : {
+            "buoyancy" : 8,
+            "density" : 1,
+            "durability" : 5,
+            "friction" : 5
+         },
+         "renderable" : {
+            "lodList" : [
+               {
+                  "mesh" : "$MOD_DATA/Objects/Mesh/flat_tri_4_r.obj",
+                  "subMeshList" : [
+                     {
+                        "material" : "DifAsg",
+                        "textureList" : [
+                           "$MOD_DATA/Objects/Textures/empty_dif.png",
+                           "$MOD_DATA/Objects/Textures/wall1_asg.png"
+                        ]
+                     }
+                  ]
+               }
+            ]
+         },
+         "rotationSet" : "oneFace",
+         "sticky" : "+X+Y+Z-X-Y-Z",
+         "uuid" : "ec19e531-a95c-4e1b-bfa0-54bda7590914"
+      },
+      {
+         "color" : "114514",
+         "hull" : {
+            "margin" : 0.020,
+            "pointList" : [
+               {
+                  "x" : 1.0,
+                  "y" : -1.0,
+                  "z" : -1.0
+               },
+               {
+                  "x" : -1.0,
+                  "y" : -1.0,
+                  "z" : -1.0
+               },
+               {
+                  "x" : 1.0,
+                  "y" : -1.0,
+                  "z" : 1.0
+               }
+            ],
+            "x" : 1,
+            "y" : 1,
+            "z" : 5
+         },
+         "physicsMaterial" : "Metal",
+         "ratings" : {
+            "buoyancy" : 8,
+            "density" : 1,
+            "durability" : 5,
+            "friction" : 5
+         },
+         "renderable" : {
+            "lodList" : [
+               {
+                  "mesh" : "$MOD_DATA/Objects/Mesh/flat_tri_5_r.obj",
+                  "subMeshList" : [
+                     {
+                        "material" : "DifAsg",
+                        "textureList" : [
+                           "$MOD_DATA/Objects/Textures/empty_dif.png",
+                           "$MOD_DATA/Objects/Textures/wall1_asg.png"
+                        ]
+                     }
+                  ]
+               }
+            ]
+         },
+         "rotationSet" : "oneFace",
+         "sticky" : "+X+Y+Z-X-Y-Z",
+         "uuid" : "ec19e531-a95c-4e1b-bfa0-54bda7590915"
+      },
+      {
+         "box" : {
+            "x" : 1,
+            "y" : 1,
+            "z" : 1
+         },
+         "color" : "114514",
+         "physicsMaterial" : "Metal",
+         "ratings" : {
+            "buoyancy" : 1,
+            "density" : 1,
+            "durability" : 1,
+            "friction" : 1
+         },
+         "renderable" : {
+            "lodList" : [
+               {
+                  "mesh" : "$MOD_DATA/Objects/Mesh/fig_1_1.obj",
+                  "subMeshList" : [
+                     {
+                        "material" : "DifAsg",
+                        "textureList" : [
+                           "$MOD_DATA/Objects/Textures/empty_dif.png",
+                           "$MOD_DATA/Objects/Textures/wall1_asg.png"
+                        ]
+                     }
+                  ]
+               }
+            ]
+         },
+         "rotationSet" : "oneFace",
+         "sticky" : "+X+Y+Z-X-Y-Z",
+         "uuid" : "ec19e531-a95c-4e1b-bfa0-54bda759f9c7"
+      }
+   ]
+}
