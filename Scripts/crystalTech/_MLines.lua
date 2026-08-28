@@ -757,7 +757,7 @@ You can also build it from Parts and save it as a blueprint
             },
             English = {
                 Title = "Logo Lab Update Notice",
-                Content = [[    v0.3.8
+                Content = [[    v0.3.9
         Added QQ group number for feedback:630586951
         The bug of appliques becoming dark has been fixed
                 ]]
