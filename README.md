@@ -1,8 +1,8 @@
 # Max's Logo Lab
 
-> A powerful custom decal tool & gadget collection – all in one package.
+> A powerful custom decal tool & gadget collection mod for Scrap Mechanic.
 >
-> 一套集自定义贴花工具与趣味部件于一体的功能合集。
+> 一套集自定义贴花工具与趣味部件于一体的《废品机械师》功能模组。
 
 ---
 
