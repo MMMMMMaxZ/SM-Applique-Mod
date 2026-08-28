@@ -1,28 +1,21 @@
-
 {
-	"lodList" : 
-	[
-		
-		{
-			"mesh" : "$MOD_DATA/Objects/Mesh/MAG/testEftFixed.obj",
-			"minViewSize" : 15.0,
-			"subMeshList" : 
-			[
-				
-				{
-					"custom" : 
-					{
-						"shadow" : false
-					},
-					"material" : "Leaves",
-					"textureList" : 
-					[
-						"$MOD_DATA/Objects/Textures/MAG/_empty-export.tga",
-						"$MOD_DATA/Objects/Textures/MAG/004specialShape/shield_asg-export.tga",
-						"$MOD_DATA/Objects/Textures/MAG/_empty-nor.tga"
-					]
-				}
-			]
-		}
-	]
+  "lodList": [
+    {
+      "mesh": "$MOD_DATA/Objects/Mesh/MAG/testEftFixed.obj",
+      "minViewSize": 15.0,
+      "subMeshList": [
+        {
+          "custom": {
+            "shadow": false
+          },
+          "material": "Crops",
+          "textureList": [
+            "$MOD_DATA/Objects/Textures/MAG/_empty-export.tga",
+            "$MOD_DATA/Objects/Textures/MAG/004specialShape/shield_asg-export.tga",
+            "$MOD_DATA/Objects/Textures/MAG/_empty-nor.tga"
+          ]
+        }
+      ]
+    }
+  ]
 }

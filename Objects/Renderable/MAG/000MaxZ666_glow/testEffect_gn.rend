@@ -1,20 +1,17 @@
-
 {
 	"lodList" : 
 	[
-		
 		{
 			"mesh" : "$MOD_DATA/Objects/Mesh/MAG/testEftFixed.obj",
-			"minViewSize" : 15.0,
+			"minViewSize" : 15,
 			"subMeshList" : 
 			[
-				
 				{
 					"custom" : 
 					{
 						"shadow" : false
 					},
-					"material" : "Leaves",
+					"material" : "Crops",
 					"textureList" : 
 					[
 						"$MOD_DATA/Objects/Textures/MAG/_empty-export.tga",

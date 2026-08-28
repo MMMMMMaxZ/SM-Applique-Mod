@@ -1,13 +1,10 @@
 -- MAXZ666 --
 MACP = class(nil)
 
+dofile("$MOD_DATA/Scripts/crystalTech/_dofile.lua")
+
 function MACP.init(self)
     print("MACP initiating---")
-
-    if CE == nil then
-        dofile("$MOD_DATA/Scripts/crystalTech/_createEffects.lua") -- self:create_aplq()
-        CE:init()
-    end
 
     self.currentScale = {x=10,y=10,z=10,mirror=1}
     self.currentRotation = 36
@@ -18,7 +15,7 @@ function MACP.init(self)
 
     self.aplqListStartIdx = 0
 
-    self.localPlayer = sm.localPlayer.getPlayer()
+    --self.localPlayer = sm.localPlayer.getPlayer()
 
     self.scaleTable = {
         0.1,0.2,0.3,0.4,0.5,0.6,0.7,0.8,0.9,

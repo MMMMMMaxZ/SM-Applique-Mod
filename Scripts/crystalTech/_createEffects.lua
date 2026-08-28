@@ -15,6 +15,8 @@ LogoMAC = {}
 
 CE.MMMaxGenerateNewAplqFlag = false
 
+dofile("$MOD_DATA/Scripts/crystalTech/_dofile.lua")
+
 function CE.init(self)
     print("CE initiating---")
     self.effectPlayer = {}
@@ -308,10 +310,6 @@ end
 function CE.checkUpdate()
     local updated = sm.json.fileExists("$MOD_DATA/Max666.zzz")
     if updated then return true end
-    if MLines == nil then
-        dofile("$MOD_DATA/Scripts/crystalTech/_MLines.lua") -- 适应多语言文本
-        MLines:init()
-    end
     local updateContent = sm.gui.createGuiFromLayout('$MOD_DATA/Gui/Layouts/Describe.layout')
     updateContent:setText("Title",MLines.lines["UpdateContent"][MLines.currentLanguage]["Title"])
     updateContent:setText("Content",MLines.lines["UpdateContent"][MLines.currentLanguage]["Content"])

@@ -1,12 +1,10 @@
 --MAG's tutorial
 MTt = class(nil)
 
+dofile("$MOD_DATA/Scripts/crystalTech/_dofile.lua")
+
 function MTt.init(self)
     print("MTt initiating---")
-    if MLines == nil then
-        dofile("$MOD_DATA/Scripts/crystalTech/_MLines.lua")
-        MLines:init()
-    end
     self.book = {
         page = 1,
         contentIdx = 1,

@@ -2,11 +2,9 @@
 -- Max's applique creator tutorial!
 MACT = class(nil)
 
+dofile("$MOD_DATA/Scripts/crystalTech/_dofile.lua")
+
 function MACT.client_onCreate(self)
-    if MTt == nil then
-        dofile("$MOD_DATA/Scripts/crystalTech/_MAGtutorial.lua")
-        MTt:init()
-    end
 end
 
 function MACT.client_onInteract(self,character,state)

@@ -750,20 +750,16 @@ You can also build it from Parts and save it as a blueprint
         UpdateContent = {
             Chinese = {
                 Title = "徽标实验室  更新通知",
-                Content = [[    v0.3.8
-        在教程界面添加了 模组反馈群QQ群号：630586951
-        装置的碰撞改为球体
-        添加了无模型的隐形贴花装置
-        修复bug：部件转化没有270上限
+                Content = [[    v0.3.9
+        模组反馈群QQ群号：630586951
+        贴花变暗的bug修复了
                 ]]
             },
             English = {
                 Title = "Logo Lab Update Notice",
                 Content = [[    v0.3.8
         Added QQ group number for feedback:630586951
-        Now the device collision is globe
-        Added invisible applique device
-        Fixed bug: no 270 limit when converting parts
+        The bug of appliques becoming dark has been fixed
                 ]]
             }
         }

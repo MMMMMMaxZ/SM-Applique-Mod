@@ -7,11 +7,9 @@ function MAGTG.server_onCreate(self)
     --sm.storage.save("test",{test=true})
 end
 
+dofile("$MOD_DATA/Scripts/crystalTech/_dofile.lua")
+
 function MAGTG.client_onCreate(self)
-    if MTt == nil then
-        dofile("$MOD_DATA/Scripts/crystalTech/_MAGtutorial.lua")
-        MTt:init()
-    end
 end
 
 function MAGTG.client_onEquip(self,ani)

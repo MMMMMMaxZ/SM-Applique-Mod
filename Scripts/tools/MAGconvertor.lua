@@ -2,14 +2,9 @@
 --- MAG的手控部件 --- 
 MAGCo = class( nil )
 
+dofile("$MOD_DATA/Scripts/crystalTech/_dofile.lua")
+
 function MAGCo.client_onCreate(self)
-    if localPlayer == nil then
-        dofile("$MOD_DATA/Scripts/crystalTech/_localPlayer.lua")
-    end
-    if MLines == nil then
-        dofile("$MOD_DATA/Scripts/crystalTech/_MLines.lua")
-        MLines:init()
-    end
     self.name = "MAGconvertor"
     if self.tool:isLocal()then
         sm.gui.chatMessage(MLines.lines["Mtools"][MLines.currentLanguage]["ConvertorDes"])
